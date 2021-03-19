@@ -1,0 +1,8 @@
+package com.unity3d.tinyplayer;
+
+public class AllowedOrientations {
+    public static final boolean AllowedPortrait = **ALLOWED_PORTRAIT**;
+    public static final boolean AllowedReversePortrait = **ALLOWED_REVERSE_PORTRAIT**;
+    public static final boolean AllowedLandscape = **ALLOWED_LANDSCAPE**;
+    public static final boolean AllowedReverseLandscape = **ALLOWED_REVERSE_LANDSCAPE**;
+}

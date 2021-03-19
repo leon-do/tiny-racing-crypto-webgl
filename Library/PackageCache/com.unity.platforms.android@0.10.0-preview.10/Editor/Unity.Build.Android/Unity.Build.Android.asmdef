@@ -1,0 +1,25 @@
+{
+    "name": "Unity.Build.Android",
+    "references": [
+        "Unity.Build",
+        "Unity.Build.Editor",
+        "Unity.Build.Classic",
+        "Unity.Build.Classic.Private",
+        "Unity.Properties",
+        "Unity.Properties.Editor",
+        "Unity.Properties.UI",
+        "Unity.Properties.UI.Editor",
+        "Unity.Serialization"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

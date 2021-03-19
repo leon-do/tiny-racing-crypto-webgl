@@ -1,0 +1,42 @@
+﻿#include "pch-cpp.hpp"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+
+
+
+
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+
+
+
+// System.Void Unity.Tiny.AudioConfig::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioConfig__cctor_m21CA64303AD2F993ACCA67B6702AEC7369FF3426 ();
+// System.Void Unity.Tiny.Color::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Color__cctor_m608E27CC2D74F4381CB2C6CF3B90681D24E510E3 ();
+// System.Void Unity.Tiny.Colors::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Colors__cctor_mD80CB211E057A2E15A7C98508BD659DDB6E6ADBC ();
+// System.Void Unity.Tiny.DisplayInfo::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisplayInfo__cctor_mAD3699A7D03981E449E440E95B79BEA1A42AF3E6 ();
+// System.Void Unity.Tiny.Rect::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rect__cctor_m0A57D43022751AFA4146E935B59A44C48437C8F4 ();
+// System.Void Unity.Entities.CodeGeneratedRegistry.AssemblyTypeRegistry::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblyTypeRegistry__cctor_mF9F7E12F7D7CA8A3B369CED11E9672A20ABC2FE9 ();
+IL2CPP_EXTERN_C void Il2CppCallStaticConstructors_Unity_Tiny_Core()
+{
+	AudioConfig__cctor_m21CA64303AD2F993ACCA67B6702AEC7369FF3426();
+	Color__cctor_m608E27CC2D74F4381CB2C6CF3B90681D24E510E3();
+	Colors__cctor_mD80CB211E057A2E15A7C98508BD659DDB6E6ADBC();
+	DisplayInfo__cctor_mAD3699A7D03981E449E440E95B79BEA1A42AF3E6();
+	Rect__cctor_m0A57D43022751AFA4146E935B59A44C48437C8F4();
+	AssemblyTypeRegistry__cctor_mF9F7E12F7D7CA8A3B369CED11E9672A20ABC2FE9();
+}

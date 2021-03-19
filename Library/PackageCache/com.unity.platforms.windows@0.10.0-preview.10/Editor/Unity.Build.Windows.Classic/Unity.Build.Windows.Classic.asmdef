@@ -1,0 +1,17 @@
+{
+    "name": "Unity.Build.Windows.Classic",
+    "references": [
+        "Unity.Build",
+        "Unity.Build.Classic",
+        "Unity.Build.Classic.Private",
+        "Unity.Build.Editor",
+        "Unity.Build.Windows"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "overrideReferences": true,
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Unity.Build.Web.DotsRuntime.EditorTests",
+    "references": [
+        "Unity.Build.Web.DotsRuntime"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}

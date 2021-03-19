@@ -1,0 +1,15 @@
+{
+    "name": "Unity.Tiny.GameSave.Web",
+    "references": [
+        "Unity.Entities",
+        "Unity.Collections",
+        "Unity.Collections.LowLevel.Unsafe",
+        "Unity.Tiny.Core",
+        "Unity.ZeroJobs"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": ["WebGL"],
+    "excludePlatforms": [],
+	"allowUnsafeCode": true,
+    "defineConstraints": ["UNITY_DOTSRUNTIME"]
+}

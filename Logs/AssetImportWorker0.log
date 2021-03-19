@@ -1,0 +1,1073 @@
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-leondo" (connect: 0.00s, validation: 0.01s, handshake: 0.23s)
+Entitlement-based licensing initiated
+[LicensingClient] Licenses updated successfully
+
+LICENSE SYSTEM [2021130 10:44:17] Next license update check is after 2020-08-04T22:57:26
+
+
+LICENSE SYSTEM [2021130 10:44:17] Current license is already valid and activated. Skipping license activation process (Provided username/password will be ignored).
+[Licensing::Module] Serial number assigned to: "F4-98AX-BSUA-DCA6-TN4T-XXXX"
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51114
+Successfully changed project path to: /Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS
+/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 83.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.1.17f1 (9957aee8edc2)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Assets
+GfxDevice: creating device client; threaded=0
+2021-01-30 10:44:17.638 Unity[63951:2294855] HP ENVY 34 preferred device: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2021-01-30 10:44:17.638 Unity[63951:2294855] Metal devices available: 1
+2021-01-30 10:44:17.638 Unity[63951:2294855] 0: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2021-01-30 10:44:17.639 Unity[63951:2294855] Using device Intel(R) Iris(TM) Plus Graphics 640 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 640
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56951
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000341 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 70.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.523 seconds
+Registering precompiled user dll's ...
+Registered in 0.205382 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 81.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 237ms
+Mono: successfully reloaded assembly
+- Completed reload, in  2.275 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4739 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 418.3 MB.
+System memory in use after: 418.6 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 5121.
+Total: 5.943682 ms (FindLiveObjects: 0.826773 ms CreateObjectMapping: 0.384944 ms MarkObjects: 4.635454 ms  DeleteObjects: 0.095102 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/SceneDependencyCache/532e73ec72300aeac358dd067c39781d.sceneWithBuildSettings
+  artifactKey: Guid(532e73ec72300aeac358dd067c39781d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/532e73ec72300aeac358dd067c39781d.sceneWithBuildSettings using Guid(532e73ec72300aeac358dd067c39781d) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/Track1.unity additively'
+Loaded scene 'Assets/Scenes/Track1.unity'
+	Deserialize:            88.334 ms
+	Integration:            191.718 ms
+	Integration of assets:  8.913 ms
+	Thread Wait Time:       33.635 ms
+	Total Operation Time:   322.600 ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Exported Asset: 3b843735e2bd998937132a1e7a3aa64e = Assets/Audio/Motor.mp3
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+Unity.Entities.Conversion.JournalingUnityLogger:LogFormat(LogType, Object, String, Object[]) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs:41)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Unity.Entities.GameObjectConversionSettings:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSettings.cs:197)
+Unity.Entities.Conversion.GameObjectConversionMappingSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionMappingSystem.cs:954)
+GameObjectConversionSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSystem.cs:327)
+Unity.TinyConversion.AudioClipAsset:<OnUpdate>b__0_0(AudioClip) (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Audio.Authoring/ConvertAudioClipAsset.cs:44)
+Unity.Entities.EntityQueryBuilder:ForEach(F_C`1) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/EntityQueryBuilder_ForEach.gen.cs:230)
+Unity.TinyConversion.AudioClipAsset:OnUpdate() (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Audio.Authoring/ConvertAudioClipAsset.cs:42)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:472)
+Unity.Entities.ComponentSystemGroup:OnUpdate() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:417)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.GameObjectConversionUtility:Convert(World) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:168)
+Unity.Entities.GameObjectConversionUtility:ConvertScene(Scene, GameObjectConversionSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:300)
+Unity.Scenes.Editor.EditorEntityScenes:ConvertAndWriteEntityScene(Scene, GameObjectConversionSettings, List`1, WriteEntitySceneSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/EditorEntityScenes.cs:164)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/SubSceneImporter.cs:144)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext) (at /Users/bokken/buildslave/unity/build/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:22)
+ 
+(Filename: Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs Line: 41)
+
+Exported Asset: efc37868bfb6835f4c2b377bc6046f74 = Assets/Audio/Powerup.mp3
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+Unity.Entities.Conversion.JournalingUnityLogger:LogFormat(LogType, Object, String, Object[]) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs:41)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Unity.Entities.GameObjectConversionSettings:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSettings.cs:197)
+Unity.Entities.Conversion.GameObjectConversionMappingSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionMappingSystem.cs:954)
+GameObjectConversionSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSystem.cs:327)
+Unity.TinyConversion.AudioClipAsset:<OnUpdate>b__0_0(AudioClip) (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Audio.Authoring/ConvertAudioClipAsset.cs:44)
+Unity.Entities.EntityQueryBuilder:ForEach(F_C`1) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/EntityQueryBuilder_ForEach.gen.cs:230)
+Unity.TinyConversion.AudioClipAsset:OnUpdate() (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Audio.Authoring/ConvertAudioClipAsset.cs:42)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:472)
+Unity.Entities.ComponentSystemGroup:OnUpdate() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:417)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.GameObjectConversionUtility:Convert(World) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:168)
+Unity.Entities.GameObjectConversionUtility:ConvertScene(Scene, GameObjectConversionSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:300)
+Unity.Scenes.Editor.EditorEntityScenes:ConvertAndWriteEntityScene(Scene, GameObjectConversionSettings, List`1, WriteEntitySceneSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/EditorEntityScenes.cs:164)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/SubSceneImporter.cs:144)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext) (at /Users/bokken/buildslave/unity/build/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:22)
+ 
+(Filename: Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs Line: 41)
+
+Exported Asset: f8ba848cc0dd5c011c6a6873bd42198b = Assets/Audio/Breaking.mp3
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+Unity.Entities.Conversion.JournalingUnityLogger:LogFormat(LogType, Object, String, Object[]) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs:41)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Unity.Entities.GameObjectConversionSettings:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSettings.cs:197)
+Unity.Entities.Conversion.GameObjectConversionMappingSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionMappingSystem.cs:954)
+GameObjectConversionSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSystem.cs:327)
+Unity.TinyConversion.AudioClipAsset:<OnUpdate>b__0_0(AudioClip) (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Audio.Authoring/ConvertAudioClipAsset.cs:44)
+Unity.Entities.EntityQueryBuilder:ForEach(F_C`1) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/EntityQueryBuilder_ForEach.gen.cs:230)
+Unity.TinyConversion.AudioClipAsset:OnUpdate() (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Audio.Authoring/ConvertAudioClipAsset.cs:42)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:472)
+Unity.Entities.ComponentSystemGroup:OnUpdate() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:417)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.GameObjectConversionUtility:Convert(World) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:168)
+Unity.Entities.GameObjectConversionUtility:ConvertScene(Scene, GameObjectConversionSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:300)
+Unity.Scenes.Editor.EditorEntityScenes:ConvertAndWriteEntityScene(Scene, GameObjectConversionSettings, List`1, WriteEntitySceneSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/EditorEntityScenes.cs:164)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/SubSceneImporter.cs:144)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext) (at /Users/bokken/buildslave/unity/build/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:22)
+ 
+(Filename: Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs Line: 41)
+
+Exported Asset: 8d07653835368e6103693d04b2ae36ba = Assets/Audio/Crowd.mp3
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+Unity.Entities.Conversion.JournalingUnityLogger:LogFormat(LogType, Object, String, Object[]) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs:41)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Unity.Entities.GameObjectConversionSettings:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSettings.cs:197)
+Unity.Entities.Conversion.GameObjectConversionMappingSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionMappingSystem.cs:954)
+GameObjectConversionSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSystem.cs:327)
+Unity.TinyConversion.AudioClipAsset:<OnUpdate>b__0_0(AudioClip) (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Audio.Authoring/ConvertAudioClipAsset.cs:44)
+Unity.Entities.EntityQueryBuilder:ForEach(F_C`1) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/EntityQueryBuilder_ForEach.gen.cs:230)
+Unity.TinyConversion.AudioClipAsset:OnUpdate() (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Audio.Authoring/ConvertAudioClipAsset.cs:42)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:472)
+Unity.Entities.ComponentSystemGroup:OnUpdate() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:417)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.GameObjectConversionUtility:Convert(World) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:168)
+Unity.Entities.GameObjectConversionUtility:ConvertScene(Scene, GameObjectConversionSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:300)
+Unity.Scenes.Editor.EditorEntityScenes:ConvertAndWriteEntityScene(Scene, GameObjectConversionSettings, List`1, WriteEntitySceneSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/EditorEntityScenes.cs:164)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/SubSceneImporter.cs:144)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext) (at /Users/bokken/buildslave/unity/build/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:22)
+ 
+(Filename: Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs Line: 41)
+
+Exported Asset: cefab02dd7aeb5b34f0a42cda5e64091 = Assets/Materials/Textures/UI/ButtonLeft.png
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+Unity.Entities.Conversion.JournalingUnityLogger:LogFormat(LogType, Object, String, Object[]) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs:41)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Unity.Entities.GameObjectConversionSettings:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSettings.cs:197)
+Unity.Entities.Conversion.GameObjectConversionMappingSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionMappingSystem.cs:954)
+GameObjectConversionSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSystem.cs:327)
+Unity.TinyConversion.ExportTexture2DAsset:<OnUpdate>b__1_0(Texture2D) (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:100)
+Unity.Entities.EntityQueryBuilder:ForEach(F_C`1) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/EntityQueryBuilder_ForEach.gen.cs:230)
+Unity.TinyConversion.ExportTexture2DAsset:OnUpdate() (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:98)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:472)
+Unity.Entities.ComponentSystemGroup:OnUpdate() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:417)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.GameObjectConversionUtility:Convert(World) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:168)
+Unity.Entities.GameObjectConversionUtility:ConvertScene(Scene, GameObjectConversionSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:300)
+Unity.Scenes.Editor.EditorEntityScenes:ConvertAndWriteEntityScene(Scene, GameObjectConversionSettings, List`1, WriteEntitySceneSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/EditorEntityScenes.cs:164)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/SubSceneImporter.cs:144)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext) (at /Users/bokken/buildslave/unity/build/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:22)
+ 
+(Filename: Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs Line: 41)
+
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.tiny/Unity.Tiny.Image2D.Authoring/libwebp/libwebp.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.tiny/Unity.Tiny.Image2D.Authoring/libwebp/libwebp.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.tiny/Unity.Tiny.Image2D.Authoring/libwebp/libwebp.dylib.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.tiny/Unity.Tiny.Image2D.Authoring/libwebp/libwebp.dylib.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.tiny/Unity.Tiny.Image2D.Authoring/libwebp/libwebp.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.tiny/Unity.Tiny.Image2D.Authoring/libwebp/libwebp.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.tiny/Unity.Tiny.Image2D.Authoring/libwebp/libwebp.dylib.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.tiny/Unity.Tiny.Image2D.Authoring/libwebp/libwebp.dylib.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.tiny/Unity.Tiny.Image2D.Authoring/libwebp/libwebp.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.tiny/Unity.Tiny.Image2D.Authoring/libwebp/libwebp.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.tiny/Unity.Tiny.Image2D.Authoring/libwebp/libwebp.dylib.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.tiny/Unity.Tiny.Image2D.Authoring/libwebp/libwebp.dylib.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.tiny/Unity.Tiny.Image2D.Authoring/libwebp/libwebp.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.tiny/Unity.Tiny.Image2D.Authoring/libwebp/libwebp.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.tiny/Unity.Tiny.Image2D.Authoring/libwebp/libwebp.dylib.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.tiny/Unity.Tiny.Image2D.Authoring/libwebp/libwebp.dylib.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.tiny/Unity.Tiny.Image2D.Authoring/libwebp/libwebp.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.tiny/Unity.Tiny.Image2D.Authoring/libwebp/libwebp.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.tiny/Unity.Tiny.Image2D.Authoring/libwebp/libwebp.dylib.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.tiny/Unity.Tiny.Image2D.Authoring/libwebp/libwebp.dylib.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.tiny/Unity.Tiny.Image2D.Authoring/libwebp/libwebp.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.tiny/Unity.Tiny.Image2D.Authoring/libwebp/libwebp.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.tiny/Unity.Tiny.Image2D.Authoring/libwebp/libwebp.dylib.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.tiny/Unity.Tiny.Image2D.Authoring/libwebp/libwebp.dylib.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.tiny/Unity.Tiny.Image2D.Authoring/libwebp/libwebp.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.tiny/Unity.Tiny.Image2D.Authoring/libwebp/libwebp.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.tiny/Unity.Tiny.Image2D.Authoring/libwebp/libwebp.dylib.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.tiny/Unity.Tiny.Image2D.Authoring/libwebp/libwebp.dylib.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.tiny/Unity.Tiny.Image2D.Authoring/libwebp/libwebp.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.tiny/Unity.Tiny.Image2D.Authoring/libwebp/libwebp.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.tiny/Unity.Tiny.Image2D.Authoring/libwebp/libwebp.dylib.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.tiny/Unity.Tiny.Image2D.Authoring/libwebp/libwebp.dylib.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.tiny/Unity.Tiny.Image2D.Authoring/libwebp/libwebp.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.tiny/Unity.Tiny.Image2D.Authoring/libwebp/libwebp.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.tiny/Unity.Tiny.Image2D.Authoring/libwebp/libwebp.dylib.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.tiny/Unity.Tiny.Image2D.Authoring/libwebp/libwebp.dylib.bundle
+Exported Asset: 7f8ce5c7bef6db709002b29a8808b3c3 = Assets/Materials/Textures/UI/ButtonRight.png
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+Unity.Entities.Conversion.JournalingUnityLogger:LogFormat(LogType, Object, String, Object[]) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs:41)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Unity.Entities.GameObjectConversionSettings:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSettings.cs:197)
+Unity.Entities.Conversion.GameObjectConversionMappingSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionMappingSystem.cs:954)
+GameObjectConversionSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSystem.cs:327)
+Unity.TinyConversion.ExportTexture2DAsset:<OnUpdate>b__1_0(Texture2D) (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:100)
+Unity.Entities.EntityQueryBuilder:ForEach(F_C`1) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/EntityQueryBuilder_ForEach.gen.cs:230)
+Unity.TinyConversion.ExportTexture2DAsset:OnUpdate() (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:98)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:472)
+Unity.Entities.ComponentSystemGroup:OnUpdate() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:417)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.GameObjectConversionUtility:Convert(World) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:168)
+Unity.Entities.GameObjectConversionUtility:ConvertScene(Scene, GameObjectConversionSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:300)
+Unity.Scenes.Editor.EditorEntityScenes:ConvertAndWriteEntityScene(Scene, GameObjectConversionSettings, List`1, WriteEntitySceneSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/EditorEntityScenes.cs:164)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/SubSceneImporter.cs:144)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext) (at /Users/bokken/buildslave/unity/build/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:22)
+ 
+(Filename: Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs Line: 41)
+
+Exported Asset: ae022dcb960ad48f6dd206ccbaf322ab = Assets/Materials/Textures/UI/ButtonReverse.png
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+Unity.Entities.Conversion.JournalingUnityLogger:LogFormat(LogType, Object, String, Object[]) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs:41)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Unity.Entities.GameObjectConversionSettings:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSettings.cs:197)
+Unity.Entities.Conversion.GameObjectConversionMappingSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionMappingSystem.cs:954)
+GameObjectConversionSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSystem.cs:327)
+Unity.TinyConversion.ExportTexture2DAsset:<OnUpdate>b__1_0(Texture2D) (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:100)
+Unity.Entities.EntityQueryBuilder:ForEach(F_C`1) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/EntityQueryBuilder_ForEach.gen.cs:230)
+Unity.TinyConversion.ExportTexture2DAsset:OnUpdate() (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:98)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:472)
+Unity.Entities.ComponentSystemGroup:OnUpdate() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:417)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.GameObjectConversionUtility:Convert(World) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:168)
+Unity.Entities.GameObjectConversionUtility:ConvertScene(Scene, GameObjectConversionSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:300)
+Unity.Scenes.Editor.EditorEntityScenes:ConvertAndWriteEntityScene(Scene, GameObjectConversionSettings, List`1, WriteEntitySceneSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/EditorEntityScenes.cs:164)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/SubSceneImporter.cs:144)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext) (at /Users/bokken/buildslave/unity/build/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:22)
+ 
+(Filename: Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs Line: 41)
+
+Exported Asset: 7e2bdf3c686c082e25c26b67256cf788 = Assets/Materials/Textures/UI/ButtonAccelerate.png
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+Unity.Entities.Conversion.JournalingUnityLogger:LogFormat(LogType, Object, String, Object[]) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs:41)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Unity.Entities.GameObjectConversionSettings:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSettings.cs:197)
+Unity.Entities.Conversion.GameObjectConversionMappingSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionMappingSystem.cs:954)
+GameObjectConversionSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSystem.cs:327)
+Unity.TinyConversion.ExportTexture2DAsset:<OnUpdate>b__1_0(Texture2D) (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:100)
+Unity.Entities.EntityQueryBuilder:ForEach(F_C`1) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/EntityQueryBuilder_ForEach.gen.cs:230)
+Unity.TinyConversion.ExportTexture2DAsset:OnUpdate() (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:98)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:472)
+Unity.Entities.ComponentSystemGroup:OnUpdate() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:417)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.GameObjectConversionUtility:Convert(World) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:168)
+Unity.Entities.GameObjectConversionUtility:ConvertScene(Scene, GameObjectConversionSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:300)
+Unity.Scenes.Editor.EditorEntityScenes:ConvertAndWriteEntityScene(Scene, GameObjectConversionSettings, List`1, WriteEntitySceneSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/EditorEntityScenes.cs:164)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/SubSceneImporter.cs:144)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext) (at /Users/bokken/buildslave/unity/build/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:22)
+ 
+(Filename: Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs Line: 41)
+
+Exported Asset: 31889a931c2efc8b9d9d7d831c495f81 = Assets/Materials/Textures/UI/_utton.png
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+Unity.Entities.Conversion.JournalingUnityLogger:LogFormat(LogType, Object, String, Object[]) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs:41)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Unity.Entities.GameObjectConversionSettings:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSettings.cs:197)
+Unity.Entities.Conversion.GameObjectConversionMappingSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionMappingSystem.cs:954)
+GameObjectConversionSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSystem.cs:327)
+Unity.TinyConversion.ExportTexture2DAsset:<OnUpdate>b__1_0(Texture2D) (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:100)
+Unity.Entities.EntityQueryBuilder:ForEach(F_C`1) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/EntityQueryBuilder_ForEach.gen.cs:230)
+Unity.TinyConversion.ExportTexture2DAsset:OnUpdate() (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:98)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:472)
+Unity.Entities.ComponentSystemGroup:OnUpdate() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:417)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.GameObjectConversionUtility:Convert(World) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:168)
+Unity.Entities.GameObjectConversionUtility:ConvertScene(Scene, GameObjectConversionSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:300)
+Unity.Scenes.Editor.EditorEntityScenes:ConvertAndWriteEntityScene(Scene, GameObjectConversionSettings, List`1, WriteEntitySceneSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/EditorEntityScenes.cs:164)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/SubSceneImporter.cs:144)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext) (at /Users/bokken/buildslave/unity/build/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:22)
+ 
+(Filename: Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs Line: 41)
+
+Exported Asset: aab8fbd63e0dba81837b589e2e6c2ee1 = Assets/Fonts/ManilaSansBld SDF.asset
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+Unity.Entities.Conversion.JournalingUnityLogger:LogFormat(LogType, Object, String, Object[]) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs:41)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Unity.Entities.GameObjectConversionSettings:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSettings.cs:197)
+Unity.Entities.Conversion.GameObjectConversionMappingSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionMappingSystem.cs:954)
+GameObjectConversionSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSystem.cs:327)
+Unity.TinyConversion.ExportTexture2DAsset:<OnUpdate>b__1_0(Texture2D) (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:100)
+Unity.Entities.EntityQueryBuilder:ForEach(F_C`1) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/EntityQueryBuilder_ForEach.gen.cs:230)
+Unity.TinyConversion.ExportTexture2DAsset:OnUpdate() (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:98)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:472)
+Unity.Entities.ComponentSystemGroup:OnUpdate() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:417)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.GameObjectConversionUtility:Convert(World) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:168)
+Unity.Entities.GameObjectConversionUtility:ConvertScene(Scene, GameObjectConversionSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:300)
+Unity.Scenes.Editor.EditorEntityScenes:ConvertAndWriteEntityScene(Scene, GameObjectConversionSettings, List`1, WriteEntitySceneSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/EditorEntityScenes.cs:164)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/SubSceneImporter.cs:144)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext) (at /Users/bokken/buildslave/unity/build/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:22)
+ 
+(Filename: Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs Line: 41)
+
+Exported Asset: f7cc7397cd92dd5f17076dbc6c7f4aaf = Assets/Materials/Textures/Kart_Kart_Material_AlbedoAO_Pink.png
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+Unity.Entities.Conversion.JournalingUnityLogger:LogFormat(LogType, Object, String, Object[]) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs:41)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Unity.Entities.GameObjectConversionSettings:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSettings.cs:197)
+Unity.Entities.Conversion.GameObjectConversionMappingSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionMappingSystem.cs:954)
+GameObjectConversionSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSystem.cs:327)
+Unity.TinyConversion.ExportTexture2DAsset:<OnUpdate>b__1_0(Texture2D) (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:100)
+Unity.Entities.EntityQueryBuilder:ForEach(F_C`1) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/EntityQueryBuilder_ForEach.gen.cs:230)
+Unity.TinyConversion.ExportTexture2DAsset:OnUpdate() (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:98)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:472)
+Unity.Entities.ComponentSystemGroup:OnUpdate() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:417)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.GameObjectConversionUtility:Convert(World) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:168)
+Unity.Entities.GameObjectConversionUtility:ConvertScene(Scene, GameObjectConversionSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:300)
+Unity.Scenes.Editor.EditorEntityScenes:ConvertAndWriteEntityScene(Scene, GameObjectConversionSettings, List`1, WriteEntitySceneSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/EditorEntityScenes.cs:164)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/SubSceneImporter.cs:144)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext) (at /Users/bokken/buildslave/unity/build/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:22)
+ 
+(Filename: Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs Line: 41)
+
+Exported Asset: 3699af455a5a69cfe44393862479cfd9 = Assets/Materials/Textures/Kart_Kart_Material_MetallicSmoothness.png
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+Unity.Entities.Conversion.JournalingUnityLogger:LogFormat(LogType, Object, String, Object[]) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs:41)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Unity.Entities.GameObjectConversionSettings:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSettings.cs:197)
+Unity.Entities.Conversion.GameObjectConversionMappingSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionMappingSystem.cs:954)
+GameObjectConversionSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSystem.cs:327)
+Unity.TinyConversion.ExportTexture2DAsset:<OnUpdate>b__1_0(Texture2D) (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:100)
+Unity.Entities.EntityQueryBuilder:ForEach(F_C`1) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/EntityQueryBuilder_ForEach.gen.cs:230)
+Unity.TinyConversion.ExportTexture2DAsset:OnUpdate() (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:98)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:472)
+Unity.Entities.ComponentSystemGroup:OnUpdate() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:417)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.GameObjectConversionUtility:Convert(World) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:168)
+Unity.Entities.GameObjectConversionUtility:ConvertScene(Scene, GameObjectConversionSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:300)
+Unity.Scenes.Editor.EditorEntityScenes:ConvertAndWriteEntityScene(Scene, GameObjectConversionSettings, List`1, WriteEntitySceneSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/EditorEntityScenes.cs:164)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/SubSceneImporter.cs:144)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext) (at /Users/bokken/buildslave/unity/build/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:22)
+ 
+(Filename: Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs Line: 41)
+
+Exported Asset: 4b9db190ef77844f5608081e437a049c = Assets/Materials/Textures/Kart_Kart_Material_AlbedoAO_Blue.png
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+Unity.Entities.Conversion.JournalingUnityLogger:LogFormat(LogType, Object, String, Object[]) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs:41)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Unity.Entities.GameObjectConversionSettings:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSettings.cs:197)
+Unity.Entities.Conversion.GameObjectConversionMappingSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionMappingSystem.cs:954)
+GameObjectConversionSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSystem.cs:327)
+Unity.TinyConversion.ExportTexture2DAsset:<OnUpdate>b__1_0(Texture2D) (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:100)
+Unity.Entities.EntityQueryBuilder:ForEach(F_C`1) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/EntityQueryBuilder_ForEach.gen.cs:230)
+Unity.TinyConversion.ExportTexture2DAsset:OnUpdate() (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:98)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:472)
+Unity.Entities.ComponentSystemGroup:OnUpdate() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:417)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.GameObjectConversionUtility:Convert(World) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:168)
+Unity.Entities.GameObjectConversionUtility:ConvertScene(Scene, GameObjectConversionSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:300)
+Unity.Scenes.Editor.EditorEntityScenes:ConvertAndWriteEntityScene(Scene, GameObjectConversionSettings, List`1, WriteEntitySceneSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/EditorEntityScenes.cs:164)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/SubSceneImporter.cs:144)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext) (at /Users/bokken/buildslave/unity/build/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:22)
+ 
+(Filename: Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs Line: 41)
+
+Exported Asset: 3dd02a602bc72c20fa6d1bdfd89dad58 = Assets/Materials/Textures/Environment/TemplateEnvironmentSwatch.png
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+Unity.Entities.Conversion.JournalingUnityLogger:LogFormat(LogType, Object, String, Object[]) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs:41)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Unity.Entities.GameObjectConversionSettings:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSettings.cs:197)
+Unity.Entities.Conversion.GameObjectConversionMappingSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionMappingSystem.cs:954)
+GameObjectConversionSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSystem.cs:327)
+Unity.TinyConversion.ExportTexture2DAsset:<OnUpdate>b__1_0(Texture2D) (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:100)
+Unity.Entities.EntityQueryBuilder:ForEach(F_C`1) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/EntityQueryBuilder_ForEach.gen.cs:230)
+Unity.TinyConversion.ExportTexture2DAsset:OnUpdate() (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:98)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:472)
+Unity.Entities.ComponentSystemGroup:OnUpdate() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:417)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.GameObjectConversionUtility:Convert(World) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:168)
+Unity.Entities.GameObjectConversionUtility:ConvertScene(Scene, GameObjectConversionSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:300)
+Unity.Scenes.Editor.EditorEntityScenes:ConvertAndWriteEntityScene(Scene, GameObjectConversionSettings, List`1, WriteEntitySceneSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/EditorEntityScenes.cs:164)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/SubSceneImporter.cs:144)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext) (at /Users/bokken/buildslave/unity/build/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:22)
+ 
+(Filename: Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs Line: 41)
+
+Exported Asset: a7490fa37e15144c50fc9ec419e25b90 = Assets/Materials/Textures/Billboard.png
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+Unity.Entities.Conversion.JournalingUnityLogger:LogFormat(LogType, Object, String, Object[]) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs:41)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Unity.Entities.GameObjectConversionSettings:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSettings.cs:197)
+Unity.Entities.Conversion.GameObjectConversionMappingSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionMappingSystem.cs:954)
+GameObjectConversionSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSystem.cs:327)
+Unity.TinyConversion.ExportTexture2DAsset:<OnUpdate>b__1_0(Texture2D) (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:100)
+Unity.Entities.EntityQueryBuilder:ForEach(F_C`1) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/EntityQueryBuilder_ForEach.gen.cs:230)
+Unity.TinyConversion.ExportTexture2DAsset:OnUpdate() (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:98)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:472)
+Unity.Entities.ComponentSystemGroup:OnUpdate() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:417)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.GameObjectConversionUtility:Convert(World) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:168)
+Unity.Entities.GameObjectConversionUtility:ConvertScene(Scene, GameObjectConversionSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:300)
+Unity.Scenes.Editor.EditorEntityScenes:ConvertAndWriteEntityScene(Scene, GameObjectConversionSettings, List`1, WriteEntitySceneSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/EditorEntityScenes.cs:164)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/SubSceneImporter.cs:144)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext) (at /Users/bokken/buildslave/unity/build/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:22)
+ 
+(Filename: Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs Line: 41)
+
+Exported Asset: 94cc3e2217d55d319c60f13e602f1528 = Assets/Materials/Textures/UnstoppableDomains_Texture.png
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+Unity.Entities.Conversion.JournalingUnityLogger:LogFormat(LogType, Object, String, Object[]) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs:41)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Unity.Entities.GameObjectConversionSettings:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSettings.cs:197)
+Unity.Entities.Conversion.GameObjectConversionMappingSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionMappingSystem.cs:954)
+GameObjectConversionSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSystem.cs:327)
+Unity.TinyConversion.ExportTexture2DAsset:<OnUpdate>b__1_0(Texture2D) (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:100)
+Unity.Entities.EntityQueryBuilder:ForEach(F_C`1) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/EntityQueryBuilder_ForEach.gen.cs:230)
+Unity.TinyConversion.ExportTexture2DAsset:OnUpdate() (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:98)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:472)
+Unity.Entities.ComponentSystemGroup:OnUpdate() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:417)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.GameObjectConversionUtility:Convert(World) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:168)
+Unity.Entities.GameObjectConversionUtility:ConvertScene(Scene, GameObjectConversionSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:300)
+Unity.Scenes.Editor.EditorEntityScenes:ConvertAndWriteEntityScene(Scene, GameObjectConversionSettings, List`1, WriteEntitySceneSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/EditorEntityScenes.cs:164)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/SubSceneImporter.cs:144)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext) (at /Users/bokken/buildslave/unity/build/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:22)
+ 
+(Filename: Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs Line: 41)
+
+Exported Asset: 9d19bfa7f735229eb3e97944fc897bb6 = Assets/Materials/Textures/Environment/BoostPad.png
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+Unity.Entities.Conversion.JournalingUnityLogger:LogFormat(LogType, Object, String, Object[]) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs:41)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Unity.Entities.GameObjectConversionSettings:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSettings.cs:197)
+Unity.Entities.Conversion.GameObjectConversionMappingSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionMappingSystem.cs:954)
+GameObjectConversionSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSystem.cs:327)
+Unity.TinyConversion.ExportTexture2DAsset:<OnUpdate>b__1_0(Texture2D) (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:100)
+Unity.Entities.EntityQueryBuilder:ForEach(F_C`1) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/EntityQueryBuilder_ForEach.gen.cs:230)
+Unity.TinyConversion.ExportTexture2DAsset:OnUpdate() (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:98)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:472)
+Unity.Entities.ComponentSystemGroup:OnUpdate() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:417)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.GameObjectConversionUtility:Convert(World) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:168)
+Unity.Entities.GameObjectConversionUtility:ConvertScene(Scene, GameObjectConversionSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:300)
+Unity.Scenes.Editor.EditorEntityScenes:ConvertAndWriteEntityScene(Scene, GameObjectConversionSettings, List`1, WriteEntitySceneSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/EditorEntityScenes.cs:164)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/SubSceneImporter.cs:144)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext) (at /Users/bokken/buildslave/unity/build/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:22)
+ 
+(Filename: Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs Line: 41)
+
+Exported Asset: 3ea61da37b3aac0156169a9ba6937509 = Assets/Materials/Textures/Environment/Oil.png
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+Unity.Entities.Conversion.JournalingUnityLogger:LogFormat(LogType, Object, String, Object[]) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs:41)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Unity.Entities.GameObjectConversionSettings:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSettings.cs:197)
+Unity.Entities.Conversion.GameObjectConversionMappingSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionMappingSystem.cs:954)
+GameObjectConversionSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSystem.cs:327)
+Unity.TinyConversion.ExportTexture2DAsset:<OnUpdate>b__1_0(Texture2D) (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:100)
+Unity.Entities.EntityQueryBuilder:ForEach(F_C`1) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/EntityQueryBuilder_ForEach.gen.cs:230)
+Unity.TinyConversion.ExportTexture2DAsset:OnUpdate() (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:98)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:472)
+Unity.Entities.ComponentSystemGroup:OnUpdate() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:417)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.GameObjectConversionUtility:Convert(World) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:168)
+Unity.Entities.GameObjectConversionUtility:ConvertScene(Scene, GameObjectConversionSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:300)
+Unity.Scenes.Editor.EditorEntityScenes:ConvertAndWriteEntityScene(Scene, GameObjectConversionSettings, List`1, WriteEntitySceneSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/EditorEntityScenes.cs:164)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/SubSceneImporter.cs:144)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext) (at /Users/bokken/buildslave/unity/build/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:22)
+ 
+(Filename: Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs Line: 41)
+
+Exported Asset: 2398e3a80ae868f9fd061f28c7b5eef8 = Assets/Materials/Textures/Environment/Cone.png
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+Unity.Entities.Conversion.JournalingUnityLogger:LogFormat(LogType, Object, String, Object[]) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs:41)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Unity.Entities.GameObjectConversionSettings:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSettings.cs:197)
+Unity.Entities.Conversion.GameObjectConversionMappingSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionMappingSystem.cs:954)
+GameObjectConversionSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSystem.cs:327)
+Unity.TinyConversion.ExportTexture2DAsset:<OnUpdate>b__1_0(Texture2D) (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:100)
+Unity.Entities.EntityQueryBuilder:ForEach(F_C`1) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/EntityQueryBuilder_ForEach.gen.cs:230)
+Unity.TinyConversion.ExportTexture2DAsset:OnUpdate() (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:98)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:472)
+Unity.Entities.ComponentSystemGroup:OnUpdate() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:417)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.GameObjectConversionUtility:Convert(World) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:168)
+Unity.Entities.GameObjectConversionUtility:ConvertScene(Scene, GameObjectConversionSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:300)
+Unity.Scenes.Editor.EditorEntityScenes:ConvertAndWriteEntityScene(Scene, GameObjectConversionSettings, List`1, WriteEntitySceneSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/EditorEntityScenes.cs:164)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/SubSceneImporter.cs:144)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext) (at /Users/bokken/buildslave/unity/build/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:22)
+ 
+(Filename: Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs Line: 41)
+
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.entities/Unity.Core.Editor/Compression/lz4-1.9.1/liblz4.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.entities/Unity.Core.Editor/Compression/lz4-1.9.1/liblz4.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.entities/Unity.Core.Editor/Compression/lz4-1.9.1/liblz4.dylib.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.entities/Unity.Core.Editor/Compression/lz4-1.9.1/liblz4.dylib.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.entities/Unity.Core.Editor/Compression/lz4-1.9.1/liblz4.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.entities/Unity.Core.Editor/Compression/lz4-1.9.1/liblz4.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.entities/Unity.Core.Editor/Compression/lz4-1.9.1/liblz4.dylib.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.unity.entities/Unity.Core.Editor/Compression/lz4-1.9.1/liblz4.dylib.bundle
+Import of asset 'Assets/SceneDependencyCache/532e73ec72300aeac358dd067c39781d.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.burst/Runtime/Unity.Burst.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/532e73ec72300aeac358dd067c39781d.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.jobs/Unity.Jobs/Unity.Jobs.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/532e73ec72300aeac358dd067c39781d.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Audio/Unity.Tiny.Audio.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/532e73ec72300aeac358dd067c39781d.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.dots.runtime/Unity.Entities.Runtime/Unity.Entities.Runtime.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/532e73ec72300aeac358dd067c39781d.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.collections/Unity.Collections/Unity.Collections.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/532e73ec72300aeac358dd067c39781d.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Core/Unity.Tiny.Core.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/532e73ec72300aeac358dd067c39781d.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.properties/Runtime/Unity.Properties/Unity.Properties.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/532e73ec72300aeac358dd067c39781d.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.entities/Unity.Scenes/Unity.Scenes.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/532e73ec72300aeac358dd067c39781d.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Rendering/Unity.Tiny.Rendering.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/532e73ec72300aeac358dd067c39781d.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Particles/Unity.Tiny.Particles.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/532e73ec72300aeac358dd067c39781d.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Input/Unity.Tiny.Input.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/532e73ec72300aeac358dd067c39781d.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.physics/Unity.Physics/Unity.Physics.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/532e73ec72300aeac358dd067c39781d.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.entities/Unity.Mathematics.Extensions/Unity.Mathematics.Extensions.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/532e73ec72300aeac358dd067c39781d.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Animation/Unity.Tiny.Animation.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/532e73ec72300aeac358dd067c39781d.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Image2D/Unity.Tiny.Image2D.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/532e73ec72300aeac358dd067c39781d.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Text/Unity.Tiny.Text.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/532e73ec72300aeac358dd067c39781d.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.properties/Runtime/Unity.Properties.Reflection/Unity.Properties.Reflection.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/532e73ec72300aeac358dd067c39781d.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.serialization/Runtime/Unity.Serialization/Unity.Serialization.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/532e73ec72300aeac358dd067c39781d.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.RendererExtras/Unity.Tiny.RendererExtras.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/532e73ec72300aeac358dd067c39781d.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.mathematics/Unity.Mathematics/Unity.Mathematics.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/532e73ec72300aeac358dd067c39781d.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Rendering.Native/Unity.Tiny.Rendering.Native.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/532e73ec72300aeac358dd067c39781d.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny.web/Runtime/Unity.Tiny.Image2D.Web/Unity.Tiny.Image2D.Web.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/532e73ec72300aeac358dd067c39781d.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.entities/Unity.Entities/Unity.Entities.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/532e73ec72300aeac358dd067c39781d.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.entities/Unity.Transforms/Unity.Transforms.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/532e73ec72300aeac358dd067c39781d.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.platforms/Runtime/Unity.Platforms.Common/Unity.Platforms.Common.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/532e73ec72300aeac358dd067c39781d.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.UI/Unity.Tiny.UI.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+ -> (target hash: '3fec29da7a8a9e1c7720479912e6c71e') in 25.469882 seconds
+  Import took 25.495747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001888 seconds.
+  path: Assets/SceneDependencyCache/6c48c25132620fbdd860f83b8b59a48e.sceneWithBuildSettings
+  artifactKey: Guid(6c48c25132620fbdd860f83b8b59a48e) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/6c48c25132620fbdd860f83b8b59a48e.sceneWithBuildSettings using Guid(6c48c25132620fbdd860f83b8b59a48e) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Scenes/TinyRacing.unity additively'
+Loaded scene 'Assets/Scenes/TinyRacing.unity'
+	Deserialize:            30.591 ms
+	Integration:            187.771 ms
+	Integration of assets:  0.330 ms
+	Thread Wait Time:       17.530 ms
+	Total Operation Time:   236.222 ms
+Exported Asset: db3e2d0525ff08001bd1b2e60c09d977 = Assets/Audio/Intro.mp3
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+Unity.Entities.Conversion.JournalingUnityLogger:LogFormat(LogType, Object, String, Object[]) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs:41)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Unity.Entities.GameObjectConversionSettings:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSettings.cs:197)
+Unity.Entities.Conversion.GameObjectConversionMappingSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionMappingSystem.cs:954)
+GameObjectConversionSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSystem.cs:327)
+Unity.TinyConversion.AudioClipAsset:<OnUpdate>b__0_0(AudioClip) (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Audio.Authoring/ConvertAudioClipAsset.cs:44)
+Unity.Entities.EntityQueryBuilder:ForEach(F_C`1) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/EntityQueryBuilder_ForEach.gen.cs:230)
+Unity.TinyConversion.AudioClipAsset:OnUpdate() (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Audio.Authoring/ConvertAudioClipAsset.cs:42)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:472)
+Unity.Entities.ComponentSystemGroup:OnUpdate() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:417)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.GameObjectConversionUtility:Convert(World) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:168)
+Unity.Entities.GameObjectConversionUtility:ConvertScene(Scene, GameObjectConversionSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:300)
+Unity.Scenes.Editor.EditorEntityScenes:ConvertAndWriteEntityScene(Scene, GameObjectConversionSettings, List`1, WriteEntitySceneSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/EditorEntityScenes.cs:164)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/SubSceneImporter.cs:144)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext) (at /Users/bokken/buildslave/unity/build/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:22)
+ 
+(Filename: Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs Line: 41)
+
+Exported Asset: fa6693842c3800217404d5305467cbea = Assets/Audio/Music.mp3
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+Unity.Entities.Conversion.JournalingUnityLogger:LogFormat(LogType, Object, String, Object[]) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs:41)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Unity.Entities.GameObjectConversionSettings:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSettings.cs:197)
+Unity.Entities.Conversion.GameObjectConversionMappingSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionMappingSystem.cs:954)
+GameObjectConversionSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSystem.cs:327)
+Unity.TinyConversion.AudioClipAsset:<OnUpdate>b__0_0(AudioClip) (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Audio.Authoring/ConvertAudioClipAsset.cs:44)
+Unity.Entities.EntityQueryBuilder:ForEach(F_C`1) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/EntityQueryBuilder_ForEach.gen.cs:230)
+Unity.TinyConversion.AudioClipAsset:OnUpdate() (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Audio.Authoring/ConvertAudioClipAsset.cs:42)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:472)
+Unity.Entities.ComponentSystemGroup:OnUpdate() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:417)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.GameObjectConversionUtility:Convert(World) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:168)
+Unity.Entities.GameObjectConversionUtility:ConvertScene(Scene, GameObjectConversionSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:300)
+Unity.Scenes.Editor.EditorEntityScenes:ConvertAndWriteEntityScene(Scene, GameObjectConversionSettings, List`1, WriteEntitySceneSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/EditorEntityScenes.cs:164)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/SubSceneImporter.cs:144)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext) (at /Users/bokken/buildslave/unity/build/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:22)
+ 
+(Filename: Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs Line: 41)
+
+Exported Asset: ec57c965ef950ee7023651579e66d039 = Assets/Audio/Crash.mp3
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+Unity.Entities.Conversion.JournalingUnityLogger:LogFormat(LogType, Object, String, Object[]) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs:41)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Unity.Entities.GameObjectConversionSettings:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSettings.cs:197)
+Unity.Entities.Conversion.GameObjectConversionMappingSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionMappingSystem.cs:954)
+GameObjectConversionSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSystem.cs:327)
+Unity.TinyConversion.AudioClipAsset:<OnUpdate>b__0_0(AudioClip) (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Audio.Authoring/ConvertAudioClipAsset.cs:44)
+Unity.Entities.EntityQueryBuilder:ForEach(F_C`1) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/EntityQueryBuilder_ForEach.gen.cs:230)
+Unity.TinyConversion.AudioClipAsset:OnUpdate() (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Audio.Authoring/ConvertAudioClipAsset.cs:42)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:472)
+Unity.Entities.ComponentSystemGroup:OnUpdate() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:417)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.GameObjectConversionUtility:Convert(World) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:168)
+Unity.Entities.GameObjectConversionUtility:ConvertScene(Scene, GameObjectConversionSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:300)
+Unity.Scenes.Editor.EditorEntityScenes:ConvertAndWriteEntityScene(Scene, GameObjectConversionSettings, List`1, WriteEntitySceneSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/EditorEntityScenes.cs:164)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/SubSceneImporter.cs:144)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext) (at /Users/bokken/buildslave/unity/build/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:22)
+ 
+(Filename: Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs Line: 41)
+
+Exported Asset: 0a08459ecc186da59de8772f4195ad88 = Assets/Audio/Countdown.mp3
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+Unity.Entities.Conversion.JournalingUnityLogger:LogFormat(LogType, Object, String, Object[]) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs:41)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Unity.Entities.GameObjectConversionSettings:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSettings.cs:197)
+Unity.Entities.Conversion.GameObjectConversionMappingSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionMappingSystem.cs:954)
+GameObjectConversionSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSystem.cs:327)
+Unity.TinyConversion.AudioClipAsset:<OnUpdate>b__0_0(AudioClip) (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Audio.Authoring/ConvertAudioClipAsset.cs:44)
+Unity.Entities.EntityQueryBuilder:ForEach(F_C`1) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/EntityQueryBuilder_ForEach.gen.cs:230)
+Unity.TinyConversion.AudioClipAsset:OnUpdate() (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Audio.Authoring/ConvertAudioClipAsset.cs:42)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:472)
+Unity.Entities.ComponentSystemGroup:OnUpdate() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:417)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.GameObjectConversionUtility:Convert(World) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:168)
+Unity.Entities.GameObjectConversionUtility:ConvertScene(Scene, GameObjectConversionSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:300)
+Unity.Scenes.Editor.EditorEntityScenes:ConvertAndWriteEntityScene(Scene, GameObjectConversionSettings, List`1, WriteEntitySceneSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/EditorEntityScenes.cs:164)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/SubSceneImporter.cs:144)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext) (at /Users/bokken/buildslave/unity/build/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:22)
+ 
+(Filename: Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs Line: 41)
+
+Exported Asset: 88503175a6fe31785e924513b399281c = Assets/Audio/Lap.mp3
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+Unity.Entities.Conversion.JournalingUnityLogger:LogFormat(LogType, Object, String, Object[]) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs:41)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Unity.Entities.GameObjectConversionSettings:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSettings.cs:197)
+Unity.Entities.Conversion.GameObjectConversionMappingSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionMappingSystem.cs:954)
+GameObjectConversionSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSystem.cs:327)
+Unity.TinyConversion.AudioClipAsset:<OnUpdate>b__0_0(AudioClip) (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Audio.Authoring/ConvertAudioClipAsset.cs:44)
+Unity.Entities.EntityQueryBuilder:ForEach(F_C`1) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/EntityQueryBuilder_ForEach.gen.cs:230)
+Unity.TinyConversion.AudioClipAsset:OnUpdate() (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Audio.Authoring/ConvertAudioClipAsset.cs:42)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:472)
+Unity.Entities.ComponentSystemGroup:OnUpdate() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:417)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.GameObjectConversionUtility:Convert(World) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:168)
+Unity.Entities.GameObjectConversionUtility:ConvertScene(Scene, GameObjectConversionSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:300)
+Unity.Scenes.Editor.EditorEntityScenes:ConvertAndWriteEntityScene(Scene, GameObjectConversionSettings, List`1, WriteEntitySceneSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/EditorEntityScenes.cs:164)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/SubSceneImporter.cs:144)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext) (at /Users/bokken/buildslave/unity/build/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:22)
+ 
+(Filename: Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs Line: 41)
+
+Exported Asset: 56337f6fbe01e6876f3e81bc6a5252fa = Assets/Materials/Textures/UI/steering_black.png
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+Unity.Entities.Conversion.JournalingUnityLogger:LogFormat(LogType, Object, String, Object[]) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs:41)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Unity.Entities.GameObjectConversionSettings:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSettings.cs:197)
+Unity.Entities.Conversion.GameObjectConversionMappingSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionMappingSystem.cs:954)
+GameObjectConversionSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSystem.cs:327)
+Unity.TinyConversion.ExportTexture2DAsset:<OnUpdate>b__1_0(Texture2D) (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:100)
+Unity.Entities.EntityQueryBuilder:ForEach(F_C`1) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/EntityQueryBuilder_ForEach.gen.cs:230)
+Unity.TinyConversion.ExportTexture2DAsset:OnUpdate() (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:98)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:472)
+Unity.Entities.ComponentSystemGroup:OnUpdate() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:417)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.GameObjectConversionUtility:Convert(World) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:168)
+Unity.Entities.GameObjectConversionUtility:ConvertScene(Scene, GameObjectConversionSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:300)
+Unity.Scenes.Editor.EditorEntityScenes:ConvertAndWriteEntityScene(Scene, GameObjectConversionSettings, List`1, WriteEntitySceneSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/EditorEntityScenes.cs:164)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/SubSceneImporter.cs:144)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext) (at /Users/bokken/buildslave/unity/build/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:22)
+ 
+(Filename: Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs Line: 41)
+
+Exported Asset: 41fa3d13b4a2d8697fe7157ef211e2c5 = Assets/Materials/Textures/UI/steering_white.png
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+Unity.Entities.Conversion.JournalingUnityLogger:LogFormat(LogType, Object, String, Object[]) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs:41)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Unity.Entities.GameObjectConversionSettings:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSettings.cs:197)
+Unity.Entities.Conversion.GameObjectConversionMappingSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionMappingSystem.cs:954)
+GameObjectConversionSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSystem.cs:327)
+Unity.TinyConversion.ExportTexture2DAsset:<OnUpdate>b__1_0(Texture2D) (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:100)
+Unity.Entities.EntityQueryBuilder:ForEach(F_C`1) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/EntityQueryBuilder_ForEach.gen.cs:230)
+Unity.TinyConversion.ExportTexture2DAsset:OnUpdate() (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:98)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:472)
+Unity.Entities.ComponentSystemGroup:OnUpdate() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:417)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.GameObjectConversionUtility:Convert(World) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:168)
+Unity.Entities.GameObjectConversionUtility:ConvertScene(Scene, GameObjectConversionSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:300)
+Unity.Scenes.Editor.EditorEntityScenes:ConvertAndWriteEntityScene(Scene, GameObjectConversionSettings, List`1, WriteEntitySceneSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/EditorEntityScenes.cs:164)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/SubSceneImporter.cs:144)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext) (at /Users/bokken/buildslave/unity/build/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:22)
+ 
+(Filename: Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs Line: 41)
+
+Exported Asset: bb8a1fae9eeeead225ebc055cb4e6465 = Assets/Materials/Textures/UI/made-with-unity.png
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+Unity.Entities.Conversion.JournalingUnityLogger:LogFormat(LogType, Object, String, Object[]) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs:41)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Unity.Entities.GameObjectConversionSettings:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSettings.cs:197)
+Unity.Entities.Conversion.GameObjectConversionMappingSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionMappingSystem.cs:954)
+GameObjectConversionSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSystem.cs:327)
+Unity.TinyConversion.ExportTexture2DAsset:<OnUpdate>b__1_0(Texture2D) (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:100)
+Unity.Entities.EntityQueryBuilder:ForEach(F_C`1) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/EntityQueryBuilder_ForEach.gen.cs:230)
+Unity.TinyConversion.ExportTexture2DAsset:OnUpdate() (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:98)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:472)
+Unity.Entities.ComponentSystemGroup:OnUpdate() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:417)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.GameObjectConversionUtility:Convert(World) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:168)
+Unity.Entities.GameObjectConversionUtility:ConvertScene(Scene, GameObjectConversionSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:300)
+Unity.Scenes.Editor.EditorEntityScenes:ConvertAndWriteEntityScene(Scene, GameObjectConversionSettings, List`1, WriteEntitySceneSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/EditorEntityScenes.cs:164)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/SubSceneImporter.cs:144)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext) (at /Users/bokken/buildslave/unity/build/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:22)
+ 
+(Filename: Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs Line: 41)
+
+Exported Asset: f09a305de92fc5b82324d18d833bffd1 = Assets/Materials/Textures/UI/Title.png
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+Unity.Entities.Conversion.JournalingUnityLogger:LogFormat(LogType, Object, String, Object[]) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs:41)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Unity.Entities.GameObjectConversionSettings:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSettings.cs:197)
+Unity.Entities.Conversion.GameObjectConversionMappingSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionMappingSystem.cs:954)
+GameObjectConversionSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSystem.cs:327)
+Unity.TinyConversion.ExportTexture2DAsset:<OnUpdate>b__1_0(Texture2D) (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:100)
+Unity.Entities.EntityQueryBuilder:ForEach(F_C`1) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/EntityQueryBuilder_ForEach.gen.cs:230)
+Unity.TinyConversion.ExportTexture2DAsset:OnUpdate() (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:98)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:472)
+Unity.Entities.ComponentSystemGroup:OnUpdate() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:417)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.GameObjectConversionUtility:Convert(World) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:168)
+Unity.Entities.GameObjectConversionUtility:ConvertScene(Scene, GameObjectConversionSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:300)
+Unity.Scenes.Editor.EditorEntityScenes:ConvertAndWriteEntityScene(Scene, GameObjectConversionSettings, List`1, WriteEntitySceneSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/EditorEntityScenes.cs:164)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/SubSceneImporter.cs:144)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext) (at /Users/bokken/buildslave/unity/build/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:22)
+ 
+(Filename: Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs Line: 41)
+
+Exported Asset: 31889a931c2efc8b9d9d7d831c495f81 = Assets/Materials/Textures/UI/_utton.png
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+Unity.Entities.Conversion.JournalingUnityLogger:LogFormat(LogType, Object, String, Object[]) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs:41)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Unity.Entities.GameObjectConversionSettings:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSettings.cs:197)
+Unity.Entities.Conversion.GameObjectConversionMappingSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionMappingSystem.cs:954)
+GameObjectConversionSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSystem.cs:327)
+Unity.TinyConversion.ExportTexture2DAsset:<OnUpdate>b__1_0(Texture2D) (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:100)
+Unity.Entities.EntityQueryBuilder:ForEach(F_C`1) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/EntityQueryBuilder_ForEach.gen.cs:230)
+Unity.TinyConversion.ExportTexture2DAsset:OnUpdate() (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:98)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:472)
+Unity.Entities.ComponentSystemGroup:OnUpdate() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:417)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.GameObjectConversionUtility:Convert(World) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:168)
+Unity.Entities.GameObjectConversionUtility:ConvertScene(Scene, GameObjectConversionSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:300)
+Unity.Scenes.Editor.EditorEntityScenes:ConvertAndWriteEntityScene(Scene, GameObjectConversionSettings, List`1, WriteEntitySceneSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/EditorEntityScenes.cs:164)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/SubSceneImporter.cs:144)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext) (at /Users/bokken/buildslave/unity/build/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:22)
+ 
+(Filename: Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs Line: 41)
+
+Exported Asset: aab8fbd63e0dba81837b589e2e6c2ee1 = Assets/Fonts/ManilaSansBld SDF.asset
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+Unity.Entities.Conversion.JournalingUnityLogger:LogFormat(LogType, Object, String, Object[]) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs:41)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Unity.Entities.GameObjectConversionSettings:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSettings.cs:197)
+Unity.Entities.Conversion.GameObjectConversionMappingSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionMappingSystem.cs:954)
+GameObjectConversionSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSystem.cs:327)
+Unity.TinyConversion.ExportTexture2DAsset:<OnUpdate>b__1_0(Texture2D) (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:100)
+Unity.Entities.EntityQueryBuilder:ForEach(F_C`1) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/EntityQueryBuilder_ForEach.gen.cs:230)
+Unity.TinyConversion.ExportTexture2DAsset:OnUpdate() (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:98)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:472)
+Unity.Entities.ComponentSystemGroup:OnUpdate() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:417)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.GameObjectConversionUtility:Convert(World) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:168)
+Unity.Entities.GameObjectConversionUtility:ConvertScene(Scene, GameObjectConversionSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:300)
+Unity.Scenes.Editor.EditorEntityScenes:ConvertAndWriteEntityScene(Scene, GameObjectConversionSettings, List`1, WriteEntitySceneSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/EditorEntityScenes.cs:164)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/SubSceneImporter.cs:144)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext) (at /Users/bokken/buildslave/unity/build/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:22)
+ 
+(Filename: Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs Line: 41)
+
+Exported Asset: 4b9db190ef77844f5608081e437a049c = Assets/Materials/Textures/Kart_Kart_Material_AlbedoAO_Blue.png
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+Unity.Entities.Conversion.JournalingUnityLogger:LogFormat(LogType, Object, String, Object[]) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs:41)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Unity.Entities.GameObjectConversionSettings:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSettings.cs:197)
+Unity.Entities.Conversion.GameObjectConversionMappingSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionMappingSystem.cs:954)
+GameObjectConversionSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSystem.cs:327)
+Unity.TinyConversion.ExportTexture2DAsset:<OnUpdate>b__1_0(Texture2D) (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:100)
+Unity.Entities.EntityQueryBuilder:ForEach(F_C`1) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/EntityQueryBuilder_ForEach.gen.cs:230)
+Unity.TinyConversion.ExportTexture2DAsset:OnUpdate() (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:98)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:472)
+Unity.Entities.ComponentSystemGroup:OnUpdate() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:417)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.GameObjectConversionUtility:Convert(World) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:168)
+Unity.Entities.GameObjectConversionUtility:ConvertScene(Scene, GameObjectConversionSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:300)
+Unity.Scenes.Editor.EditorEntityScenes:ConvertAndWriteEntityScene(Scene, GameObjectConversionSettings, List`1, WriteEntitySceneSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/EditorEntityScenes.cs:164)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/SubSceneImporter.cs:144)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext) (at /Users/bokken/buildslave/unity/build/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:22)
+ 
+(Filename: Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs Line: 41)
+
+Exported Asset: 3699af455a5a69cfe44393862479cfd9 = Assets/Materials/Textures/Kart_Kart_Material_MetallicSmoothness.png
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+Unity.Entities.Conversion.JournalingUnityLogger:LogFormat(LogType, Object, String, Object[]) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs:41)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Unity.Entities.GameObjectConversionSettings:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSettings.cs:197)
+Unity.Entities.Conversion.GameObjectConversionMappingSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionMappingSystem.cs:954)
+GameObjectConversionSystem:TryCreateAssetExportWriter(Object) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionSystem.cs:327)
+Unity.TinyConversion.ExportTexture2DAsset:<OnUpdate>b__1_0(Texture2D) (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:100)
+Unity.Entities.EntityQueryBuilder:ForEach(F_C`1) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/EntityQueryBuilder_ForEach.gen.cs:230)
+Unity.TinyConversion.ExportTexture2DAsset:OnUpdate() (at Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/ConvertTexture2DAsset.cs:98)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:472)
+Unity.Entities.ComponentSystemGroup:OnUpdate() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystemGroup.cs:417)
+Unity.Entities.ComponentSystem:Update() (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/ComponentSystem.cs:114)
+Unity.Entities.GameObjectConversionUtility:Convert(World) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:168)
+Unity.Entities.GameObjectConversionUtility:ConvertScene(Scene, GameObjectConversionSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/GameObjectConversionUtility.cs:300)
+Unity.Scenes.Editor.EditorEntityScenes:ConvertAndWriteEntityScene(Scene, GameObjectConversionSettings, List`1, WriteEntitySceneSettings) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/EditorEntityScenes.cs:164)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/SubSceneImporter.cs:144)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext) (at /Users/bokken/buildslave/unity/build/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:22)
+ 
+(Filename: Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs Line: 41)
+
+Import of asset 'Assets/SceneDependencyCache/6c48c25132620fbdd860f83b8b59a48e.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.burst/Runtime/Unity.Burst.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/6c48c25132620fbdd860f83b8b59a48e.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.jobs/Unity.Jobs/Unity.Jobs.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/6c48c25132620fbdd860f83b8b59a48e.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Audio/Unity.Tiny.Audio.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/6c48c25132620fbdd860f83b8b59a48e.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.dots.runtime/Unity.Entities.Runtime/Unity.Entities.Runtime.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/6c48c25132620fbdd860f83b8b59a48e.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.collections/Unity.Collections/Unity.Collections.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/6c48c25132620fbdd860f83b8b59a48e.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Core/Unity.Tiny.Core.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/6c48c25132620fbdd860f83b8b59a48e.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.properties/Runtime/Unity.Properties/Unity.Properties.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/6c48c25132620fbdd860f83b8b59a48e.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.entities/Unity.Scenes/Unity.Scenes.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/6c48c25132620fbdd860f83b8b59a48e.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Rendering/Unity.Tiny.Rendering.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/6c48c25132620fbdd860f83b8b59a48e.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Particles/Unity.Tiny.Particles.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/6c48c25132620fbdd860f83b8b59a48e.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Input/Unity.Tiny.Input.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/6c48c25132620fbdd860f83b8b59a48e.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.physics/Unity.Physics/Unity.Physics.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/6c48c25132620fbdd860f83b8b59a48e.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.entities/Unity.Mathematics.Extensions/Unity.Mathematics.Extensions.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/6c48c25132620fbdd860f83b8b59a48e.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Animation/Unity.Tiny.Animation.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/6c48c25132620fbdd860f83b8b59a48e.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Image2D/Unity.Tiny.Image2D.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/6c48c25132620fbdd860f83b8b59a48e.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Text/Unity.Tiny.Text.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/6c48c25132620fbdd860f83b8b59a48e.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.properties/Runtime/Unity.Properties.Reflection/Unity.Properties.Reflection.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/6c48c25132620fbdd860f83b8b59a48e.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.serialization/Runtime/Unity.Serialization/Unity.Serialization.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/6c48c25132620fbdd860f83b8b59a48e.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.RendererExtras/Unity.Tiny.RendererExtras.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/6c48c25132620fbdd860f83b8b59a48e.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.mathematics/Unity.Mathematics/Unity.Mathematics.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/6c48c25132620fbdd860f83b8b59a48e.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Rendering.Native/Unity.Tiny.Rendering.Native.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/6c48c25132620fbdd860f83b8b59a48e.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny.web/Runtime/Unity.Tiny.Image2D.Web/Unity.Tiny.Image2D.Web.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/6c48c25132620fbdd860f83b8b59a48e.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.entities/Unity.Entities/Unity.Entities.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/6c48c25132620fbdd860f83b8b59a48e.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.entities/Unity.Transforms/Unity.Transforms.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/6c48c25132620fbdd860f83b8b59a48e.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.platforms/Runtime/Unity.Platforms.Common/Unity.Platforms.Common.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/6c48c25132620fbdd860f83b8b59a48e.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.UI/Unity.Tiny.UI.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+ -> (target hash: '18efef92e64cb618f0c0af4773d2d5f7') in 1.822722 seconds
+  Import took 1.841170 seconds .
+

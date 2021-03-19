@@ -1,0 +1,13 @@
+{
+    "name": "Unity.Tiny.Android",
+    "references": [
+      "Unity.Entities",
+      "Unity.Mathematics",
+      "Unity.Tiny.Core",
+      "Unity.Platforms.Common"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [ "Android" ],
+    "allowUnsafeCode": true,
+    "defineConstraints": ["UNITY_DOTSPLAYER"]
+}

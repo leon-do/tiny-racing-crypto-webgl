@@ -1,0 +1,23 @@
+{
+  "name": "com.unity.tiny.web",
+  "displayName": "Project Tiny for Web",
+  "version": "0.32.0-preview.54",
+  "unity": "2020.1",
+  "unityRelease": "9f1",
+  "description": "This package enables web platform support for Project Tiny",
+  "keywords": [
+    "tiny"
+  ],
+  "dependencies": {
+    "com.unity.dots.runtime": "0.32.0-preview.54",
+    "com.unity.tiny": "0.32.0-preview.54"
+  },
+  "upmCi": {
+    "footprint": "1465658238590a27075fdf5957fda778c0a23030"
+  },
+  "repository": {
+    "url": "https://github.com/Unity-Technologies/dots.git",
+    "type": "git",
+    "revision": "2f43343f5cfab7d0468100ebf6094176b401978d"
+  }
+}

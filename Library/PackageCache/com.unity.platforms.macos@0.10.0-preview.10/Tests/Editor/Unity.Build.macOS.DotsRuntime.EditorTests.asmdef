@@ -1,0 +1,13 @@
+{
+    "name": "Unity.Build.macOS.DotsRuntime.EditorTests",
+    "references": [
+        "Unity.Build.macOS.DotsRuntime"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}

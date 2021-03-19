@@ -1,0 +1,450 @@
+{
+  "Nodes": [
+    {
+      "Annotation": "all_tundra_nodes",
+      "Action": "",
+      "Inputs": [],
+      "Outputs": [],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "ToBuildDependencies": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "ToUseDependencies": [],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 0
+    },
+    {
+      "Annotation": "Download and unpack artifacts/buildprogrambuildprogram/Stevedore/7za-mac-x64_1887/.StevedoreVersion (+1 other)",
+      "Action": "'mono' --debug '/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.dots.runtime@0.32.0-preview.54/bee~/bee.exe' steve internal-unpack public 7za-mac-x64/95bf0d3a17b5_1887c56255e2db1134e118f27abe1ec62a2aca092ec9f72600c80659da17ca11.zip \"artifacts/buildprogrambuildprogram/Stevedore/7za-mac-x64_1887\"",
+      "Inputs": [],
+      "Outputs": [
+        "artifacts/buildprogrambuildprogram/Stevedore/7za-mac-x64_1887/.StevedoreVersion",
+        "artifacts/buildprogrambuildprogram/Stevedore/7za-mac-x64_1887"
+      ],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "ToBuildDependencies": [],
+      "ToUseDependencies": [],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowUnwrittenOutputFiles": true,
+      "AllowedOutputSubstrings": [],
+      "Env": [
+        {
+          "Key": "BEE_INTERNAL_STEVEDORE_ARTIFACTVERSIONFILE",
+          "Value": "artifacts/buildprogrambuildprogram/Stevedore/7za-mac-x64_1887/.StevedoreVersion"
+        }
+      ],
+      "DebugActionIndex": 1
+    },
+    {
+      "Annotation": "Download and unpack artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/.StevedoreVersion (+1 other)",
+      "Action": "'mono' --debug '/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.dots.runtime@0.32.0-preview.54/bee~/bee.exe' steve internal-unpack public referenceassemblies_v471/1_a0c33a9a16a4ad77c158aac7cd7e47daed3e68b180c65e14474f44c9501c4fae.7z \"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3\"",
+      "Inputs": [
+        "artifacts/buildprogrambuildprogram/Stevedore/7za-mac-x64_1887/7za"
+      ],
+      "Outputs": [
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/.StevedoreVersion",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3"
+      ],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "ToBuildDependencies": [
+        1
+      ],
+      "ToUseDependencies": [],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowUnwrittenOutputFiles": true,
+      "AllowedOutputSubstrings": [],
+      "Env": [
+        {
+          "Key": "BEE_INTERNAL_STEVEDORE_7ZA",
+          "Value": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/DotsRuntimeBuild/artifacts/buildprogrambuildprogram/Stevedore/7za-mac-x64_1887/7za"
+        },
+        {
+          "Key": "BEE_INTERNAL_STEVEDORE_ARTIFACTVERSIONFILE",
+          "Value": "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/.StevedoreVersion"
+        }
+      ],
+      "DebugActionIndex": 2
+    },
+    {
+      "Annotation": "Download and unpack artifacts/buildprogrambuildprogram/Stevedore/roslyn-csc-mac_a197/.StevedoreVersion (+1 other)",
+      "Action": "'mono' --debug '/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.dots.runtime@0.32.0-preview.54/bee~/bee.exe' steve internal-unpack public roslyn-csc-mac/20452b60c7c5_a197026285c13a2e24a42ce20a2ab8dbaf01e20ebc36076be1ef0f6fbce73566.7z \"artifacts/buildprogrambuildprogram/Stevedore/roslyn-csc-mac_a197\"",
+      "Inputs": [
+        "artifacts/buildprogrambuildprogram/Stevedore/7za-mac-x64_1887/7za"
+      ],
+      "Outputs": [
+        "artifacts/buildprogrambuildprogram/Stevedore/roslyn-csc-mac_a197/.StevedoreVersion",
+        "artifacts/buildprogrambuildprogram/Stevedore/roslyn-csc-mac_a197"
+      ],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "ToBuildDependencies": [
+        1
+      ],
+      "ToUseDependencies": [],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowUnwrittenOutputFiles": true,
+      "AllowedOutputSubstrings": [],
+      "Env": [
+        {
+          "Key": "BEE_INTERNAL_STEVEDORE_7ZA",
+          "Value": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/DotsRuntimeBuild/artifacts/buildprogrambuildprogram/Stevedore/7za-mac-x64_1887/7za"
+        },
+        {
+          "Key": "BEE_INTERNAL_STEVEDORE_ARTIFACTVERSIONFILE",
+          "Value": "artifacts/buildprogrambuildprogram/Stevedore/roslyn-csc-mac_a197/.StevedoreVersion"
+        }
+      ],
+      "DebugActionIndex": 3
+    },
+    {
+      "Annotation": "WriteResponseFile artifacts/rsp/3205345334039319834.rsp",
+      "WriteTextFilePayload": "-out:\"artifacts/buildprogram/buildprogram_buildprogram.exe\" /refout:\"artifacts/buildprogram/buildprogram_buildprogram.ref.exe\" -warnaserror -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Accessibility.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/CustomMarshalers.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Microsoft.Build.Engine.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Microsoft.Build.Framework.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Microsoft.Build.Tasks.v4.0.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Microsoft.Build.Utilities.v4.0.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Microsoft.Build.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Microsoft.CSharp.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Microsoft.VisualBasic.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Microsoft.VisualC.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.ComponentModel.Composition.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.ComponentModel.DataAnnotations.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Configuration.Install.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Configuration.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Core.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Data.DataSetExtensions.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Data.Entity.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Data.Linq.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Data.OracleClient.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Data.Services.Client.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Data.Services.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Data.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Deployment.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Design.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Diagnostics.Tracing.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.DirectoryServices.Protocols.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.DirectoryServices.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Drawing.Design.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Drawing.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Dynamic.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.EnterpriseServices.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.IO.Compression.FileSystem.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.IO.Compression.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.IdentityModel.Selectors.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.IdentityModel.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Management.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Messaging.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Net.Http.WebRequest.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Net.Http.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Net.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Numerics.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Reflection.Context.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Runtime.Caching.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Runtime.DurableInstancing.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Runtime.Remoting.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Runtime.Serialization.Formatters.Soap.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Runtime.Serialization.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Security.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.ServiceModel.Activation.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.ServiceModel.Discovery.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.ServiceModel.Routing.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.ServiceModel.Web.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.ServiceModel.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.ServiceProcess.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Transactions.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Web.Abstractions.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Web.ApplicationServices.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Web.DynamicData.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Web.Extensions.Design.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Web.Extensions.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Web.Mobile.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Web.RegularExpressions.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Web.Routing.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Web.Services.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Web.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Windows.Forms.DataVisualization.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Windows.Forms.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Windows.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Workflow.Activities.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Workflow.ComponentModel.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Workflow.Runtime.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Xaml.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Xml.Linq.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Xml.Serialization.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Xml.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/WindowsBase.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/mscorlib.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/Microsoft.Win32.Primitives.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/netstandard.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.AppContext.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Collections.Concurrent.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Collections.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Collections.NonGeneric.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Collections.Specialized.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.ComponentModel.Annotations.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.ComponentModel.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.ComponentModel.EventBasedAsync.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.ComponentModel.Primitives.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.ComponentModel.TypeConverter.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Console.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Data.Common.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Diagnostics.Contracts.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Diagnostics.Debug.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Diagnostics.FileVersionInfo.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Diagnostics.Process.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Diagnostics.StackTrace.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Diagnostics.TextWriterTraceListener.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Diagnostics.Tools.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Diagnostics.TraceSource.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Drawing.Primitives.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Dynamic.Runtime.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Globalization.Calendars.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Globalization.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Globalization.Extensions.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.IO.Compression.ZipFile.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.IO.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.IO.FileSystem.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.IO.FileSystem.DriveInfo.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.IO.FileSystem.Primitives.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.IO.FileSystem.Watcher.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.IO.IsolatedStorage.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.IO.MemoryMappedFiles.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.IO.Pipes.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.IO.UnmanagedMemoryStream.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Linq.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Linq.Expressions.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Linq.Parallel.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Linq.Queryable.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Net.Http.Rtc.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Net.NameResolution.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Net.NetworkInformation.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Net.Ping.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Net.Primitives.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Net.Requests.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Net.Security.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Net.Sockets.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Net.WebHeaderCollection.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Net.WebSockets.Client.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Net.WebSockets.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.ObjectModel.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Reflection.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Reflection.Emit.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Reflection.Emit.ILGeneration.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Reflection.Emit.Lightweight.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Reflection.Extensions.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Reflection.Primitives.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Resources.Reader.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Resources.ResourceManager.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Resources.Writer.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Runtime.CompilerServices.VisualC.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Runtime.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Runtime.Extensions.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Runtime.Handles.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Runtime.InteropServices.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Runtime.InteropServices.RuntimeInformation.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Runtime.InteropServices.WindowsRuntime.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Runtime.Numerics.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Runtime.Serialization.Formatters.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Runtime.Serialization.Json.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Runtime.Serialization.Primitives.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Runtime.Serialization.Xml.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Security.Claims.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Security.Cryptography.Algorithms.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Security.Cryptography.Csp.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Security.Cryptography.Encoding.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Security.Cryptography.Primitives.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Security.Cryptography.X509Certificates.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Security.Principal.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Security.SecureString.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.ServiceModel.Duplex.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.ServiceModel.Http.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.ServiceModel.NetTcp.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.ServiceModel.Primitives.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.ServiceModel.Security.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Text.Encoding.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Text.Encoding.Extensions.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Text.RegularExpressions.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Threading.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Threading.Overlapped.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Threading.Tasks.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Threading.Tasks.Parallel.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Threading.Thread.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Threading.ThreadPool.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Threading.Timer.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.ValueTuple.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Xml.ReaderWriter.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Xml.XDocument.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Xml.XmlDocument.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Xml.XmlSerializer.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Xml.XPath.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Xml.XPath.XDocument.dll\" -r:\"/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.dots.runtime@0.32.0-preview.54/bee~/bee.exe\" \"/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.dots.runtime@0.32.0-preview.54/bee~/BuildProgramBuildProgramSources/BuildProgramBuildProgram.cs\" -langversion:latest -fullpaths /optimize+ /debug:portable /nologo /deterministic",
+      "Inputs": [],
+      "Outputs": [
+        "artifacts/rsp/3205345334039319834.rsp"
+      ],
+      "PassIndex": 0,
+      "ToBuildDependencies": [],
+      "ToUseDependencies": [],
+      "OverwriteOutputs": true,
+      "AllowUnwrittenOutputFiles": true,
+      "DebugActionIndex": 4
+    },
+    {
+      "Annotation": "Csc artifacts/buildprogram/buildprogram_buildprogram.exe (+2 others)",
+      "Action": "\"artifacts/buildprogrambuildprogram/Stevedore/roslyn-csc-mac_a197/csc\" /nostdlib /noconfig /shared @\"artifacts/rsp/3205345334039319834.rsp\"",
+      "Inputs": [
+        "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.dots.runtime@0.32.0-preview.54/bee~/BuildProgramBuildProgramSources/BuildProgramBuildProgram.cs",
+        "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.dots.runtime@0.32.0-preview.54/bee~/bee.exe",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Accessibility.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/CustomMarshalers.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Microsoft.Build.Engine.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Microsoft.Build.Framework.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Microsoft.Build.Tasks.v4.0.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Microsoft.Build.Utilities.v4.0.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Microsoft.Build.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Microsoft.CSharp.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Microsoft.VisualBasic.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Microsoft.VisualC.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.ComponentModel.Composition.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.ComponentModel.DataAnnotations.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Configuration.Install.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Configuration.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Core.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Data.DataSetExtensions.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Data.Entity.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Data.Linq.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Data.OracleClient.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Data.Services.Client.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Data.Services.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Data.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Deployment.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Design.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Diagnostics.Tracing.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.DirectoryServices.Protocols.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.DirectoryServices.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Drawing.Design.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Drawing.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Dynamic.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.EnterpriseServices.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.IO.Compression.FileSystem.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.IO.Compression.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.IdentityModel.Selectors.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.IdentityModel.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Management.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Messaging.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Net.Http.WebRequest.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Net.Http.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Net.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Numerics.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Reflection.Context.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Runtime.Caching.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Runtime.DurableInstancing.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Runtime.Remoting.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Runtime.Serialization.Formatters.Soap.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Runtime.Serialization.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Security.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.ServiceModel.Activation.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.ServiceModel.Discovery.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.ServiceModel.Routing.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.ServiceModel.Web.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.ServiceModel.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.ServiceProcess.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Transactions.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Web.Abstractions.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Web.ApplicationServices.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Web.DynamicData.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Web.Extensions.Design.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Web.Extensions.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Web.Mobile.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Web.RegularExpressions.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Web.Routing.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Web.Services.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Web.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Windows.Forms.DataVisualization.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Windows.Forms.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Windows.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Workflow.Activities.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Workflow.ComponentModel.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Workflow.Runtime.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Xaml.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Xml.Linq.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Xml.Serialization.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.Xml.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/System.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/WindowsBase.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/mscorlib.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/Microsoft.Win32.Primitives.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/netstandard.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.AppContext.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Collections.Concurrent.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Collections.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Collections.NonGeneric.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Collections.Specialized.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.ComponentModel.Annotations.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.ComponentModel.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.ComponentModel.EventBasedAsync.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.ComponentModel.Primitives.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.ComponentModel.TypeConverter.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Console.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Data.Common.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Diagnostics.Contracts.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Diagnostics.Debug.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Diagnostics.FileVersionInfo.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Diagnostics.Process.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Diagnostics.StackTrace.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Diagnostics.TextWriterTraceListener.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Diagnostics.Tools.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Diagnostics.TraceSource.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Drawing.Primitives.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Dynamic.Runtime.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Globalization.Calendars.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Globalization.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Globalization.Extensions.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.IO.Compression.ZipFile.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.IO.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.IO.FileSystem.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.IO.FileSystem.DriveInfo.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.IO.FileSystem.Primitives.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.IO.FileSystem.Watcher.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.IO.IsolatedStorage.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.IO.MemoryMappedFiles.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.IO.Pipes.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.IO.UnmanagedMemoryStream.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Linq.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Linq.Expressions.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Linq.Parallel.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Linq.Queryable.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Net.Http.Rtc.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Net.NameResolution.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Net.NetworkInformation.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Net.Ping.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Net.Primitives.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Net.Requests.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Net.Security.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Net.Sockets.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Net.WebHeaderCollection.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Net.WebSockets.Client.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Net.WebSockets.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.ObjectModel.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Reflection.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Reflection.Emit.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Reflection.Emit.ILGeneration.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Reflection.Emit.Lightweight.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Reflection.Extensions.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Reflection.Primitives.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Resources.Reader.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Resources.ResourceManager.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Resources.Writer.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Runtime.CompilerServices.VisualC.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Runtime.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Runtime.Extensions.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Runtime.Handles.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Runtime.InteropServices.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Runtime.InteropServices.WindowsRuntime.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Runtime.Numerics.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Runtime.Serialization.Formatters.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Runtime.Serialization.Json.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Runtime.Serialization.Primitives.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Runtime.Serialization.Xml.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Security.Claims.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Security.Cryptography.Algorithms.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Security.Cryptography.Csp.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Security.Cryptography.Encoding.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Security.Cryptography.Primitives.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Security.Cryptography.X509Certificates.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Security.Principal.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Security.SecureString.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.ServiceModel.Duplex.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.ServiceModel.Http.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.ServiceModel.NetTcp.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.ServiceModel.Primitives.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.ServiceModel.Security.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Text.Encoding.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Text.Encoding.Extensions.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Text.RegularExpressions.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Threading.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Threading.Overlapped.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Threading.Tasks.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Threading.Tasks.Parallel.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Threading.Thread.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Threading.ThreadPool.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Threading.Timer.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.ValueTuple.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Xml.ReaderWriter.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Xml.XDocument.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Xml.XmlDocument.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Xml.XmlSerializer.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Xml.XPath.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/Facades/System.Xml.XPath.XDocument.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/roslyn-csc-mac_a197/csc",
+        "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.dots.runtime@0.32.0-preview.54/bee~/BuildProgramBuildProgramSources",
+        "artifacts/rsp/3205345334039319834.rsp"
+      ],
+      "Outputs": [
+        "artifacts/buildprogram/buildprogram_buildprogram.exe",
+        "artifacts/buildprogram/buildprogram_buildprogram.pdb",
+        "artifacts/buildprogram/buildprogram_buildprogram.ref.exe"
+      ],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "ToBuildDependencies": [
+        2,
+        3,
+        4,
+        6
+      ],
+      "ToUseDependencies": [
+        6
+      ],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [
+        "artifacts/rsp/3205345334039319834.rsp"
+      ],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "SharedResources": [],
+      "CachingMode": "ByLeafInputs",
+      "DebugActionIndex": 5
+    },
+    {
+      "Annotation": "CSProject buildprogram-build.gen.csproj",
+      "WriteTextFilePayload": "﻿<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Project ToolsVersion=\"14.0\" DefaultTargets=\"Build\" xmlns=\"http://schemas.microsoft.com/developer/msbuild/2003\">\n  <Import Project=\"$(MSBuildExtensionsPath)\\$(MSBuildToolsVersion)\\Microsoft.Common.props\" Condition=\"Exists('$(MSBuildExtensionsPath)\\$(MSBuildToolsVersion)\\Microsoft.Common.props')\" />\n  <PropertyGroup>\n    <Configuration Condition=\" '$(Configuration)' == '' \">Debug</Configuration>\n    <Platform Condition=\" '$(Platform)' == '' \">AnyCPU</Platform>\n    <ProjectGuid>{623D0F98-FC77-B9AB-94A4-67C8A03FB2D9}</ProjectGuid>\n    <OutputType>Exe</OutputType>\n    <RootNamespace>buildprogram_buildprogram</RootNamespace>\n    <AssemblyName>buildprogram_buildprogram</AssemblyName>\n    <FileAlignment>512</FileAlignment>\n    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>\n    <LangVersion>latest</LangVersion>\n  </PropertyGroup>\n  <ItemGroup>\n    <Compile Include=\"..\\PackageCache\\com.unity.dots.runtime@0.32.0-preview.54\\bee~\\BuildProgramBuildProgramSources\\BuildProgramBuildProgram.cs\">\n      <Link>BuildProgramBuildProgram.cs</Link>\n    </Compile>\n  </ItemGroup>\n  <PropertyGroup Condition=\" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' \">\n    <PlatformTarget>AnyCPU</PlatformTarget>\n    <DebugSymbols>true</DebugSymbols>\n    <DebugType>pdbonly</DebugType>\n    <Optimize>true</Optimize>\n    <OutputPath>artifacts\\buildprogram_buildprogram.exe\\Release</OutputPath>\n    <DefineConstants></DefineConstants>\n    <ErrorReport>prompt</ErrorReport>\n    <WarningLevel>4</WarningLevel>\n    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>\n    <NoWarn></NoWarn>\n    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>\n    <Prefer32Bit>false</Prefer32Bit>\n    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>\n  </PropertyGroup>\n  <ItemGroup Condition=\" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' \">\n    <Reference Include=\"Accessibility\" />\n    <Reference Include=\"CustomMarshalers\" />\n    <Reference Include=\"Microsoft.Build.Engine\" />\n    <Reference Include=\"Microsoft.Build.Framework\" />\n    <Reference Include=\"Microsoft.Build.Tasks.v4.0\" />\n    <Reference Include=\"Microsoft.Build.Utilities.v4.0\" />\n    <Reference Include=\"Microsoft.Build\" />\n    <Reference Include=\"Microsoft.CSharp\" />\n    <Reference Include=\"Microsoft.VisualBasic\" />\n    <Reference Include=\"Microsoft.VisualC\" />\n    <Reference Include=\"System.ComponentModel.Composition\" />\n    <Reference Include=\"System.ComponentModel.DataAnnotations\" />\n    <Reference Include=\"System.Configuration.Install\" />\n    <Reference Include=\"System.Configuration\" />\n    <Reference Include=\"System.Core\" />\n    <Reference Include=\"System.Data.DataSetExtensions\" />\n    <Reference Include=\"System.Data.Entity\" />\n    <Reference Include=\"System.Data.Linq\" />\n    <Reference Include=\"System.Data.OracleClient\" />\n    <Reference Include=\"System.Data.Services.Client\" />\n    <Reference Include=\"System.Data.Services\" />\n    <Reference Include=\"System.Data\" />\n    <Reference Include=\"System.Deployment\" />\n    <Reference Include=\"System.Design\" />\n    <Reference Include=\"System.Diagnostics.Tracing\" />\n    <Reference Include=\"System.DirectoryServices.Protocols\" />\n    <Reference Include=\"System.DirectoryServices\" />\n    <Reference Include=\"System.Drawing.Design\" />\n    <Reference Include=\"System.Drawing\" />\n    <Reference Include=\"System.Dynamic\" />\n    <Reference Include=\"System.EnterpriseServices\" />\n    <Reference Include=\"System.IO.Compression.FileSystem\" />\n    <Reference Include=\"System.IO.Compression\" />\n    <Reference Include=\"System.IdentityModel.Selectors\" />\n    <Reference Include=\"System.IdentityModel\" />\n    <Reference Include=\"System.Management\" />\n    <Reference Include=\"System.Messaging\" />\n    <Reference Include=\"System.Net.Http.WebRequest\" />\n    <Reference Include=\"System.Net.Http\" />\n    <Reference Include=\"System.Net\" />\n    <Reference Include=\"System.Numerics\" />\n    <Reference Include=\"System.Reflection.Context\" />\n    <Reference Include=\"System.Runtime.Caching\" />\n    <Reference Include=\"System.Runtime.DurableInstancing\" />\n    <Reference Include=\"System.Runtime.Remoting\" />\n    <Reference Include=\"System.Runtime.Serialization.Formatters.Soap\" />\n    <Reference Include=\"System.Runtime.Serialization\" />\n    <Reference Include=\"System.Security\" />\n    <Reference Include=\"System.ServiceModel.Activation\" />\n    <Reference Include=\"System.ServiceModel.Discovery\" />\n    <Reference Include=\"System.ServiceModel.Routing\" />\n    <Reference Include=\"System.ServiceModel.Web\" />\n    <Reference Include=\"System.ServiceModel\" />\n    <Reference Include=\"System.ServiceProcess\" />\n    <Reference Include=\"System.Transactions\" />\n    <Reference Include=\"System.Web.Abstractions\" />\n    <Reference Include=\"System.Web.ApplicationServices\" />\n    <Reference Include=\"System.Web.DynamicData\" />\n    <Reference Include=\"System.Web.Extensions.Design\" />\n    <Reference Include=\"System.Web.Extensions\" />\n    <Reference Include=\"System.Web.Mobile\" />\n    <Reference Include=\"System.Web.RegularExpressions\" />\n    <Reference Include=\"System.Web.Routing\" />\n    <Reference Include=\"System.Web.Services\" />\n    <Reference Include=\"System.Web\" />\n    <Reference Include=\"System.Windows.Forms.DataVisualization\" />\n    <Reference Include=\"System.Windows.Forms\" />\n    <Reference Include=\"System.Windows\" />\n    <Reference Include=\"System.Workflow.Activities\" />\n    <Reference Include=\"System.Workflow.ComponentModel\" />\n    <Reference Include=\"System.Workflow.Runtime\" />\n    <Reference Include=\"System.Xaml\" />\n    <Reference Include=\"System.Xml.Linq\" />\n    <Reference Include=\"System.Xml.Serialization\" />\n    <Reference Include=\"System.Xml\" />\n    <Reference Include=\"System\" />\n    <Reference Include=\"WindowsBase\" />\n    <Reference Include=\"mscorlib\" />\n    <Reference Include=\"bee\">\n      <HintPath>..\\PackageCache\\com.unity.dots.runtime@0.32.0-preview.54\\bee~\\bee.exe</HintPath>\n    </Reference>\n  </ItemGroup>\n  <Import Project=\"$(MSBuildToolsPath)\\Microsoft.CSharp.targets\" />\n  <Target Name=\"GenerateTargetFrameworkMonikerAttribute\" />\n</Project>",
+      "Inputs": [],
+      "Outputs": [
+        "buildprogram-build.gen.csproj"
+      ],
+      "PassIndex": 0,
+      "ToBuildDependencies": [],
+      "ToUseDependencies": [],
+      "OverwriteOutputs": true,
+      "AllowUnwrittenOutputFiles": true,
+      "DebugActionIndex": 6
+    }
+  ],
+  "FileSignatures": [
+    {
+      "File": "."
+    },
+    {
+      "File": "../../../../Library"
+    },
+    {
+      "File": "../../../../Library/Caches/Stevedore/artifacts/7za-mac-x64/95bf0d3a17b5_1887c56255e2db1134e118f27abe1ec62a2aca092ec9f72600c80659da17ca11.zip"
+    },
+    {
+      "File": "../../../../Library/Caches/Stevedore/artifacts/referenceassemblies_v471/1_a0c33a9a16a4ad77c158aac7cd7e47daed3e68b180c65e14474f44c9501c4fae.7z"
+    },
+    {
+      "File": "../../../../Library/Caches/Stevedore/artifacts/roslyn-csc-mac/20452b60c7c5_a197026285c13a2e24a42ce20a2ab8dbaf01e20ebc36076be1ef0f6fbce73566.7z"
+    },
+    {
+      "File": "../PackageCache/com.unity.dots.runtime@0.32.0-preview.54/bee~"
+    },
+    {
+      "File": "../PackageCache/com.unity.dots.runtime@0.32.0-preview.54/bee~/bee.exe"
+    },
+    {
+      "File": "../PackageCache/com.unity.dots.runtime@0.32.0-preview.54/bee~/BuildProgramBuildProgramSources"
+    },
+    {
+      "File": ".repoconfig"
+    },
+    {
+      "File": "<built-in>"
+    },
+    {
+      "File": "bee.config"
+    },
+    {
+      "File": "External/MonoBleedingEdge/builds/monodistribution/bin/cli"
+    }
+  ],
+  "GlobSignatures": [
+    {
+      "Path": "../PackageCache/com.unity.dots.runtime@0.32.0-preview.54/bee~",
+      "Filter": "*.dll"
+    },
+    {
+      "Path": "../PackageCache/com.unity.dots.runtime@0.32.0-preview.54/bee~/BuildProgramBuildProgramSources",
+      "Filter": "*.cs",
+      "Recurse": 1
+    },
+    {
+      "Path": "../PackageCache/com.unity.dots.runtime@0.32.0-preview.54/bee~",
+      "Filter": "Bee.*.dll"
+    },
+    {
+      "Path": "."
+    }
+  ],
+  "ContentDigestExtensions": [
+    ".rsp",
+    ".dll",
+    ".exe"
+  ],
+  "StructuredLogFileName": "artifacts/buildprogrambuildprogram/tundra.log.json",
+  "StateFileName": "artifacts/buildprogrambuildprogram/TundraBuildState.state",
+  "StateFileNameTmp": "artifacts/buildprogrambuildprogram/TundraBuildState.state.tmp",
+  "ScanCacheFileName": "artifacts/buildprogrambuildprogram/tundra.scancache",
+  "ScanCacheFileNameTmp": "artifacts/buildprogrambuildprogram/tundra.scancache.tmp",
+  "DigestCacheFileName": "artifacts/buildprogrambuildprogram/tundra.digestcache",
+  "DigestCacheFileNameTmp": "artifacts/buildprogrambuildprogram/tundra.digestcache.tmp",
+  "DirectoriesCausingImplicitDependencies": [
+    "artifacts/buildprogrambuildprogram/Stevedore/7za-mac-x64_1887",
+    "artifacts/buildprogrambuildprogram/Stevedore/7za-mac-x64_1887",
+    "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3",
+    "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3",
+    "artifacts/buildprogrambuildprogram/Stevedore/roslyn-csc-mac_a197",
+    "artifacts/buildprogrambuildprogram/Stevedore/roslyn-csc-mac_a197"
+  ],
+        "NamedNodes": {
+          "all_tundra_nodes": 0
+        }
+,  "DefaultNodes": [
+    0
+  ],
+  "SharedResources": [],
+  "Scanners": [],
+  "Identifier": "artifacts/buildprogram/buildprogram_buildprogram.dag.json",
+  "BuildTitle": "buildprogrambuildprogram",
+  "RelativePathToRoot": "../.."
+}

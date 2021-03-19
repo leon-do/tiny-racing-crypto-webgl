@@ -1,0 +1,5 @@
+commit 4282c7198aa98841a69494836ff5927fc08c7c07
+Author: Alexander Suvorov <alexsuvorov@unity3d.com>
+Date:   Mon Jul 20 18:50:37 2020 +0200
+
+    Honor EMSDK_PYTHON in .bat file launcher scripts

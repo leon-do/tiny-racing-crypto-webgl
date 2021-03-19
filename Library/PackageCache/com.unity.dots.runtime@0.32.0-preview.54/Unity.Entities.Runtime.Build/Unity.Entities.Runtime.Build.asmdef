@@ -1,0 +1,39 @@
+{
+    "name": "Unity.Entities.Runtime.Build",
+    "references": [
+        "Unity.Build",
+        "Unity.Build.DotsRuntime",
+        "Unity.Build.Editor",
+        "Unity.Build.Internals",
+        "Unity.Collections",
+        "Unity.Entities",
+        "Unity.Entities.Hybrid",
+        "Unity.Entities.Runtime",
+        "Unity.Mathematics",
+        "Unity.Properties",
+        "Unity.Properties.Editor",
+        "Unity.Properties.UI",
+        "Unity.Properties.UI.Editor",
+        "Unity.Scenes.Editor",
+        "Unity.Scenes",
+        "Unity.Serialization",
+        "Unity.Mathematics.Extensions"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.entities",
+            "expression": "(0.4.0-preview.10,)",
+            "define": "USE_INCREMENTAL_CONVERSION"
+        }
+    ],
+    "noEngineReferences": false
+}

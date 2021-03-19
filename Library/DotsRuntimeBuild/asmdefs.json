@@ -1,0 +1,1455 @@
+{
+    "asmdefs": [
+        {
+            "AsmdefName": "UnityEditor.UI",
+            "FullPath": "/Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/UnityEditor.UI.asmdef",
+            "PackageSource": "BuiltIn",
+            "Guid": "343deaaf83e0cee4ca978e7df0b80d21"
+        },
+        {
+            "AsmdefName": "UnityEngine.UI",
+            "FullPath": "/Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UnityEngine.UI.asmdef",
+            "PackageSource": "BuiltIn",
+            "Guid": "2bafac87e7f4b9b418d9448d219b01ab"
+        },
+        {
+            "AsmdefName": "UnityEditor.UI.EditorTests",
+            "FullPath": "/Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Tests/Editor/UnityEditor.UI.EditorTests.asmdef",
+            "PackageSource": "BuiltIn",
+            "Guid": "7c04f0dfa9243c04681a55d90d3ff3fc"
+        },
+        {
+            "AsmdefName": "UnityEngine.UI.Tests",
+            "FullPath": "/Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Tests/Runtime/UnityEngine.UI.Tests.asmdef",
+            "PackageSource": "BuiltIn",
+            "Guid": "e9745f6a32442194c8dc5a43e9ab86f9"
+        },
+        {
+            "AsmdefName": "TinyRacing.Authoring",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Assets/Scripts/TinyRacing.Authoring/TinyRacing.Authoring.asmdef",
+            "PackageSource": "NoPackage",
+            "Guid": "661f2652c8187464fa4e4cbbefba158c"
+        },
+        {
+            "AsmdefName": "TinyRacing",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Assets/Scripts/TinyRacing/TinyRacing.asmdef",
+            "PackageSource": "NoPackage",
+            "Guid": "b8054f08a81e46349ae9c9fe5bf3b267"
+        },
+        {
+            "AsmdefName": "Unity.2D.Entities.Physics.Editor.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.2d.entities.physics@0.2.0-preview.5/Tests/EditMode/Authoring.Editor.Tests/Unity.2D.Entities.Physics.Editor.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "93dd9f98b51c34ff09904589598102fa"
+        },
+        {
+            "AsmdefName": "Unity.2D.Entities.Physics.PlayMode.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.2d.entities.physics@0.2.0-preview.5/Tests/PlayMode/Unity.2D.Entities.Physics.PlayMode.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "1f8f7dc923f1b482998b7166a6aa2709"
+        },
+        {
+            "AsmdefName": "Unity.2D.Entities.Physics.Authoring",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.2d.entities.physics@0.2.0-preview.5/Unity.2D.Entities.Physics.Authoring/Unity.2D.Entities.Physics.Authoring.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "da05056e591f8e54d8da57cb99cb0e54"
+        },
+        {
+            "AsmdefName": "Unity.2D.Entities.Physics",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.2d.entities.physics@0.2.0-preview.5/Unity.2D.Entities.Physics/Unity.2D.Entities.Physics.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "65a5846eabcea9f43bb73ecb861182ac"
+        },
+        {
+            "AsmdefName": "Unity.Burst.Editor",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.burst@1.4.1/Editor/Unity.Burst.Editor.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "b75d3cd3037d383a8d1e2f9a26d73d8a"
+        },
+        {
+            "AsmdefName": "Unity.Burst",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.burst@1.4.1/Runtime/Unity.Burst.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "2665a8d13d1b3f18800f46e256720795"
+        },
+        {
+            "AsmdefName": "SeparateAssembly",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.burst@1.4.1/Tests/Editor/SeparateAssembly/SeparateAssembly.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "3ce0cf2654ad3464aa58eb2e27f77f0d"
+        },
+        {
+            "AsmdefName": "Unity.Burst.Editor.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.burst@1.4.1/Tests/Editor/Unity.Burst.Editor.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "15ce69d7d9d9370c9704e0797a0ab06b"
+        },
+        {
+            "AsmdefName": "Unity.Burst.Tests.UnitTests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.burst@1.4.1/Tests/Runtime/Unity.Burst.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "725d36de53dc30f9a00742ae18029bcc"
+        },
+        {
+            "AsmdefName": "Unity.CollabProxy.Editor",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.collab-proxy@1.3.9/Editor/Unity.CollabProxy.Editor.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "17b36165d09634a48bf5a0e4bb27f4bd"
+        },
+        {
+            "AsmdefName": "Unity.CollabProxy.EditorTests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.collab-proxy@1.3.9/Tests/Editor/Unity.CollabProxy.EditorTests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "88c7566234a7f32409f05c32e6ae7b3e"
+        },
+        {
+            "AsmdefName": "Unity.Collections.BurstCompatibilityGen",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.collections@0.15.0-preview.21/Unity.Collections.BurstCompatibilityGen/Unity.Collections.BurstCompatibilityGen.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "4f5c0c83dfd6a0743834baba2b4de79e"
+        },
+        {
+            "AsmdefName": "Unity.Collections.PerformanceTests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.collections@0.15.0-preview.21/Unity.Collections.PerformanceTests/Unity.Collections.PerformanceTests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "64222b0d0713a412f92762e2fccd795a"
+        },
+        {
+            "AsmdefName": "Unity.Collections.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.collections@0.15.0-preview.21/Unity.Collections.Tests/Unity.Collections.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "ebbea1c70c20149eea64c53647a70872"
+        },
+        {
+            "AsmdefName": "Unity.Collections",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.collections@0.15.0-preview.21/Unity.Collections/Unity.Collections.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "e0cd26848372d4e5c891c569017e11f1"
+        },
+        {
+            "AsmdefName": "Unity.InternalAPIEditorBridge.008",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.dots.runtime@0.32.0-preview.54/Bridges/Unity.InternalAPIEditorBridge.008/Unity.InternalAPIEditorBridge.008.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "8571f98c949c7b4449dd112d59b8ef75"
+        },
+        {
+            "AsmdefName": "Unity.InternalAPIEngineBridge.008",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.dots.runtime@0.32.0-preview.54/Bridges/Unity.InternalAPIEngineBridge.008/Unity.InternalAPIEngineBridge.008.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "86d26e4036d684040af1baebc39aa0f6"
+        },
+        {
+            "AsmdefName": "Unity.Dots.Runtime.Editor.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.dots.runtime@0.32.0-preview.54/Tests/Editor/Unity.Dots.Runtime.Editor.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "0621f5218f5d91a4987e3c675e5ca424"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.IO.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.dots.runtime@0.32.0-preview.54/Tests/Runtime/Unity.Tiny.IO.Tests/Unity.Tiny.IO.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "db08cd1a36327834586ff560c30a9ce7"
+        },
+        {
+            "AsmdefName": "Unity.ZeroJobs.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.dots.runtime@0.32.0-preview.54/Tests/Runtime/Unity.ZeroJobs.Tests/Unity.ZeroJobs.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "a8c7c667518894740b385279ea06bbc2"
+        },
+        {
+            "AsmdefName": "TinyTestFramework",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.dots.runtime@0.32.0-preview.54/TinyTestFramework/TinyTestFramework.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "7f0929558dab08d419c745dfcd3b41c3"
+        },
+        {
+            "AsmdefName": "Unity.Entities.Runtime.Authoring",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.dots.runtime@0.32.0-preview.54/Unity.Entities.Runtime.Authoring/Unity.Entities.Runtime.Authoring.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "8952d7a2f0e39294aac3528adc2ff55e"
+        },
+        {
+            "AsmdefName": "Unity.Entities.Runtime.Build.Editor",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.dots.runtime@0.32.0-preview.54/Unity.Entities.Runtime.Build.Editor/Unity.Entities.Runtime.Build.Editor.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "3abf9d4d8566535439bae4fc1c7e1d0a"
+        },
+        {
+            "AsmdefName": "Unity.Entities.Runtime.Build",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.dots.runtime@0.32.0-preview.54/Unity.Entities.Runtime.Build/Unity.Entities.Runtime.Build.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "08f7b883674eb734a92d4296b84278a4"
+        },
+        {
+            "AsmdefName": "Unity.Entities.Runtime",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.dots.runtime@0.32.0-preview.54/Unity.Entities.Runtime/Unity.Entities.Runtime.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "0f6614c3cb330ff468a1f1b1658d8d30"
+        },
+        {
+            "AsmdefName": "Unity.FullDotNet",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.dots.runtime@0.32.0-preview.54/Unity.FullDotNet/Unity.FullDotNet.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "a2669ed9ceb614333ab9d50713e234e0"
+        },
+        {
+            "AsmdefName": "Unity.Runtime.EntryPoint",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.dots.runtime@0.32.0-preview.54/Unity.Runtime.EntryPoint/Unity.Runtime.EntryPoint.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "fa3568da866bfac4f8c875e097121f2e"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.IO",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.dots.runtime@0.32.0-preview.54/Unity.Tiny.IO/Unity.Tiny.IO.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "8c771b955e1a3994cb6b65c992327e6f"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.Thread.Native",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.dots.runtime@0.32.0-preview.54/Unity.Tiny.Thread.Native/Unity.Tiny.Thread.Native.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "d46f3bb40712a514e85c818715601289"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.UnityInstance",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.dots.runtime@0.32.0-preview.54/Unity.Tiny.UnityInstance/Unity.Tiny.UnityInstance.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "648482619c4393b42bf27e0bf7497c62"
+        },
+        {
+            "AsmdefName": "DocCodeSamples",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.entities@0.17.0-preview.41/DocCodeSamples.Tests/DocCodeSamples.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "b8bd0640a304b40c29d635a23f8f4b5e"
+        },
+        {
+            "AsmdefName": "Unity.Burst.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Burst.Tests/Unity.Burst.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "7b78590e8aa944971a230c4bf6c7ccb2"
+        },
+        {
+            "AsmdefName": "Unity.Core.Editor",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Core.Editor/Unity.Core.Editor.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "c789cb8ae7a594a46974120ba85fcf1b"
+        },
+        {
+            "AsmdefName": "Unity.Deformations",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Deformations/Unity.Deformations.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "442911fa060b2d148b430623121a113c"
+        },
+        {
+            "AsmdefName": "Unity.Entities.BuildUtils",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.BuildUtils/Unity.Entities.BuildUtils.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "e31c28f855847544bb5a2b10844a00b0"
+        },
+        {
+            "AsmdefName": "Unity.Entities.CodeGen.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.CodeGen.Tests/Unity.Entities.CodeGen.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "4fd5a72e5d614014db4a5bc43956b6a2"
+        },
+        {
+            "AsmdefName": "Unity.Entities.CodeGen.Tests.TestTypes",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.CodeGen.Tests/Unity.Entities.CodeGen.Tests.TestTypes/Unity.Entities.CodeGen.Tests.TestTypes.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "6843ec46d9cab4a14b3dc136b03a3c74"
+        },
+        {
+            "AsmdefName": "Unity.Entities.CodeGen",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.CodeGen/Unity.Entities.CodeGen.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "3d9288551f5f1b14b9fcbd11fd97a391"
+        },
+        {
+            "AsmdefName": "Unity.Entities.Editor.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Editor.Tests/Unity.Entities.Editor.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "8fe01134beaec4b108c4c1a154e71dc2"
+        },
+        {
+            "AsmdefName": "Unity.Entities.Editor",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Editor/Unity.Entities.Editor.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "c38fb62397af04c51b143415e1db6d90"
+        },
+        {
+            "AsmdefName": "Unity.Entities.Hybrid.CodeGen.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid.CodeGen.Tests/Unity.Entities.Hybrid.CodeGen.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "78b2c4f54668be948bb597af92864540"
+        },
+        {
+            "AsmdefName": "Unity.Entities.Hybrid.CodeGen",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid.CodeGen/Unity.Entities.Hybrid.CodeGen.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "b57ce993185199c48b21eb57cbaa047e"
+        },
+        {
+            "AsmdefName": "Unity.Entities.Hybrid.EndToEnd.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid.EndToEnd.Tests/Unity.Entities.Hybrid.EndToEnd.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "36e5f33a4fc113a46aa097b1f6c10b5a"
+        },
+        {
+            "AsmdefName": "Unity.Entities.Hybrid.PerformanceTests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid.PerformanceTests/Unity.Entities.Hybrid.PerformanceTests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "1b4a711f52262b745b1efc2def2997dd"
+        },
+        {
+            "AsmdefName": "Unity.Entities.Hybrid.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid.Tests/Unity.Entities.Hybrid.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "bd9484a338da1458bb1d27afe56e6f90"
+        },
+        {
+            "AsmdefName": "Unity.Entities.Hybrid",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/Unity.Entities.Hybrid.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "8819f35a0fc84499b990e90a4ca1911f"
+        },
+        {
+            "AsmdefName": "Unity.Entities.PerformanceTests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.PerformanceTests/Unity.Entities.PerformanceTests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "51dc02c04d39a9b46ab6005ac84f4a4d"
+        },
+        {
+            "AsmdefName": "Unity.Entities.TestComponents",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.TestComponents/Unity.TestComponents.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "9e1bffeba10bc496884a3f718c95ffd7"
+        },
+        {
+            "AsmdefName": "Unity.Entities.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Tests/Unity.Entities.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "8e2f79f713f5a47dcb69903037d4bc0e"
+        },
+        {
+            "AsmdefName": "Unity.Entities",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/Unity.Entities.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "734d92eba21c94caba915361bd5ac177"
+        },
+        {
+            "AsmdefName": "Unity.Mathematics.Extensions.Hybrid",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Mathematics.Extensions.Hybrid/Unity.Mathematics.Extensions.Hybrid.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "64dd21a71f05646a89405b0ade11289b"
+        },
+        {
+            "AsmdefName": "Unity.Mathematics.Extensions",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Mathematics.Extensions/Unity.Mathematics.Extensions.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "e04e6c86a9f3947eb95fded39f9e60cc"
+        },
+        {
+            "AsmdefName": "Unity.Scenes.Editor.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor.Tests/Unity.Scenes.Editor.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "9e81cfb9cf9924348981d668b1329087"
+        },
+        {
+            "AsmdefName": "Unity.Scenes.Editor",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Editor/Unity.Scenes.Editor.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "61431be5104c24137b41fcf2264ef434"
+        },
+        {
+            "AsmdefName": "Unity.Scenes.Hybrid.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Hybrid.Tests/Editmode/Unity.Scenes.Hybrid.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "7b74512478bbe4299b637646187de3f0"
+        },
+        {
+            "AsmdefName": "Unity.Scenes.Hybrid.Tests.Playmode",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Hybrid.Tests/Playmode/Unity.Scenes.Hybrid.Tests.Playmode.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "62a02badfc2c3ab56bfd1dff0228458c"
+        },
+        {
+            "AsmdefName": "Unity.Scenes.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes.Tests/Unity.Scenes.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "720091d644ab2934188e406a40916015"
+        },
+        {
+            "AsmdefName": "Unity.Scenes",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Scenes/Unity.Scenes.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "5f3cf485eb0554709a8abbeace890c86"
+        },
+        {
+            "AsmdefName": "Unity.Transforms.Hybrid.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Transforms.Hybrid.Tests/Unity.Entities.Hybrid.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "4ae057a2f9b0e774e996f4b10bb2b4de"
+        },
+        {
+            "AsmdefName": "Unity.Transforms.Hybrid",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Transforms.Hybrid/Unity.Transforms.Hybrid.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "44dcb2bf5b9be4b5aa76674c8edcd1d5"
+        },
+        {
+            "AsmdefName": "Unity.Transforms.PerformanceTests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Transforms.PerformanceTests/Unity.Transforms.PerformanceTests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "c1825663e7e094b6ca750434732f57c0"
+        },
+        {
+            "AsmdefName": "Unity.Transforms.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Transforms.Tests/Unity.Transforms.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "c1baa1484221840fa99c34120fb36ae0"
+        },
+        {
+            "AsmdefName": "Unity.Transforms",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Transforms/Unity.Transforms.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "a5baed0c9693541a5bd947d336ec7659"
+        },
+        {
+            "AsmdefName": "Unity.Rider.Editor",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.ide.rider@2.0.5/Rider/Editor/com.unity.ide.rider.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "d528c8c98d269ca44a06cd9624a03945"
+        },
+        {
+            "AsmdefName": "Unity.VisualStudio.Editor",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.ide.visualstudio@2.0.5/Editor/com.unity.ide.visualstudio.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "b93f844d45cfcc44fa2b0eed5c9ec6bb"
+        },
+        {
+            "AsmdefName": "Unity.VSCode.Editor",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.ide.vscode@1.2.3/Editor/Unity.com.unity.vscode.Editor.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "8b845b123ab418448a8be2935fa804e0"
+        },
+        {
+            "AsmdefName": "Unity.Jobs.Editor",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.jobs@0.8.0-preview.23/Editor/Unity.Jobs.Editor.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "261882d2e8b4744e6bb349bdc6a75dc1"
+        },
+        {
+            "AsmdefName": "Unity.Jobs.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.jobs@0.8.0-preview.23/Unity.Jobs.Tests/Unity.Jobs.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "2a290626669fc45c1b8bc86933976e70"
+        },
+        {
+            "AsmdefName": "Unity.Jobs",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.jobs@0.8.0-preview.23/Unity.Jobs/Unity.Jobs.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "8a2eafa29b15f444eb6d74f94a930e1d"
+        },
+        {
+            "AsmdefName": "Unity.Mathematics.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.mathematics@1.2.1/Tests/Unity.Mathematics.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "904d80dccad704a3f95e42bd0ad5d960"
+        },
+        {
+            "AsmdefName": "Unity.Mathematics.Editor",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.mathematics@1.2.1/Unity.Mathematics.Editor/Unity.Mathematics.Editor.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "329b4ccd385744985bf3f83cfd77dfe7"
+        },
+        {
+            "AsmdefName": "Unity.Mathematics",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.mathematics@1.2.1/Unity.Mathematics/Unity.Mathematics.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "d8b63aba1907145bea998dd612889d6b"
+        },
+        {
+            "AsmdefName": "Unity.Nuget.Mono-Cecil",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.nuget.mono-cecil@0.1.6-preview.2/Tests/Editor/Unity.Nuget.Mono-Cecil.EditorTests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "3f8ea2773d421436e894daa5759b818c"
+        },
+        {
+            "AsmdefName": "Unity.Nuget.NewtonsoftJson.EditorTests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0-preview/Tests/Editor/Unity.Nuget.NewtonsoftJson.EditorTests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "ea73f805f48068f409cafb2b12726b78"
+        },
+        {
+            "AsmdefName": "Unity.Physics.EditModeTests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.physics@0.6.0-preview.3/Tests/EditModeTests/Unity.Physics.EditModeTests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "be6a71f25de594eeaa9961cb67e64fa1"
+        },
+        {
+            "AsmdefName": "Unity.Physics.PlayModeTests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.physics@0.6.0-preview.3/Tests/PlayModeTests/Unity.Physics.PlayModeTests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "39ef29dfff7f0f4448aed3dda2a3f978"
+        },
+        {
+            "AsmdefName": "Unity.Physics.Editor",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.physics@0.6.0-preview.3/Unity.Physics.Editor/Unity.Physics.Editor.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "3438610b0a83016488db5062ec247a8d"
+        },
+        {
+            "AsmdefName": "Unity.Physics.Hybrid",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.physics@0.6.0-preview.3/Unity.Physics.Hybrid/Unity.Physics.Hybrid.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "e00140a815de944528348782854abe39"
+        },
+        {
+            "AsmdefName": "Unity.Physics",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.physics@0.6.0-preview.3/Unity.Physics/Unity.Physics.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "63afb046c8423dd448ae7aba042ea63d"
+        },
+        {
+            "AsmdefName": "Unity.Build.Android.Classic",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms.android@0.10.0-preview.10/Editor/Unity.Build.Android.Classic/Unity.Build.Android.Classic.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "de289dfdfb0160f40bb75ae006612545"
+        },
+        {
+            "AsmdefName": "Unity.Build.Android.DotsRuntime",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms.android@0.10.0-preview.10/Editor/Unity.Build.Android.DotsRuntime/Unity.Build.Android.DotsRuntime.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "1f86025cc12c1bb469c83a8763f30356"
+        },
+        {
+            "AsmdefName": "Unity.Build.Android",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms.android@0.10.0-preview.10/Editor/Unity.Build.Android/Unity.Build.Android.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "a6129098fd8f12441a3ca79c21067351"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.Android",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms.android@0.10.0-preview.10/Runtime/Unity.Tiny.Android/Unity.Tiny.Android.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "c6fe039e1eef55746b37cb9b73e541f3"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.InputAndroid",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms.android@0.10.0-preview.10/Runtime/Unity.Tiny.InputAndroid/Unity.Tiny.InputAndroid.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "97c8041bd4744df4da04c4bd0b6c4abe"
+        },
+        {
+            "AsmdefName": "Unity.Build.Android.DotsRuntime.EditorTests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms.android@0.10.0-preview.10/Tests/Editor/Unity.Build.Android.DotsRuntime.EditorTests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "fab821c721953a5498809e1f2a97e8df"
+        },
+        {
+            "AsmdefName": "Unity.Build.Desktop.DotsRuntime",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms.desktop@0.10.0-preview.10/Editor/Unity.Build.Desktop.DotsRuntime/Unity.Build.Desktop.DotsRuntime.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "f4856509dcd176290aaad14a91c669bd"
+        },
+        {
+            "AsmdefName": "Unity.Build.Desktop.DotsRuntime.EditorTests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms.desktop@0.10.0-preview.10/Tests/Editor/Unity.Build.Desktop.DotsRuntime.EditorTests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "327a442f78b94d84190977f468be311c"
+        },
+        {
+            "AsmdefName": "Unity.Platforms.iOS.Build",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms.ios@0.10.0-preview.10/Editor/Unity.Build.iOS.Classic/Unity.Build.iOS.Classic.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "d91544a49cf11432daf4631d905b6c44"
+        },
+        {
+            "AsmdefName": "Unity.Build.iOS.DotsRuntime",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms.ios@0.10.0-preview.10/Editor/Unity.Build.iOS.DotsRuntime/Unity.Build.iOS.DotsRuntime.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "4d16a1a7aaf0f0348a487ee852f2a5de"
+        },
+        {
+            "AsmdefName": "Unity.Build.iOS",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms.ios@0.10.0-preview.10/Editor/Unity.Build.iOS/Unity.Build.iOS.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "0689354fe580c4950b0c3b71e4f45284"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.InputiOS",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms.ios@0.10.0-preview.10/Runtime/Unity.Tiny.Input.iOS/Unity.Tiny.iOSInput.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "0d449730e334bcf4d8b0006a20a0631c"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.iOS",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms.ios@0.10.0-preview.10/Runtime/Unity.Tiny.IOS/Unity.Tiny.IOS.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "deeae6f099a5b4685a6b38aca096c624"
+        },
+        {
+            "AsmdefName": "Unity.Build.iOS.DotsRuntime.EditorTests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms.ios@0.10.0-preview.10/Tests/Editor/Unity.Build.iOS.DotsRuntime.EditorTests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "ff06d273a67766f498145f934a2fcd0f"
+        },
+        {
+            "AsmdefName": "Unity.Build.Linux.Classic",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms.linux@0.10.0-preview.10/Editor/Unity.Build.Linux.Classic/Unity.Build.Linux.Classic.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "30a6370584569e969948879201413602"
+        },
+        {
+            "AsmdefName": "Unity.Build.Linux.DotsRuntime",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms.linux@0.10.0-preview.10/Editor/Unity.Build.Linux.DotsRuntime/Unity.Build.Linux.DotsRuntime.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "f714e7fb3f39b664b869d38f4b421b8c"
+        },
+        {
+            "AsmdefName": "Unity.Build.Linux.Classic.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms.linux@0.10.0-preview.10/Tests/Editor/Unity.Build.Linux.Classic.Tests/Unity.Build.Linux.Classic.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "e9dc52912100feef9925ee46135a60bd"
+        },
+        {
+            "AsmdefName": "Unity.Build.Linux.DotsRuntime.EditorTests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms.linux@0.10.0-preview.10/Tests/Editor/Unity.Build.Linux.DotsRuntime.EditorTests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "aeb2e6d415796b44fa3d2637cd89f516"
+        },
+        {
+            "AsmdefName": "Unity.Build.macOS.Classic",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms.macos@0.10.0-preview.10/Editor/Unity.Build.macOS.Classic/Unity.Build.macOS.Classic.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "f57a66e394c984740bdce7de5150fbce"
+        },
+        {
+            "AsmdefName": "Unity.Build.macOS.DotsRuntime",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms.macos@0.10.0-preview.10/Editor/Unity.Build.macOS.DotsRuntime/Unity.Build.macOS.DotsRuntime.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "925cbf206c9554544b19e05667e6ea73"
+        },
+        {
+            "AsmdefName": "Unity.Build.macOS.Classic.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms.macos@0.10.0-preview.10/Tests/Editor/Unity.Build.macOS.Classic.Tests/Unity.Build.macOS.Classic.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "c7198e6ffe1d7254bbadd26b5b441140"
+        },
+        {
+            "AsmdefName": "Unity.Build.macOS.DotsRuntime.EditorTests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms.macos@0.10.0-preview.10/Tests/Editor/Unity.Build.macOS.DotsRuntime.EditorTests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "ab35eb54aed60ff4fb9e8638fa15fae6"
+        },
+        {
+            "AsmdefName": "Unity.Build.macOS.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms.macos@0.10.0-preview.10/Tests/Editor/Unity.Build.macOS.Tests/Unity.Build.macOS.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "4b4c8e2ceee4fe64b93bad35bd964359"
+        },
+        {
+            "AsmdefName": "Unity.Build.Web.DotsRuntime",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms.web@0.10.0-preview.10/Editor/Unity.Build.Web.DotsRuntime/Unity.Build.Web.DotsRuntime.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "4dfc8f6d708ba05499ce9e7fb445c716"
+        },
+        {
+            "AsmdefName": "Unity.Build.Web.DotsRuntime.EditorTests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms.web@0.10.0-preview.10/Tests/Editor/Unity.Build.Web.DotsRuntime.EditorTests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "b9463fb0c331ae24f99d5c3ff3322f1e"
+        },
+        {
+            "AsmdefName": "Unity.Build.Windows.Classic",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms.windows@0.10.0-preview.10/Editor/Unity.Build.Windows.Classic/Unity.Build.Windows.Classic.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "c52d522f395b8184b8e99eb71284b7b4"
+        },
+        {
+            "AsmdefName": "Unity.Build.Windows.DotsRuntime",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms.windows@0.10.0-preview.10/Editor/Unity.Build.Windows.DotsRuntime/Unity.Build.Windows.DotsRuntime.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "7a5bffc3e76fce24b94035ea3ba6af5c"
+        },
+        {
+            "AsmdefName": "Unity.Build.Windows.Classic.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms.windows@0.10.0-preview.10/Tests/Editor/Unity.Build.Windows.Classic.Tests/Unity.Build.Windows.Classic.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "2a393b9ded60f094aa55eabe5d9eef96"
+        },
+        {
+            "AsmdefName": "Unity.Build.Windows.DotsRuntime.EditorTests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms.windows@0.10.0-preview.10/Tests/Editor/Unity.Build.Windows.DotsRuntime.EditorTests/Unity.Build.Windows.DotsRuntime.EditorTests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "b792dec902ac98740b0e6c9c78294960"
+        },
+        {
+            "AsmdefName": "Unity.Build.Windows.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms.windows@0.10.0-preview.10/Tests/Editor/Unity.Build.Windows.Tests/Unity.Build.Windows.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "2a6ddef5f9193474e88311e7bb4f6424"
+        },
+        {
+            "AsmdefName": "Unity.Build.Classic.Private",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms@0.10.0-preview.10/Editor/Unity.Build.Classic.Private/Unity.Build.Classic.Private.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "5e6f91e19839e174182a3ede8bfe7867"
+        },
+        {
+            "AsmdefName": "Unity.Build.Classic",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms@0.10.0-preview.10/Editor/Unity.Build.Classic/Unity.Build.Classic.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "3348cdac4e8a3c94baf775a68592a2a0"
+        },
+        {
+            "AsmdefName": "Unity.Build.DotsRuntime",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms@0.10.0-preview.10/Editor/Unity.Build.DotsRuntime/Unity.Build.DotsRuntime.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "50bd1c5d858bee44389fcf0e3faf0e0e"
+        },
+        {
+            "AsmdefName": "Unity.Build.Editor",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms@0.10.0-preview.10/Editor/Unity.Build.Editor/Unity.Build.Editor.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "a44a7370301492144982f7bc0320dc70"
+        },
+        {
+            "AsmdefName": "Unity.Build.Internals",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms@0.10.0-preview.10/Editor/Unity.Build.Internals/Unity.Build.Internals.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "8c26f2a40fc392749a1ff91bda46a0f4"
+        },
+        {
+            "AsmdefName": "Unity.Build",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms@0.10.0-preview.10/Editor/Unity.Build/Unity.Build.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "363a3288c06c1c14cbbeedbda31215f9"
+        },
+        {
+            "AsmdefName": "Unity.InternalAPIEditorBridge.012",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms@0.10.0-preview.10/Editor/Unity.InternalAPIEditorBridge.012/Unity.InternalAPIEditorBridge.012.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "6bc7b335ff150dd4689e59fa1d66d0be"
+        },
+        {
+            "AsmdefName": "Unity.InternalAPIEngineBridge.012",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms@0.10.0-preview.10/Runtime/Unity.InternalAPIEngineBridge.012/Unity.InternalAPIEngineBridge.012.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "660fbe40468607c4b8306808569d4566"
+        },
+        {
+            "AsmdefName": "Unity.Platforms.Common",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms@0.10.0-preview.10/Runtime/Unity.Platforms.Common/Unity.Platforms.Common.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "01b2a97cd6b35734885f4dad8e36f385"
+        },
+        {
+            "AsmdefName": "Unity.Platforms.RunLoop",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms@0.10.0-preview.10/Runtime/Unity.Platforms.RunLoop/Unity.Platforms.RunLoop.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "7ef74583513640d48ba3da5e852f547b"
+        },
+        {
+            "AsmdefName": "Unity.Build.Classic.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms@0.10.0-preview.10/Tests/Editor/Unity.Build.Classic.Tests/Unity.Build.Classic.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "d1801cc039171bc4a85140e4e101bf70"
+        },
+        {
+            "AsmdefName": "Unity.Build.DotsRuntime.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms@0.10.0-preview.10/Tests/Editor/Unity.Build.DotsRuntime.Tests/Unity.Build.DotsRuntime.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "ffe2e692485341241b371465ca197e6b"
+        },
+        {
+            "AsmdefName": "Unity.Build.PerformanceTests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms@0.10.0-preview.10/Tests/Editor/Unity.Build.PerformanceTests/Unity.Build.PerformanceTests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "62182e2006b7da247964aef582971f00"
+        },
+        {
+            "AsmdefName": "Unity.Build.Playmode.TestRunner",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms@0.10.0-preview.10/Tests/Editor/Unity.Build.Playmode.TestRunner/Unity.Build.Playmode.TestRunner.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "9ee8605147b1a2b4fbaabb1060990392"
+        },
+        {
+            "AsmdefName": "Unity.Build.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms@0.10.0-preview.10/Tests/Editor/Unity.Build.Tests/Unity.Build.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "3b87a8f5b6ab3644ebc843da944fbde7"
+        },
+        {
+            "AsmdefName": "Unity.Properties.UI.Editor",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.properties.ui@1.6.2-preview.1/Editor/Unity.Properties.UI.Editor.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "416d137b1126dbf408443d029c73482a"
+        },
+        {
+            "AsmdefName": "Unity.Properties.UI",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.properties.ui@1.6.2-preview.1/Runtime/Unity.Properties.UI.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "e78ca1c4f9cf59b4c988dfe82dea3e7f"
+        },
+        {
+            "AsmdefName": "Unity.Properties.UI.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.properties.ui@1.6.2-preview.1/Tests/Unity.Properties.UI.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "53eed84ba0f242b18d7bfaa1a2a2db1f"
+        },
+        {
+            "AsmdefName": "Unity.Properties.CodeGen",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.properties@1.6.0-preview/Editor/Unity.Properties.CodeGen/Unity.Properties.CodeGen.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "2ed75d03baf54dd5b303d4e14a29bdf5"
+        },
+        {
+            "AsmdefName": "Unity.Properties.Editor",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.properties@1.6.0-preview/Editor/Unity.Properties.Editor/Unity.Properties.Editor.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "ce7eee763f6e12b47a5ca268e565edb8"
+        },
+        {
+            "AsmdefName": "Unity.Properties.Reflection",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.properties@1.6.0-preview/Runtime/Unity.Properties.Reflection/Unity.Properties.Reflection.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "1772c749bf871a841b5f22464e680751"
+        },
+        {
+            "AsmdefName": "Unity.Properties",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.properties@1.6.0-preview/Runtime/Unity.Properties/Unity.Properties.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "807be9350277eff4182cd3600de41d3a"
+        },
+        {
+            "AsmdefName": "Unity.Properties.CodeGen.IntegrationTests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.properties@1.6.0-preview/Tests/Unity.Properties.CodeGen.IntegrationTests/Unity.Properties.CodeGen.IntegrationTests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "2a4f183e1bc5f954b81cebbb7f45dc29"
+        },
+        {
+            "AsmdefName": "Unity.Properties.CodeGen.PerformanceTests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.properties@1.6.0-preview/Tests/Unity.Properties.CodeGen.PerformanceTests/Unity.Properties.CodeGen.PerformanceTests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "1fae1d91bcd59cc4cb504e9e5fcc88f0"
+        },
+        {
+            "AsmdefName": "Unity.Properties.CodeGen.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.properties@1.6.0-preview/Tests/Unity.Properties.CodeGen.Tests/Unity.Properties.CodeGen.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "1e49e88450f625142b39ae326ab4ecab"
+        },
+        {
+            "AsmdefName": "Unity.Properties.CodeGen.Tests.Types",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.properties@1.6.0-preview/Tests/Unity.Properties.CodeGen.Tests/Unity.Properties.CodeGen.Tests.Types/Unity.Properties.CodeGen.Tests.Types.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "b5cc8da82ca840bf95e8b37c963b520a"
+        },
+        {
+            "AsmdefName": "Unity.Properties.Editor.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.properties@1.6.0-preview/Tests/Unity.Properties.Editor.Tests/Unity.Properties.Editor.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "dbe65d8025055834390d354f2021ae60"
+        },
+        {
+            "AsmdefName": "Unity.Properties.Reflection.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.properties@1.6.0-preview/Tests/Unity.Properties.Reflection.Tests/Unity.Properties.Reflection.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "f2af08a2015740f469b042dd15fe75db"
+        },
+        {
+            "AsmdefName": "Unity.Properties.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.properties@1.6.0-preview/Tests/Unity.Properties.Tests/Unity.Properties.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "c7efc4eb88fe48945a94e5051f063f8c"
+        },
+        {
+            "AsmdefName": "Unity.RenderPipelines.Core.Editor",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.render-pipelines.core@8.3.1/Editor/Unity.RenderPipelines.Core.Editor.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "3eae0364be2026648bf74846acb8a731"
+        },
+        {
+            "AsmdefName": "Unity.RenderPipelines.Core.Runtime",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.render-pipelines.core@8.3.1/Runtime/Unity.RenderPipelines.Core.Runtime.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "df380645f10b7bc4b97d4f5eb6303d95"
+        },
+        {
+            "AsmdefName": "Unity.RenderPipelines.Core.ShaderLibrary",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.render-pipelines.core@8.3.1/ShaderLibrary/Unity.RenderPipelines.Core.ShaderLibrary.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "46a67ded66a63de48b9329c593fc08de"
+        },
+        {
+            "AsmdefName": "Unity.RenderPipelines.Core.Editor.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.render-pipelines.core@8.3.1/Tests/Editor/Unity.RenderPipelines.Core.Editor.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "6e5480588ffa37d4f82fe96c45e8ce9c"
+        },
+        {
+            "AsmdefName": "Unity.RenderPipelines.Core.Runtime.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.render-pipelines.core@8.3.1/Tests/Runtime/Unity.RenderPipelines.Core.Runtime.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "bf043f86dbf1bda4398ec83eebe40b8c"
+        },
+        {
+            "AsmdefName": "Unity.RenderPipelines.Universal.Editor",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.render-pipelines.universal@8.3.1/Editor/Unity.RenderPipelines.Universal.Editor.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "c579267770062bf448e75eb160330b7f"
+        },
+        {
+            "AsmdefName": "Unity.RenderPipelines.Universal.Runtime",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.render-pipelines.universal@8.3.1/Runtime/Unity.RenderPipelines.Universal.Runtime.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "15fc0a57446b3144c949da3e2b9737a9"
+        },
+        {
+            "AsmdefName": "Unity.RenderPipeline.Universal.ShaderLibrary",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.render-pipelines.universal@8.3.1/ShaderLibrary/Unity.RenderPipelines.Universal.ShaderLibrary.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "ab67fb10353d84448ac887a7367cbda8"
+        },
+        {
+            "AsmdefName": "Unity.RenderPipelines.Universal.Shaders",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.render-pipelines.universal@8.3.1/Shaders/Unity.RenderPipelines.Universal.Shaders.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "b4517ec124862cb4bb3b8b27d72843a6"
+        },
+        {
+            "AsmdefName": "Unity.RenderPipelines.Universal.Editor.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.render-pipelines.universal@8.3.1/Tests/Editor/Unity.RenderPipelines.Universal.Editor.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "36d514892e55d4340b470c29fcab8b44"
+        },
+        {
+            "AsmdefName": "Unity.RenderPipelines.Universal.Runtime.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.render-pipelines.universal@8.3.1/Tests/Runtime/Unity.RenderPipelines.Universal.Runtime.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "bc3b0daec27db604caf7fec37e54bf6d"
+        },
+        {
+            "AsmdefName": "Unity.Rendering.Hybrid.Editor",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.rendering.hybrid@0.11.0-preview.42/Editor/Unity.Rendering.Hybrid.Editor.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "ecaf56f8789abe34ea6993fba292940f"
+        },
+        {
+            "AsmdefName": "Unity.Rendering.Hybrid.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.rendering.hybrid@0.11.0-preview.42/Unity.Rendering.Hybrid.Tests/Unity.Rendering.Hybrid.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "ac35034034affa945a0672efca427990"
+        },
+        {
+            "AsmdefName": "Unity.Rendering.Hybrid",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.rendering.hybrid@0.11.0-preview.42/Unity.Rendering.Hybrid/Unity.Rendering.Hybrid.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "7a450cf7ca9694b5a8bfa3fd83ec635a"
+        },
+        {
+            "AsmdefName": "UnityEditor.CacheServer",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.scriptablebuildpipeline@1.9.0/Editor/CacheServer/UnityEditor.CacheServer.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "27fb11404301449859aa664f4cb020e0"
+        },
+        {
+            "AsmdefName": "Unity.ScriptableBuildPipeline.Editor",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.scriptablebuildpipeline@1.9.0/Editor/Unity.ScriptableBuildPipeline.Editor.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "c5ecc461727906345a35491a0440694f"
+        },
+        {
+            "AsmdefName": "Unity.ScriptableBuildPipeline",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.scriptablebuildpipeline@1.9.0/Runtime/Unity.ScriptableBuildPipeline.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "5c1ff9bd975acec488150743d53a93ca"
+        },
+        {
+            "AsmdefName": "UnityEditor.CacheServerTests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.scriptablebuildpipeline@1.9.0/Tests/Editor/CacheServer/UnityEditor.CacheServerTests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "de0adf19d0a2a46a19acaa82fcb5a988"
+        },
+        {
+            "AsmdefName": "Unity.ScriptableBuildPipeline.Editor.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.scriptablebuildpipeline@1.9.0/Tests/Editor/Unity.ScriptableBuildPipeline.Editor.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "0244ca4987514734a84f74195d54113d"
+        },
+        {
+            "AsmdefName": "Unity.Searcher.Editor",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.searcher@4.0.9/Editor/Unity.Searcher.Editor.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "4988cf9794f41d64c884876ab6574b89"
+        },
+        {
+            "AsmdefName": "Unity.Searcher.EditorTests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.searcher@4.0.9/Tests/Editor/Unity.Searcher.EditorTests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "432b70115e987f44abb984cfe7de384f"
+        },
+        {
+            "AsmdefName": "Unity.Serialization.Editor",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.serialization@1.6.2-preview/Editor/Unity.Serialization.Editor/Unity.Serialization.Editor.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "e6fd7f05e305677498be9a778f5ad209"
+        },
+        {
+            "AsmdefName": "Unity.Serialization",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.serialization@1.6.2-preview/Runtime/Unity.Serialization/Unity.Serialization.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "2765e68924a08a94ea0ea66b31c0168f"
+        },
+        {
+            "AsmdefName": "Unity.Serialization.PerformanceTests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.serialization@1.6.2-preview/Tests/Runtime/Unity.Serialization.PerformanceTests/Unity.Serialization.PerformanceTests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "e2565fb3b87206947915bd2bcb7f325c"
+        },
+        {
+            "AsmdefName": "Unity.Serialization.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.serialization@1.6.2-preview/Tests/Runtime/Unity.Serialization.Tests/Unity.Serialization.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "a3422aa30a0dbf340bd78626a0c8b44a"
+        },
+        {
+            "AsmdefName": "MockTests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.serialization@1.6.2-preview/Tests/Unity.Serialization.Editor.Tests/Unity.Serialization.Editor.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "ea2d3fbb20a644c428ea4f19986203e4"
+        },
+        {
+            "AsmdefName": "Unity.ShaderGraph.Editor",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.shadergraph@8.3.1/Editor/Unity.ShaderGraph.Editor.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "be0903cd8e1546f498710afdc59db5eb"
+        },
+        {
+            "AsmdefName": "Unity.ShaderGraph.Utilities",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.shadergraph@8.3.1/Editor/Utilities/Unity.ShaderGraph.Utilities.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "ade7125e800904674ba0c115208f7ed5"
+        },
+        {
+            "AsmdefName": "Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.shadergraph@8.3.1/ShaderGraphLibrary/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "de1079f91ae5b43499b7c7e4f1269884"
+        },
+        {
+            "AsmdefName": "Unity.ShaderGraph.Editor.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.shadergraph@8.3.1/Tests/Editor/Unity.ShaderGraph.Editor.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "bf9b048907d0a604eab6a5552630c26d"
+        },
+        {
+            "AsmdefName": "Unity.PerformanceTesting.Editor",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.test-framework.performance@2.3.1-preview/Editor/Unity.PerformanceTesting.Editor.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "9f843d4b38153f04b9cee0502d568525"
+        },
+        {
+            "AsmdefName": "Unity.PerformanceTesting",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.test-framework.performance@2.3.1-preview/Runtime/Unity.PerformanceTesting.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "c0dd0d10738d4ad4a9de57c559d0ca1b"
+        },
+        {
+            "AsmdefName": "Unity.PerformanceTesting.Tests.Editor",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.test-framework.performance@2.3.1-preview/Tests/Editor/Unity.PerformanceTesting.Tests.Editor.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "555cbbe6ed532d34192f19f4e3803f1f"
+        },
+        {
+            "AsmdefName": "Unity.PerformanceTesting.Tests.Runtime",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.test-framework.performance@2.3.1-preview/Tests/Runtime/Unity.PerformanceTesting.Tests.Runtime.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "893deb69258ad1d4ebbf9452e5a25dc1"
+        },
+        {
+            "AsmdefName": "UnityEditor.TestRunner",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.test-framework@1.1.19/UnityEditor.TestRunner/UnityEditor.TestRunner.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "0acc523941302664db1f4e527237feb3"
+        },
+        {
+            "AsmdefName": "UnityEngine.TestRunner",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.test-framework@1.1.19/UnityEngine.TestRunner/UnityEngine.TestRunner.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "27619889b8ba8c24980f49ee34dbb44a"
+        },
+        {
+            "AsmdefName": "Unity.TextMeshPro.Editor",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.textmeshpro@3.0.1/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "6546d7765b4165b40850b3667f981c26"
+        },
+        {
+            "AsmdefName": "Unity.TextMeshPro",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.textmeshpro@3.0.1/Scripts/Runtime/Unity.TextMeshPro.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "6055be8ebefd69e48b49212b09b47b2f"
+        },
+        {
+            "AsmdefName": "Unity.TextMeshPro.Editor.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.textmeshpro@3.0.1/Tests/Editor/Unity.TextMeshPro.Editor.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "656e461844099ae43a609ff6109b0877"
+        },
+        {
+            "AsmdefName": "Unity.TextMeshPro.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.textmeshpro@3.0.1/Tests/Runtime/Unity.TextMeshPro.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "bb05cab7d802aa5468f8f2f86840d984"
+        },
+        {
+            "AsmdefName": "Unity.Timeline.Editor",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.timeline@1.4.0/Editor/Unity.Timeline.Editor.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "02f771204943f4a40949438e873e3eff"
+        },
+        {
+            "AsmdefName": "Unity.Timeline",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.timeline@1.4.0/Runtime/Unity.Timeline.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "f06555f75b070af458a003d92f9efb00"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.All.EditorTests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.tiny.all@0.32.0-preview.55/Tests/Editor/Unity.Tiny.All.EditorTests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "fe3511826d8b83744ad4aa090986c01a"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.GLFW",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.tiny.desktop@0.32.0-preview.54/Runtime/Unity.Tiny.GLFW/Unity.Tiny.GLFW.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "308fd7c7750b8b74e8ac30d198b30d88"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.Input.GLFW",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.tiny.desktop@0.32.0-preview.54/Runtime/Unity.Tiny.Input.GLFW/Unity.Tiny.Input.GLFW.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "daffc3f0c5c5a834fa2ccb03561d4354"
+        },
+        {
+            "AsmdefName": "com.unity.tiny.desktop.EditorTests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.tiny.desktop@0.32.0-preview.54/Tests/Editor/com.unity.tiny.desktop.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "d9b452505548fd141912cffff72a2633"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.Audio.Web",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.tiny.web@0.32.0-preview.54/Runtime/Unity.Tiny.Audio.Web/Unity.Tiny.Audio.Web.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "e83e97d5a787b254eb1a07fc2af15407"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.GameSave.Web",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.tiny.web@0.32.0-preview.54/Runtime/Unity.Tiny.GameSave.Web/Unity.Tiny.GameSave.Web.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "581ade08b0a99403183779f83bec030b"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.Image2D.Web",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.tiny.web@0.32.0-preview.54/Runtime/Unity.Tiny.Image2D.Web/Unity.Tiny.Image2D.Web.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "477b879bcf81b13478b964b787d12030"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.Input.Web",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.tiny.web@0.32.0-preview.54/Runtime/Unity.Tiny.Input.Web/Unity.Tiny.Input.Web.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "7f6b3966e1aa23b44a07b94b3cd72f8b"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.Web",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.tiny.web@0.32.0-preview.54/Runtime/Unity.Tiny.Web/Unity.Tiny.Web.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "deb51357975fd1f4aac23f6c45054954"
+        },
+        {
+            "AsmdefName": "com.unity.tiny.web.EditorTests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.tiny.web@0.32.0-preview.54/Tests/Editor/com.unity.tiny.web.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "6e3f8d7ba8947864c8821b22ae338262"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.Rendering.Authoring.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Tests/Authoring/Unity.Tiny.Rendering.Authoring.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "e80b5c5a8ff084345969d458cdfea73b"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.2D.Authoring.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Tests/Editor/Unity.Tiny.2D.Authoring.Tests/Unity.Tiny.2D.Authoring.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "bbc5cb79b832049589b89f0e002bf35b"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.Audio.Authoring.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Tests/Editor/Unity.Tiny.Audio.Authoring.Tests/Unity.Tiny.Audio.Authoring.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "ef9e5197ad6b01c4ba00799b00e2aeb1"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.Image2D.Authoring.Tests",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Tests/Editor/Unity.Tiny.Image2D.Authoring.Tests/Unity.Tiny.Image2D.Authoring.Tests.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "908150ed346931e44a5f1fb12c63563c"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.2D.Authoring",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.2D.Authoring/Unity.Tiny.2D.Authoring.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "ad3f8e208c44e4375bf813dde33a0a14"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.2D.Native",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.2D.Native/Unity.Tiny.2D.Native.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "67ea68bbd77a341ec968ff8ca3bc891f"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.2D",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.2D/Unity.Tiny.2D.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "11abe05356a55463c8e17bc397bd744e"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.Animation.Authoring",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Animation.Authoring/Unity.Tiny.Animation.Authoring.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "6b15c734179a54829b4b2f2d3bd52207"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.Animation.Editor",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Animation.Editor/Unity.Tiny.Animation.Editor.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "d45f4d0c5872d469fba914bbda894fda"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.Animation",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Animation/Unity.Tiny.Animation.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "72d0f99724c9a4cbc9c723339a67d38d"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.Audio.Authoring",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Audio.Authoring/Unity.Tiny.Audio.Authoring.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "28a9124fc31f8054d8f00f2ec34668e0"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.Audio.Native",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Audio.Native/Unity.Tiny.Audio.Native.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "f67c1f4b0f4e3e64c9946a93265cc12d"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.Audio",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Audio/Unity.Tiny.Audio.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "a05615732b4d930479a696617db6ac6d"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.Authoring",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Authoring/Unity.Tiny.Authoring.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "51f5e467442210643bb01026573bb6ed"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.Core",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Core/Unity.Tiny.Core.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "968008d463443624ba4326838f3e38d2"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.GameSave.Native",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.GameSave.Native/Unity.Tiny.GameSave.Native.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "3556811bc447042cd8265f1e1c4bbdfc"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.GameSave",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.GameSave/Unity.Tiny.GameSave.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "0c2b35f38bfe04403a6e23c04fd169a2"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.Image2D.Authoring",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Authoring/Unity.Tiny.Image2D.Authoring.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "23869b33586298e4da80d92917e76cdf"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.Image2D.Native",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D.Native/Unity.Tiny.Image2D.Native.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "bd62b3ed739b8114699ac2fbbfa3d345"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.Image2D",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Image2D/Unity.Tiny.Image2D.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "21c9e728337bfed42a455edd65839728"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.Input.Hybrid",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Input.Hybrid/Unity.Tiny.Input.Hybrid.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "4a43ea96b4a1c284c8c77cacd330094e"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.Input",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Input/Unity.Tiny.Input.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "8ed1e3067dad7be4c941c7e33cae09a0"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.JSON",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.JSON/Unity.Tiny.JSON.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "230f6585b741b7e4a9149e21f363f2fb"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.Particles",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Particles/Unity.Tiny.Particles.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "823a9de53b0fe98429d6dedf237f2348"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.RendererExtras",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.RendererExtras/Unity.Tiny.RendererExtras.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "fafabf9ae5cf1864eadcd344ddac4b39"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.Rendering.Authoring",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Rendering.Authoring/Unity.Tiny.Rendering.Authoring.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "ab8ff5e86060f194b9a3dfdf974a003d"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.Rendering.Native",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Rendering.Native/Unity.Tiny.Rendering.Native.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "b193905bdee93304d8bf33be1c13640b"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.Rendering",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Rendering/Unity.Tiny.Rendering.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "793fa2b5c914d594ea6d9ab913c9af3c"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.Text.Authoring",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Text.Authoring/Unity.Tiny.Text.Authoring.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "48c1fcee7e7994f4db03e3ab8d67d8cb"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.Text.Native",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Text.Native/Unity.Tiny.Text.Native.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "8bb319c9d3c1f6347bab9aa921999c07"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.Text",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.Text/Unity.Tiny.Text.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "c7540cc825d765943a3df00624ed16d9"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.UI.Authoring",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.UI.Authoring/Unity.Tiny.UI.Authoring.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "9c72e7dc0b898ce4ca66257d9bc1591e"
+        },
+        {
+            "AsmdefName": "Unity.Tiny.UI",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.UI/Unity.Tiny.UI.asmdef",
+            "PackageSource": "Registry",
+            "Guid": "8877956d3a178684eb25c00e053c51b1"
+        }
+    ],
+    "asmrefs": [
+        {
+            "AsmRefTarget": "Unity.Entities",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Core/Unity.Core.asmref",
+            "PackageSource": "Registry"
+        },
+        {
+            "AsmRefTarget": "Unity.Build",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms.android@0.10.0-preview.10/Editor/Unity.Build.Android/Unity.Build.Android.PlatformExtended/Unity.Build.Android.PlatformExtended.asmref",
+            "PackageSource": "Registry"
+        },
+        {
+            "AsmRefTarget": "Unity.Platforms.RunLoop",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms.android@0.10.0-preview.10/Runtime/Unity.Platforms.RunLoop.Android/Unity.Platforms.RunLoop.Android.asmref",
+            "PackageSource": "Registry"
+        },
+        {
+            "AsmRefTarget": "Unity.Tiny.IO",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms.android@0.10.0-preview.10/Runtime/Unity.Tiny.IO.Android/Unity.Tiny.IO.Android.asmref",
+            "PackageSource": "Registry"
+        },
+        {
+            "AsmRefTarget": "Unity.Tiny.Rendering.Native",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms.android@0.10.0-preview.10/Runtime/Unity.Tiny.Rendering.Native.Android/Unity.Tiny.Rendering.Native.Android.asmref",
+            "PackageSource": "Registry"
+        },
+        {
+            "AsmRefTarget": "Unity.Platforms.RunLoop",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms.desktop@0.10.0-preview.10/Runtime/Unity.Platforms.RunLoop.Desktop/Unity.Platforms.RunLoop.Desktop.asmref",
+            "PackageSource": "Registry"
+        },
+        {
+            "AsmRefTarget": "Unity.Build",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms.ios@0.10.0-preview.10/Editor/Unity.Build.iOS.PlatformExtended/Unity.Build.iOS.PlatformExtended.asmref",
+            "PackageSource": "Registry"
+        },
+        {
+            "AsmRefTarget": "Unity.Platforms.RunLoop",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms.ios@0.10.0-preview.10/Runtime/Unity.Platforms.RunLoop.IOS/Unity.Platforms.RunLoop.IOS.asmref",
+            "PackageSource": "Registry"
+        },
+        {
+            "AsmRefTarget": "Unity.Build",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms.linux@0.10.0-preview.10/Editor/Unity.Build.Linux.PlatformExtended/Unity.Build.Linux.PlatformExtended.asmref",
+            "PackageSource": "Registry"
+        },
+        {
+            "AsmRefTarget": "Unity.Build",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms.macos@0.10.0-preview.10/Editor/Unity.Build.macOS.PlatformExtended/Unity.Build.macOS.PlatformExtended.asmref",
+            "PackageSource": "Registry"
+        },
+        {
+            "AsmRefTarget": "Unity.Platforms.Common",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms.macos@0.10.0-preview.10/Runtime/Unity.Tiny.macOS/Unity.Tiny.macOS.asmref",
+            "PackageSource": "Registry"
+        },
+        {
+            "AsmRefTarget": "Unity.Platforms.RunLoop",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms.web@0.10.0-preview.10/Runtime/Unity.Platforms.RunLoop.HTML/Unity.Platforms.RunLoop.HTML.asmref",
+            "PackageSource": "Registry"
+        },
+        {
+            "AsmRefTarget": "Unity.Build",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms.windows@0.10.0-preview.10/Editor/Unity.Build.Windows.PlatformExtended/Unity.Build.Windows.PlatformExtended.asmref",
+            "PackageSource": "Registry"
+        },
+        {
+            "AsmRefTarget": "Unity.Platforms.Common",
+            "FullPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS/Library/PackageCache/com.unity.platforms.windows@0.10.0-preview.10/Runtime/Unity.Tiny.Windows/Unity.Tiny.Windows.asmref",
+            "PackageSource": "Registry"
+        }
+    ],
+    "UnityProjectPath": "/Users/leondo/Desktop/TinyRacing-UnstoppableDomains-IPFS",
+    "ProjectName": "TinyRacing-UnstoppableDomains-IPFS",
+    "Testables": [],
+    "CompilationPipelineAssemblyPath": "/Applications/Unity/Hub/Editor/2020.1.17f1/Unity.app/Contents/Managed/Unity.CompilationPipeline.Common.dll",
+    "BuildSettingsFileVersion": 1
+}

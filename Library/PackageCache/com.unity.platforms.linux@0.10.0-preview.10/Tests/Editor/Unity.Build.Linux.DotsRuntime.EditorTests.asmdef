@@ -1,0 +1,13 @@
+{
+    "name": "Unity.Build.Linux.DotsRuntime.EditorTests",
+    "references": [
+        "Unity.Build.Linux.DotsRuntime"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}

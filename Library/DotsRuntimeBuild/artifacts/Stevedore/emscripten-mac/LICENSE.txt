@@ -1,0 +1,10 @@
+This artifact contains code under a number of open source licenses.
+
+The following file is subject to the terms of the Mozilla Public
+License 2.0 (see licenses/MPL-2.0.txt), and should thus as a rule only be
+distributed in its present, non-minified source form:
+
+    node_modules/html-minifier-terser/src/htmlparser.js
+
+The remaining files are all subject to the Apache 2.0 license (see
+licenses/APACHE-2.0.txt) and the accompanying notices (licenses/NOTICE.md).

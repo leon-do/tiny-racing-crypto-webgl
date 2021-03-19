@@ -1,0 +1,105 @@
+[
+    [
+        {
+            "$type": "Unity.Build.DotsRuntime.DotsRuntimeBuildProfile, Unity.Build.DotsRuntime",
+            "Target": "wasm",
+            "Configuration": 2,
+            "UseNewPipeline": false,
+            "PipelineConstructor": null
+        },
+        {
+            "$type": "Unity.Build.DotsRuntime.DotsRuntimeRootAssembly, Unity.Build.DotsRuntime",
+            "BeeTargetOverride": null,
+            "RootAssembly": "GlobalObjectId_V1-1-b8054f08a81e46349ae9c9fe5bf3b267-5897886265953266890-0"
+        },
+        {
+            "$type": "Unity.Build.Common.SceneList, Unity.Build",
+            "$version": 1,
+            "BuildCurrentScene": false,
+            "SceneInfos": [
+                {
+                    "Scene": "GlobalObjectId_V1-1-ead95ae8a6288294c98220eeaff82fe6-102900000-0",
+                    "AutoLoad": true
+                }
+            ]
+        },
+        {
+            "$type": "Unity.Tiny.Rendering.Settings.TinyRenderingSettings, Unity.Tiny.Rendering.Authoring",
+            "WindowSize": {
+                "x": 1920,
+                "y": 1080
+            },
+            "RenderResolution": {
+                "x": 1920,
+                "y": 1080
+            },
+            "RenderGraphMode": 1,
+            "MaxResolution": 2048,
+            "AutoResizeFrame": true,
+            "DisableVsync": false,
+            "GPUSkinning": false
+        },
+        {
+            "$type": "Unity.Entities.Runtime.Build.DotsRuntimeBurstSettings, Unity.Entities.Runtime.Build",
+            "EnableBurst": false
+        },
+        {
+            "$type": "Unity.Entities.Runtime.Build.DotsRuntimeScriptingSettings, Unity.Entities.Runtime.Build",
+            "EnableSafetyChecks": 0,
+            "EnableProfiler": 0,
+            "ScriptingDefines": [],
+            "EnableMultithreading": false
+        },
+        {
+            "$type": "Unity.Build.Web.DotsRuntime.WasmMemorySettings, Unity.Build.Web.DotsRuntime",
+            "WasmStackSize": "512KB",
+            "WasmMemorySize": "128MB",
+            "AllowWasmMemoryGrowth": true
+        },
+        {
+            "$type": "Unity.Build.Web.DotsRuntime.WasmOutputSettings, Unity.Build.Web.DotsRuntime",
+            "OutputSingleHTMLFile": false,
+            "MinifyHTMLFile": true,
+            "MinifyOutputWithClosure": false,
+            "EmbedCpuProfiler": false,
+            "EmbedMemoryProfiler": false,
+            "IncludeSymbolsForBrowserCallstacks": false,
+            "EmitRuntimeMemoryDebugChecks": false,
+            "EmitRuntimeAllocationDebugChecks": false,
+            "WebTemplateFolder": ""
+        },
+        {
+            "$type": "Unity.Build.DotsRuntime.IL2CPPSettings, Unity.Build.DotsRuntime",
+            "ScriptDebugging": 2,
+            "WaitForDebugger": false
+        },
+        {
+            "$type": "Unity.Build.Common.GeneralSettings, Unity.Build",
+            "ProductName": "Tiny Racing",
+            "CompanyName": "Unity",
+            "Version": "1.0.0"
+        }
+    ],
+    [
+        {
+            "$type": "Unity.Entities.Conversion.ConversionSystemFilterSettings, Unity.Entities.Hybrid",
+            "ExcludedConversionSystemAssemblies": []
+        },
+        {
+            "$type": "Unity.Tiny.Audio.Settings.TinyAudioSettings, Unity.Tiny.Audio.Authoring",
+            "MaxUncompressedAudioMemoryBytes": 52428800
+        },
+        {
+            "$type": "Unity.Tiny.Rendering.Settings.TinyShaderSettings, Unity.Tiny.Rendering.Authoring",
+            "PackageShadersForAllPlatforms": false
+        },
+        {
+            "$type": "Unity.Build.Common.OutputBuildDirectory, Unity.Build",
+            "OutputDirectory": null
+        },
+        {
+            "$type": "Unity.Build.Web.DotsRuntime.EmscriptenAdvancedSettings, Unity.Build.Web.DotsRuntime",
+            "AdvancedEmscriptenLinkerCommandLine": ""
+        }
+    ]
+]

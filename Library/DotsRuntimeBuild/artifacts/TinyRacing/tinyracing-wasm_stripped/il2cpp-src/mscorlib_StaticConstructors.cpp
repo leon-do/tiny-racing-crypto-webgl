@@ -1,0 +1,39 @@
+﻿#include "pch-cpp.hpp"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+
+
+
+
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+
+
+
+// System.Void System.Math::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Math__cctor_mC7CA1C0715B1188077A2A1470DB2DF63AB0D8483 ();
+// System.Void System.String::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void String__cctor_m593BE062D0186D7013DC525C03185A0237FFDA17 ();
+// System.Void System.UIntPtr::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIntPtr__cctor_mF55741B25EE9FC17DBFE60A7CA7D62D5BD0CD8FE ();
+// System.Void System.Globalization.FormatProvider/Number::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Number__cctor_m6A9C59F04521C21510637D6B70B1C10D0216B141 ();
+// System.Void System.Collections.HashHelpers::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashHelpers__cctor_m5CCDB2303EED4A122EA85238FF4E15400107759D ();
+IL2CPP_EXTERN_C void Il2CppCallStaticConstructors_mscorlib()
+{
+	Math__cctor_mC7CA1C0715B1188077A2A1470DB2DF63AB0D8483();
+	String__cctor_m593BE062D0186D7013DC525C03185A0237FFDA17();
+	UIntPtr__cctor_mF55741B25EE9FC17DBFE60A7CA7D62D5BD0CD8FE();
+	Number__cctor_m6A9C59F04521C21510637D6B70B1C10D0216B141();
+	HashHelpers__cctor_m5CCDB2303EED4A122EA85238FF4E15400107759D();
+}

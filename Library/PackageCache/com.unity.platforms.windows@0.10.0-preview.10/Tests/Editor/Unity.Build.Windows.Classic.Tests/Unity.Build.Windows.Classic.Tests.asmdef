@@ -1,0 +1,24 @@
+{
+    "name": "Unity.Build.Windows.Classic.Tests",
+    "references": [
+        "Unity.Build",
+		"Unity.Build.Classic",
+		"Unity.Build.Classic.Private",
+		"Unity.Build.Windows",
+		"Unity.Build.Windows.Classic"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

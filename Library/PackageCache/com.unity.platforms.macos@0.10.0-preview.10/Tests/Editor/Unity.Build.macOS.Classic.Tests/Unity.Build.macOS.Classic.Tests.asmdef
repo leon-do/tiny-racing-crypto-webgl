@@ -1,0 +1,24 @@
+{
+    "name": "Unity.Build.macOS.Classic.Tests",
+    "references": [
+        "Unity.Build",
+		"Unity.Build.Classic",
+		"Unity.Build.Classic.Private",
+		"Unity.Build.macOS",
+		"Unity.Build.macOS.Classic"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

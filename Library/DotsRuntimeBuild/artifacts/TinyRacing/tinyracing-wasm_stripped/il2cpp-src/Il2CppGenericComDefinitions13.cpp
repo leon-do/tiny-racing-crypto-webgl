@@ -1,0 +1,945 @@
+﻿#include "pch-cpp.hpp"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include <stdint.h>
+#include <limits>
+
+
+
+
+IL2CPP_EXTERN_C const RuntimeMethod JobEntityBatchIndexProducer_1_ProducerCleanupFn_Gen_m45AAC1471DFE97B1C0575F51ABA6E0E1CF8C1CEF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod JobEntityBatchIndexProducer_1_ProducerCleanupFn_Gen_m70BAEFA9EDCBB7D1922DE55A785B9BD86AB58723_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod JobEntityBatchIndexProducer_1_ProducerCleanupFn_Gen_m74C5A8C6DD870EF87E04729828C5BAB3340C18B4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod JobEntityBatchIndexProducer_1_ProducerCleanupFn_Gen_mBD70E34242411D6639B1B0201FD8BE48A530E7C2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod JobEntityBatchIndexProducer_1_ProducerCleanupFn_Gen_mD0AD53E7761AC9232A3636E3614AA4BFDA34C855_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod JobEntityBatchIndexProducer_1_ProducerExecuteFn_Gen_m464E5216DEFF7857C71254A8B36E7758BBCF6D59_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod JobEntityBatchIndexProducer_1_ProducerExecuteFn_Gen_mA8ED3A8A882492400588FD82946B1FCABBD0F456_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod JobEntityBatchIndexProducer_1_ProducerExecuteFn_Gen_mAF782B5A454C2EDC62DA04E2E05AA4B10F85F562_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod JobEntityBatchIndexProducer_1_ProducerExecuteFn_Gen_mDE2C358DAFFA1405E365185E8D53C28D081227FC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod JobEntityBatchIndexProducer_1_ProducerExecuteFn_Gen_mE73CBEE8A953974C26BB13B7EC2B8647C5EF7F55_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod JobEntityBatchProducer_1_ProducerCleanupFn_Gen_m02C8E3BF87F9DC152DC6D560D08CB938F11AF27A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod JobEntityBatchProducer_1_ProducerCleanupFn_Gen_m13C2A87B8DE03AA8114D00A0BFD4113B3C6FC7B4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod JobEntityBatchProducer_1_ProducerCleanupFn_Gen_m3597971C27D8CC06CABC9592DFBE7742D462EC3E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod JobEntityBatchProducer_1_ProducerCleanupFn_Gen_m4FDDCA7BC6E75383A2B5ACC29E40DEEE5748B032_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod JobEntityBatchProducer_1_ProducerCleanupFn_Gen_m58FD4D5F393E9B1327008FAC83CDDF23AF033731_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod JobEntityBatchProducer_1_ProducerCleanupFn_Gen_m6B8F6C7F6EFB275EEE5BC54545717E4068F07F6A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod JobEntityBatchProducer_1_ProducerCleanupFn_Gen_m91E62128D0D32DB01A00457FBB5E0E8936766084_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod JobEntityBatchProducer_1_ProducerCleanupFn_Gen_m9FD7399EEF9C8C87F5B481F7F3ECF02D858DB7CE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod JobEntityBatchProducer_1_ProducerCleanupFn_Gen_mA367DBED7F9A3E0F00D145EE8267A160F4AA86EB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod JobEntityBatchProducer_1_ProducerCleanupFn_Gen_mB74E72E4DF71EA562A2A84F75CE420EB5B42D826_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod JobEntityBatchProducer_1_ProducerCleanupFn_Gen_mB8F1A1BA5A420AE232B89BDD09954661F1BB7B9E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod JobEntityBatchProducer_1_ProducerCleanupFn_Gen_mB96209A7EA1146C17C6B792798695DAAB01B9834_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod JobEntityBatchProducer_1_ProducerCleanupFn_Gen_mB99E12C2AC22E02994DC4425C1820D42705FF6CA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod JobEntityBatchProducer_1_ProducerCleanupFn_Gen_mF3A111C0F5B52257641CA424AD7503D5C7D8C9D0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod JobEntityBatchProducer_1_ProducerCleanupFn_Gen_mFA791646305125FEFE6C3E1BEAA4B9060F767638_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod JobEntityBatchProducer_1_ProducerCleanupFn_Gen_mFA8DB87492CFB458984610547EC5FF261F1FD756_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod JobEntityBatchProducer_1_ProducerExecuteFn_Gen_m14EE8696661C3191A6BCE5081F9819A492A26BAA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod JobEntityBatchProducer_1_ProducerExecuteFn_Gen_m19BEE054908D82998BADF4B358323F335D6EF5B2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod JobEntityBatchProducer_1_ProducerExecuteFn_Gen_m20899117460D86D61F12A5B615701FD5C2D083BF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod JobEntityBatchProducer_1_ProducerExecuteFn_Gen_m3610490FB9F4C457C795A0CA0A219E7FEC1647B9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod JobEntityBatchProducer_1_ProducerExecuteFn_Gen_m41989002B362A7AADFC14F6879B48187902579DD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod JobEntityBatchProducer_1_ProducerExecuteFn_Gen_m628A7C2B08CBBD3E082F695A6994215039C9169F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod JobEntityBatchProducer_1_ProducerExecuteFn_Gen_m6470C695D77F3E50CF6AECB7E5FCCF0F70E3D9A1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod JobEntityBatchProducer_1_ProducerExecuteFn_Gen_m7201610156A87DD12459BC0C948EC3D408DB21BA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod JobEntityBatchProducer_1_ProducerExecuteFn_Gen_m849CC36DA35D2835948A696281095ECEBC4D263A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod JobEntityBatchProducer_1_ProducerExecuteFn_Gen_m9DEC6CBAF84DB144CDA44953CD27A9794834E3EA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod JobEntityBatchProducer_1_ProducerExecuteFn_Gen_mA374FE5CAA00F9FE58BCB48EB39C332899A46D56_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod JobEntityBatchProducer_1_ProducerExecuteFn_Gen_mA6B8BE791DB5D76871D01C327EA1A2CD9150B83E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod JobEntityBatchProducer_1_ProducerExecuteFn_Gen_mA79AF8B51092F0E9342AADB8452501DB12E48F6C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod JobEntityBatchProducer_1_ProducerExecuteFn_Gen_mB4C8CA3955B0D35A8DEE19C9242704941E7F0944_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod JobEntityBatchProducer_1_ProducerExecuteFn_Gen_mC21759690577515A1DE016FEDEFE8EB21BBC4377_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod JobEntityBatchProducer_1_ProducerExecuteFn_Gen_mE479DB6607CE1547998ED7EA7AC0670149DFA66A_RuntimeMethod_var;
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Object
+
+
+// System.ValueType
+struct  ValueType_t9E835CDBB7CA8FF62C1E998C186DBB81B6242C94  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+// Native definition for P/Invoke marshalling of System.ValueType
+struct ValueType_t9E835CDBB7CA8FF62C1E998C186DBB81B6242C94_marshaled_pinvoke
+{
+};
+
+// System.Void
+struct  Void_t39CB6A4CCC637097970C8F4936C9B344C27FEEA9 
+{
+public:
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t39CB6A4CCC637097970C8F4936C9B344C27FEEA9__padding[1];
+	};
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+
+
+
+// System.Void Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexProducer`1<Unity.Entities.GatherEntitiesJob>::ProducerCleanupFn_Gen(System.Void*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobEntityBatchIndexProducer_1_ProducerCleanupFn_Gen_mBD70E34242411D6639B1B0201FD8BE48A530E7C2 (void* ___jobMetaPtr0);
+// System.Void Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexProducer`1<Unity.Entities.GatherEntitiesJob>::ProducerExecuteFn_Gen(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobEntityBatchIndexProducer_1_ProducerExecuteFn_Gen_mA8ED3A8A882492400588FD82946B1FCABBD0F456 (void* ___jobMetaPtr0, int32_t ___jobIndex1);
+// System.Void Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexProducer`1<Unity.Physics.Systems.ExportPhysicsWorld/ExportDynamicBodiesJob>::ProducerCleanupFn_Gen(System.Void*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobEntityBatchIndexProducer_1_ProducerCleanupFn_Gen_m74C5A8C6DD870EF87E04729828C5BAB3340C18B4 (void* ___jobMetaPtr0);
+// System.Void Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexProducer`1<Unity.Physics.Systems.ExportPhysicsWorld/ExportDynamicBodiesJob>::ProducerExecuteFn_Gen(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobEntityBatchIndexProducer_1_ProducerExecuteFn_Gen_mE73CBEE8A953974C26BB13B7EC2B8647C5EF7F55 (void* ___jobMetaPtr0, int32_t ___jobIndex1);
+// System.Void Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexProducer`1<Unity.Physics.Systems.BuildPhysicsWorld/Jobs/CreateJoints>::ProducerCleanupFn_Gen(System.Void*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobEntityBatchIndexProducer_1_ProducerCleanupFn_Gen_m70BAEFA9EDCBB7D1922DE55A785B9BD86AB58723 (void* ___jobMetaPtr0);
+// System.Void Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexProducer`1<Unity.Physics.Systems.BuildPhysicsWorld/Jobs/CreateJoints>::ProducerExecuteFn_Gen(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobEntityBatchIndexProducer_1_ProducerExecuteFn_Gen_mAF782B5A454C2EDC62DA04E2E05AA4B10F85F562 (void* ___jobMetaPtr0, int32_t ___jobIndex1);
+// System.Void Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexProducer`1<Unity.Physics.Systems.BuildPhysicsWorld/Jobs/CreateMotions>::ProducerCleanupFn_Gen(System.Void*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobEntityBatchIndexProducer_1_ProducerCleanupFn_Gen_mD0AD53E7761AC9232A3636E3614AA4BFDA34C855 (void* ___jobMetaPtr0);
+// System.Void Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexProducer`1<Unity.Physics.Systems.BuildPhysicsWorld/Jobs/CreateMotions>::ProducerExecuteFn_Gen(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobEntityBatchIndexProducer_1_ProducerExecuteFn_Gen_mDE2C358DAFFA1405E365185E8D53C28D081227FC (void* ___jobMetaPtr0, int32_t ___jobIndex1);
+// System.Void Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexProducer`1<Unity.Physics.Systems.BuildPhysicsWorld/Jobs/CreateRigidBodies>::ProducerCleanupFn_Gen(System.Void*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobEntityBatchIndexProducer_1_ProducerCleanupFn_Gen_m45AAC1471DFE97B1C0575F51ABA6E0E1CF8C1CEF (void* ___jobMetaPtr0);
+// System.Void Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexProducer`1<Unity.Physics.Systems.BuildPhysicsWorld/Jobs/CreateRigidBodies>::ProducerExecuteFn_Gen(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobEntityBatchIndexProducer_1_ProducerExecuteFn_Gen_m464E5216DEFF7857C71254A8B36E7758BBCF6D59 (void* ___jobMetaPtr0, int32_t ___jobIndex1);
+// System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Physics.GraphicsIntegration.BufferInterpolatedRigidBodiesMotion/UpdateInterpolationBuffersJob>::ProducerCleanupFn_Gen(System.Void*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobEntityBatchProducer_1_ProducerCleanupFn_Gen_mFA791646305125FEFE6C3E1BEAA4B9060F767638 (void* ___jobMetaPtr0);
+// System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Physics.GraphicsIntegration.BufferInterpolatedRigidBodiesMotion/UpdateInterpolationBuffersJob>::ProducerExecuteFn_Gen(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobEntityBatchProducer_1_ProducerExecuteFn_Gen_m849CC36DA35D2835948A696281095ECEBC4D263A (void* ___jobMetaPtr0, int32_t ___jobIndex1);
+// System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.CompositeRotationSystem/ToCompositeRotation>::ProducerCleanupFn_Gen(System.Void*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobEntityBatchProducer_1_ProducerCleanupFn_Gen_m9FD7399EEF9C8C87F5B481F7F3ECF02D858DB7CE (void* ___jobMetaPtr0);
+// System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.CompositeRotationSystem/ToCompositeRotation>::ProducerExecuteFn_Gen(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobEntityBatchProducer_1_ProducerExecuteFn_Gen_m9DEC6CBAF84DB144CDA44953CD27A9794834E3EA (void* ___jobMetaPtr0, int32_t ___jobIndex1);
+// System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.CompositeScaleSystem/ToCompositeScale>::ProducerCleanupFn_Gen(System.Void*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobEntityBatchProducer_1_ProducerCleanupFn_Gen_mB8F1A1BA5A420AE232B89BDD09954661F1BB7B9E (void* ___jobMetaPtr0);
+// System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.CompositeScaleSystem/ToCompositeScale>::ProducerExecuteFn_Gen(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobEntityBatchProducer_1_ProducerExecuteFn_Gen_mA6B8BE791DB5D76871D01C327EA1A2CD9150B83E (void* ___jobMetaPtr0, int32_t ___jobIndex1);
+// System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Physics.GraphicsIntegration.CopyPhysicsVelocityToSmoothing/CopyPhysicsVelocityJob>::ProducerCleanupFn_Gen(System.Void*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobEntityBatchProducer_1_ProducerCleanupFn_Gen_mF3A111C0F5B52257641CA424AD7503D5C7D8C9D0 (void* ___jobMetaPtr0);
+// System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Physics.GraphicsIntegration.CopyPhysicsVelocityToSmoothing/CopyPhysicsVelocityJob>::ProducerExecuteFn_Gen(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobEntityBatchProducer_1_ProducerExecuteFn_Gen_m7201610156A87DD12459BC0C948EC3D408DB21BA (void* ___jobMetaPtr0, int32_t ___jobIndex1);
+// System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Physics.Systems.ExportPhysicsWorld/CheckColliderIntegrity>::ProducerCleanupFn_Gen(System.Void*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobEntityBatchProducer_1_ProducerCleanupFn_Gen_m4FDDCA7BC6E75383A2B5ACC29E40DEEE5748B032 (void* ___jobMetaPtr0);
+// System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Physics.Systems.ExportPhysicsWorld/CheckColliderIntegrity>::ProducerExecuteFn_Gen(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobEntityBatchProducer_1_ProducerExecuteFn_Gen_mE479DB6607CE1547998ED7EA7AC0670149DFA66A (void* ___jobMetaPtr0, int32_t ___jobIndex1);
+// System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Physics.Systems.ExportPhysicsWorld/CheckDynamicBodyIntegrity>::ProducerCleanupFn_Gen(System.Void*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobEntityBatchProducer_1_ProducerCleanupFn_Gen_m58FD4D5F393E9B1327008FAC83CDDF23AF033731 (void* ___jobMetaPtr0);
+// System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Physics.Systems.ExportPhysicsWorld/CheckDynamicBodyIntegrity>::ProducerExecuteFn_Gen(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobEntityBatchProducer_1_ProducerExecuteFn_Gen_m19BEE054908D82998BADF4B358323F335D6EF5B2 (void* ___jobMetaPtr0, int32_t ___jobIndex1);
+// System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Physics.Systems.ExportPhysicsWorld/CopyCollisionWorld>::ProducerCleanupFn_Gen(System.Void*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobEntityBatchProducer_1_ProducerCleanupFn_Gen_mFA8DB87492CFB458984610547EC5FF261F1FD756 (void* ___jobMetaPtr0);
+// System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Physics.Systems.ExportPhysicsWorld/CopyCollisionWorld>::ProducerExecuteFn_Gen(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobEntityBatchProducer_1_ProducerExecuteFn_Gen_mC21759690577515A1DE016FEDEFE8EB21BBC4377 (void* ___jobMetaPtr0, int32_t ___jobIndex1);
+// System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.LocalToParentSystem/UpdateHierarchy>::ProducerCleanupFn_Gen(System.Void*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobEntityBatchProducer_1_ProducerCleanupFn_Gen_m13C2A87B8DE03AA8114D00A0BFD4113B3C6FC7B4 (void* ___jobMetaPtr0);
+// System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.LocalToParentSystem/UpdateHierarchy>::ProducerExecuteFn_Gen(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobEntityBatchProducer_1_ProducerExecuteFn_Gen_m41989002B362A7AADFC14F6879B48187902579DD (void* ___jobMetaPtr0, int32_t ___jobIndex1);
+// System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.ParentScaleInverseSystem/ToChildParentScaleInverse>::ProducerCleanupFn_Gen(System.Void*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobEntityBatchProducer_1_ProducerCleanupFn_Gen_m02C8E3BF87F9DC152DC6D560D08CB938F11AF27A (void* ___jobMetaPtr0);
+// System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.ParentScaleInverseSystem/ToChildParentScaleInverse>::ProducerExecuteFn_Gen(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobEntityBatchProducer_1_ProducerExecuteFn_Gen_m14EE8696661C3191A6BCE5081F9819A492A26BAA (void* ___jobMetaPtr0, int32_t ___jobIndex1);
+// System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.ParentSystem/GatherChangedParents>::ProducerCleanupFn_Gen(System.Void*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobEntityBatchProducer_1_ProducerCleanupFn_Gen_mA367DBED7F9A3E0F00D145EE8267A160F4AA86EB (void* ___jobMetaPtr0);
+// System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.ParentSystem/GatherChangedParents>::ProducerExecuteFn_Gen(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobEntityBatchProducer_1_ProducerExecuteFn_Gen_mA374FE5CAA00F9FE58BCB48EB39C332899A46D56 (void* ___jobMetaPtr0, int32_t ___jobIndex1);
+// System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.PostRotationEulerSystem/PostRotationEulerToPostRotation>::ProducerCleanupFn_Gen(System.Void*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobEntityBatchProducer_1_ProducerCleanupFn_Gen_mB99E12C2AC22E02994DC4425C1820D42705FF6CA (void* ___jobMetaPtr0);
+// System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.PostRotationEulerSystem/PostRotationEulerToPostRotation>::ProducerExecuteFn_Gen(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobEntityBatchProducer_1_ProducerExecuteFn_Gen_mB4C8CA3955B0D35A8DEE19C9242704941E7F0944 (void* ___jobMetaPtr0, int32_t ___jobIndex1);
+// System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.RotationEulerSystem/RotationEulerToRotation>::ProducerCleanupFn_Gen(System.Void*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobEntityBatchProducer_1_ProducerCleanupFn_Gen_m91E62128D0D32DB01A00457FBB5E0E8936766084 (void* ___jobMetaPtr0);
+// System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.RotationEulerSystem/RotationEulerToRotation>::ProducerExecuteFn_Gen(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobEntityBatchProducer_1_ProducerExecuteFn_Gen_m20899117460D86D61F12A5B615701FD5C2D083BF (void* ___jobMetaPtr0, int32_t ___jobIndex1);
+// System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Physics.GraphicsIntegration.SmoothRigidBodiesGraphicalMotion/SmoothMotionJob>::ProducerCleanupFn_Gen(System.Void*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobEntityBatchProducer_1_ProducerCleanupFn_Gen_mB74E72E4DF71EA562A2A84F75CE420EB5B42D826 (void* ___jobMetaPtr0);
+// System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Physics.GraphicsIntegration.SmoothRigidBodiesGraphicalMotion/SmoothMotionJob>::ProducerExecuteFn_Gen(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobEntityBatchProducer_1_ProducerExecuteFn_Gen_mA79AF8B51092F0E9342AADB8452501DB12E48F6C (void* ___jobMetaPtr0, int32_t ___jobIndex1);
+// System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.TRSToLocalToParentSystem/TRSToLocalToParent>::ProducerCleanupFn_Gen(System.Void*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobEntityBatchProducer_1_ProducerCleanupFn_Gen_m6B8F6C7F6EFB275EEE5BC54545717E4068F07F6A (void* ___jobMetaPtr0);
+// System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.TRSToLocalToParentSystem/TRSToLocalToParent>::ProducerExecuteFn_Gen(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobEntityBatchProducer_1_ProducerExecuteFn_Gen_m628A7C2B08CBBD3E082F695A6994215039C9169F (void* ___jobMetaPtr0, int32_t ___jobIndex1);
+// System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.TRSToLocalToWorldSystem/TRSToLocalToWorld>::ProducerCleanupFn_Gen(System.Void*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobEntityBatchProducer_1_ProducerCleanupFn_Gen_m3597971C27D8CC06CABC9592DFBE7742D462EC3E (void* ___jobMetaPtr0);
+// System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.TRSToLocalToWorldSystem/TRSToLocalToWorld>::ProducerExecuteFn_Gen(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobEntityBatchProducer_1_ProducerExecuteFn_Gen_m6470C695D77F3E50CF6AECB7E5FCCF0F70E3D9A1 (void* ___jobMetaPtr0, int32_t ___jobIndex1);
+// System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.WorldToLocalSystem/ToWorldToLocal>::ProducerCleanupFn_Gen(System.Void*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobEntityBatchProducer_1_ProducerCleanupFn_Gen_mB96209A7EA1146C17C6B792798695DAAB01B9834 (void* ___jobMetaPtr0);
+// System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.WorldToLocalSystem/ToWorldToLocal>::ProducerExecuteFn_Gen(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobEntityBatchProducer_1_ProducerExecuteFn_Gen_m3610490FB9F4C457C795A0CA0A219E7FEC1647B9 (void* ___jobMetaPtr0, int32_t ___jobIndex1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchIndexProducer_1_InitializeSingle_m05AFCE743B641DB1F16D6B037AE1366DEE33D391()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.IntPtr Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexProducer`1<Unity.Entities.GatherEntitiesJob>::InitializeSingle()", "it does not have the [MonoPInvokeCallback] attribute.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchIndexProducer_1_InitializeParallel_m8F426D5EA843733BB170FD8723806908C86B0504()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.IntPtr Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexProducer`1<Unity.Entities.GatherEntitiesJob>::InitializeParallel()", "it does not have the [MonoPInvokeCallback] attribute.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchIndexProducer_1_Execute_mCF78593FCF3F7D1495AD33FCF454DA7AFABAED24()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Void Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexProducer`1<Unity.Entities.GatherEntitiesJob>::Execute(Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexWrapper`1<T>&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchIndexProducer_1_ExecuteInternal_m636FACA7660FE2A5AF3686023E648FAD8AF49422()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Void Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexProducer`1<Unity.Entities.GatherEntitiesJob>::ExecuteInternal(Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexWrapper`1<T>&,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchIndexProducer_1_ProducerPreScheduleFn_Gen_m161FF7F00D2C7357D24F8ECE1E93E7ADCE90A5B3()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Int32 Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexProducer`1<Unity.Entities.GatherEntitiesJob>::ProducerPreScheduleFn_Gen(Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexWrapper`1<T>&,Unity.Development.JobsDebugger.DependencyValidator&,Unity.Jobs.JobHandle&,System.Void*)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchIndexProducer_1_ProducerCleanupFn_Gen_mBD70E34242411D6639B1B0201FD8BE48A530E7C2(void* ___jobMetaPtr0)
+{
+	tiny::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	JobEntityBatchIndexProducer_1_ProducerCleanupFn_Gen_mBD70E34242411D6639B1B0201FD8BE48A530E7C2(___jobMetaPtr0);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchIndexProducer_1_ProducerExecuteFn_Gen_mA8ED3A8A882492400588FD82946B1FCABBD0F456(void* ___jobMetaPtr0, int32_t ___jobIndex1)
+{
+	tiny::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	JobEntityBatchIndexProducer_1_ProducerExecuteFn_Gen_mA8ED3A8A882492400588FD82946B1FCABBD0F456(___jobMetaPtr0, ___jobIndex1);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchIndexProducer_1_InitializeSingle_m171A25702D7D116FB4CD3BF58AABB751F1A454CD()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.IntPtr Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexProducer`1<Unity.Physics.Systems.ExportPhysicsWorld/ExportDynamicBodiesJob>::InitializeSingle()", "it does not have the [MonoPInvokeCallback] attribute.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchIndexProducer_1_InitializeParallel_m1131E2B10790D2E00403A1224B6BE33C4157BBE6()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.IntPtr Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexProducer`1<Unity.Physics.Systems.ExportPhysicsWorld/ExportDynamicBodiesJob>::InitializeParallel()", "it does not have the [MonoPInvokeCallback] attribute.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchIndexProducer_1_Execute_mF0F8E2292F49CADA284E2251EBEE344F70D554B5()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Void Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexProducer`1<Unity.Physics.Systems.ExportPhysicsWorld/ExportDynamicBodiesJob>::Execute(Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexWrapper`1<T>&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchIndexProducer_1_ExecuteInternal_m9C5713352E1CA7FE20D698A69936F5DC58512179()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Void Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexProducer`1<Unity.Physics.Systems.ExportPhysicsWorld/ExportDynamicBodiesJob>::ExecuteInternal(Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexWrapper`1<T>&,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchIndexProducer_1_ProducerPreScheduleFn_Gen_m5A7869D95368D22BE5A2C7BBBA16FA03870730E9()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Int32 Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexProducer`1<Unity.Physics.Systems.ExportPhysicsWorld/ExportDynamicBodiesJob>::ProducerPreScheduleFn_Gen(Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexWrapper`1<T>&,Unity.Development.JobsDebugger.DependencyValidator&,Unity.Jobs.JobHandle&,System.Void*)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchIndexProducer_1_ProducerCleanupFn_Gen_m74C5A8C6DD870EF87E04729828C5BAB3340C18B4(void* ___jobMetaPtr0)
+{
+	tiny::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	JobEntityBatchIndexProducer_1_ProducerCleanupFn_Gen_m74C5A8C6DD870EF87E04729828C5BAB3340C18B4(___jobMetaPtr0);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchIndexProducer_1_ProducerExecuteFn_Gen_mE73CBEE8A953974C26BB13B7EC2B8647C5EF7F55(void* ___jobMetaPtr0, int32_t ___jobIndex1)
+{
+	tiny::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	JobEntityBatchIndexProducer_1_ProducerExecuteFn_Gen_mE73CBEE8A953974C26BB13B7EC2B8647C5EF7F55(___jobMetaPtr0, ___jobIndex1);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchIndexProducer_1_InitializeSingle_m3A78D34ED38BD3F7A04F64E91F9DB50F5E05CEEE()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.IntPtr Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexProducer`1<Unity.Physics.Systems.BuildPhysicsWorld/Jobs/CreateJoints>::InitializeSingle()", "it does not have the [MonoPInvokeCallback] attribute.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchIndexProducer_1_InitializeParallel_m5B4F3C00C2B2A453C6E9976377D568BC691AB43A()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.IntPtr Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexProducer`1<Unity.Physics.Systems.BuildPhysicsWorld/Jobs/CreateJoints>::InitializeParallel()", "it does not have the [MonoPInvokeCallback] attribute.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchIndexProducer_1_Execute_m6651507F3CEF63AEE95702E472BF0FB5625690C9()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Void Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexProducer`1<Unity.Physics.Systems.BuildPhysicsWorld/Jobs/CreateJoints>::Execute(Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexWrapper`1<T>&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchIndexProducer_1_ExecuteInternal_m174893A0D538464C57D61CEFDE2034C1DE917118()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Void Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexProducer`1<Unity.Physics.Systems.BuildPhysicsWorld/Jobs/CreateJoints>::ExecuteInternal(Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexWrapper`1<T>&,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchIndexProducer_1_ProducerPreScheduleFn_Gen_mFCD1E51229EBC75363F4A7555E68FDF8F7EF5E96()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Int32 Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexProducer`1<Unity.Physics.Systems.BuildPhysicsWorld/Jobs/CreateJoints>::ProducerPreScheduleFn_Gen(Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexWrapper`1<T>&,Unity.Development.JobsDebugger.DependencyValidator&,Unity.Jobs.JobHandle&,System.Void*)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchIndexProducer_1_ProducerCleanupFn_Gen_m70BAEFA9EDCBB7D1922DE55A785B9BD86AB58723(void* ___jobMetaPtr0)
+{
+	tiny::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	JobEntityBatchIndexProducer_1_ProducerCleanupFn_Gen_m70BAEFA9EDCBB7D1922DE55A785B9BD86AB58723(___jobMetaPtr0);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchIndexProducer_1_ProducerExecuteFn_Gen_mAF782B5A454C2EDC62DA04E2E05AA4B10F85F562(void* ___jobMetaPtr0, int32_t ___jobIndex1)
+{
+	tiny::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	JobEntityBatchIndexProducer_1_ProducerExecuteFn_Gen_mAF782B5A454C2EDC62DA04E2E05AA4B10F85F562(___jobMetaPtr0, ___jobIndex1);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchIndexProducer_1_InitializeSingle_m0E2E4701D0144419DDE88E4BD0F13D2AC0070D3E()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.IntPtr Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexProducer`1<Unity.Physics.Systems.BuildPhysicsWorld/Jobs/CreateMotions>::InitializeSingle()", "it does not have the [MonoPInvokeCallback] attribute.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchIndexProducer_1_InitializeParallel_m2932D3ACA1BD94CAC1DF8A0EE84BCAF6918AD89B()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.IntPtr Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexProducer`1<Unity.Physics.Systems.BuildPhysicsWorld/Jobs/CreateMotions>::InitializeParallel()", "it does not have the [MonoPInvokeCallback] attribute.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchIndexProducer_1_Execute_m37A38CBA19D72E642332A827DDE5582EDFCE54EB()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Void Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexProducer`1<Unity.Physics.Systems.BuildPhysicsWorld/Jobs/CreateMotions>::Execute(Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexWrapper`1<T>&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchIndexProducer_1_ExecuteInternal_mD608D39823CB57D6B9760F2C2DB94B0218DAC5FF()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Void Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexProducer`1<Unity.Physics.Systems.BuildPhysicsWorld/Jobs/CreateMotions>::ExecuteInternal(Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexWrapper`1<T>&,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchIndexProducer_1_ProducerPreScheduleFn_Gen_m712DCD0D51888DC120C43DB02C253215769C349F()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Int32 Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexProducer`1<Unity.Physics.Systems.BuildPhysicsWorld/Jobs/CreateMotions>::ProducerPreScheduleFn_Gen(Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexWrapper`1<T>&,Unity.Development.JobsDebugger.DependencyValidator&,Unity.Jobs.JobHandle&,System.Void*)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchIndexProducer_1_ProducerCleanupFn_Gen_mD0AD53E7761AC9232A3636E3614AA4BFDA34C855(void* ___jobMetaPtr0)
+{
+	tiny::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	JobEntityBatchIndexProducer_1_ProducerCleanupFn_Gen_mD0AD53E7761AC9232A3636E3614AA4BFDA34C855(___jobMetaPtr0);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchIndexProducer_1_ProducerExecuteFn_Gen_mDE2C358DAFFA1405E365185E8D53C28D081227FC(void* ___jobMetaPtr0, int32_t ___jobIndex1)
+{
+	tiny::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	JobEntityBatchIndexProducer_1_ProducerExecuteFn_Gen_mDE2C358DAFFA1405E365185E8D53C28D081227FC(___jobMetaPtr0, ___jobIndex1);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchIndexProducer_1_InitializeSingle_m01299B58BC2DD86F2D40B0853D47A95C675D1BC9()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.IntPtr Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexProducer`1<Unity.Physics.Systems.BuildPhysicsWorld/Jobs/CreateRigidBodies>::InitializeSingle()", "it does not have the [MonoPInvokeCallback] attribute.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchIndexProducer_1_InitializeParallel_m4F9F9661B9FA43847B0EBD47412C202BDD349312()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.IntPtr Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexProducer`1<Unity.Physics.Systems.BuildPhysicsWorld/Jobs/CreateRigidBodies>::InitializeParallel()", "it does not have the [MonoPInvokeCallback] attribute.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchIndexProducer_1_Execute_m799CB38F925E98B62B8C9A358498AA40EA65430C()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Void Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexProducer`1<Unity.Physics.Systems.BuildPhysicsWorld/Jobs/CreateRigidBodies>::Execute(Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexWrapper`1<T>&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchIndexProducer_1_ExecuteInternal_mA61F0CE57C037A0807C06E1EEF48D3E8FB191070()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Void Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexProducer`1<Unity.Physics.Systems.BuildPhysicsWorld/Jobs/CreateRigidBodies>::ExecuteInternal(Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexWrapper`1<T>&,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchIndexProducer_1_ProducerPreScheduleFn_Gen_mFA17CE75CFDB9FD52BF33FBB3E1E404E647C1A46()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Int32 Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexProducer`1<Unity.Physics.Systems.BuildPhysicsWorld/Jobs/CreateRigidBodies>::ProducerPreScheduleFn_Gen(Unity.Entities.JobEntityBatchIndexExtensions/JobEntityBatchIndexWrapper`1<T>&,Unity.Development.JobsDebugger.DependencyValidator&,Unity.Jobs.JobHandle&,System.Void*)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchIndexProducer_1_ProducerCleanupFn_Gen_m45AAC1471DFE97B1C0575F51ABA6E0E1CF8C1CEF(void* ___jobMetaPtr0)
+{
+	tiny::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	JobEntityBatchIndexProducer_1_ProducerCleanupFn_Gen_m45AAC1471DFE97B1C0575F51ABA6E0E1CF8C1CEF(___jobMetaPtr0);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchIndexProducer_1_ProducerExecuteFn_Gen_m464E5216DEFF7857C71254A8B36E7758BBCF6D59(void* ___jobMetaPtr0, int32_t ___jobIndex1)
+{
+	tiny::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	JobEntityBatchIndexProducer_1_ProducerExecuteFn_Gen_m464E5216DEFF7857C71254A8B36E7758BBCF6D59(___jobMetaPtr0, ___jobIndex1);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_InitializeSingle_m5B758C59DC131821751130A9451B31954CB3F6A3()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.IntPtr Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Physics.GraphicsIntegration.BufferInterpolatedRigidBodiesMotion/UpdateInterpolationBuffersJob>::InitializeSingle()", "it does not have the [MonoPInvokeCallback] attribute.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_InitializeParallel_m9058922C89EE30BD0BFAEDCDA8E42AB8BC8DFADE()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.IntPtr Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Physics.GraphicsIntegration.BufferInterpolatedRigidBodiesMotion/UpdateInterpolationBuffersJob>::InitializeParallel()", "it does not have the [MonoPInvokeCallback] attribute.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_Execute_m3F0F7C4AAC6770778ADC5E1C2F06A926D2225D73()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Physics.GraphicsIntegration.BufferInterpolatedRigidBodiesMotion/UpdateInterpolationBuffersJob>::Execute(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ExecuteInternal_m6F2DB99DBE8EFEE1F7EC62FF64B9662E085713F4()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Physics.GraphicsIntegration.BufferInterpolatedRigidBodiesMotion/UpdateInterpolationBuffersJob>::ExecuteInternal(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerPreScheduleFn_Gen_mB88BABF080C777FF200F890C5BC5C416F9AE2A53()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Int32 Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Physics.GraphicsIntegration.BufferInterpolatedRigidBodiesMotion/UpdateInterpolationBuffersJob>::ProducerPreScheduleFn_Gen(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,Unity.Development.JobsDebugger.DependencyValidator&,Unity.Jobs.JobHandle&,System.Void*)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerCleanupFn_Gen_mFA791646305125FEFE6C3E1BEAA4B9060F767638(void* ___jobMetaPtr0)
+{
+	tiny::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	JobEntityBatchProducer_1_ProducerCleanupFn_Gen_mFA791646305125FEFE6C3E1BEAA4B9060F767638(___jobMetaPtr0);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerExecuteFn_Gen_m849CC36DA35D2835948A696281095ECEBC4D263A(void* ___jobMetaPtr0, int32_t ___jobIndex1)
+{
+	tiny::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	JobEntityBatchProducer_1_ProducerExecuteFn_Gen_m849CC36DA35D2835948A696281095ECEBC4D263A(___jobMetaPtr0, ___jobIndex1);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_InitializeSingle_m6E7A50A30EDF67486776F1714F25B2CD1DCD0BB4()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.IntPtr Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.CompositeRotationSystem/ToCompositeRotation>::InitializeSingle()", "it does not have the [MonoPInvokeCallback] attribute.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_InitializeParallel_mC62863DFA8167404AEE0FBA6127A4A1A0F5C78E7()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.IntPtr Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.CompositeRotationSystem/ToCompositeRotation>::InitializeParallel()", "it does not have the [MonoPInvokeCallback] attribute.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_Execute_mE16077B4765AB59A4A2C0661D2D31C02DB659665()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.CompositeRotationSystem/ToCompositeRotation>::Execute(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ExecuteInternal_mA2429C481FD6B457BFCD92408C5023CFB8AD3A50()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.CompositeRotationSystem/ToCompositeRotation>::ExecuteInternal(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerPreScheduleFn_Gen_mB865B80FAC4D461C825CB05C9EF5C41D2C9B07CE()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Int32 Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.CompositeRotationSystem/ToCompositeRotation>::ProducerPreScheduleFn_Gen(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,Unity.Development.JobsDebugger.DependencyValidator&,Unity.Jobs.JobHandle&,System.Void*)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerCleanupFn_Gen_m9FD7399EEF9C8C87F5B481F7F3ECF02D858DB7CE(void* ___jobMetaPtr0)
+{
+	tiny::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	JobEntityBatchProducer_1_ProducerCleanupFn_Gen_m9FD7399EEF9C8C87F5B481F7F3ECF02D858DB7CE(___jobMetaPtr0);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerExecuteFn_Gen_m9DEC6CBAF84DB144CDA44953CD27A9794834E3EA(void* ___jobMetaPtr0, int32_t ___jobIndex1)
+{
+	tiny::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	JobEntityBatchProducer_1_ProducerExecuteFn_Gen_m9DEC6CBAF84DB144CDA44953CD27A9794834E3EA(___jobMetaPtr0, ___jobIndex1);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_InitializeSingle_m911DFEB6707CA8695C29CCF438D4017C57741EA6()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.IntPtr Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.CompositeScaleSystem/ToCompositeScale>::InitializeSingle()", "it does not have the [MonoPInvokeCallback] attribute.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_InitializeParallel_mCA4524A75516440F12343A197CF0B5827F790882()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.IntPtr Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.CompositeScaleSystem/ToCompositeScale>::InitializeParallel()", "it does not have the [MonoPInvokeCallback] attribute.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_Execute_mADCF834D2CABA8052644DB6A9EDDF062F2675496()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.CompositeScaleSystem/ToCompositeScale>::Execute(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ExecuteInternal_mACF67F2D368BD1AECA7B228F9029B70415B83FEB()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.CompositeScaleSystem/ToCompositeScale>::ExecuteInternal(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerPreScheduleFn_Gen_m81C313E9299D65FC8BBEEC50620CF5757C995F54()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Int32 Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.CompositeScaleSystem/ToCompositeScale>::ProducerPreScheduleFn_Gen(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,Unity.Development.JobsDebugger.DependencyValidator&,Unity.Jobs.JobHandle&,System.Void*)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerCleanupFn_Gen_mB8F1A1BA5A420AE232B89BDD09954661F1BB7B9E(void* ___jobMetaPtr0)
+{
+	tiny::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	JobEntityBatchProducer_1_ProducerCleanupFn_Gen_mB8F1A1BA5A420AE232B89BDD09954661F1BB7B9E(___jobMetaPtr0);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerExecuteFn_Gen_mA6B8BE791DB5D76871D01C327EA1A2CD9150B83E(void* ___jobMetaPtr0, int32_t ___jobIndex1)
+{
+	tiny::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	JobEntityBatchProducer_1_ProducerExecuteFn_Gen_mA6B8BE791DB5D76871D01C327EA1A2CD9150B83E(___jobMetaPtr0, ___jobIndex1);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_InitializeSingle_m485F40489D97EDCAB842376873CAA00DCF6661BD()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.IntPtr Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Physics.GraphicsIntegration.CopyPhysicsVelocityToSmoothing/CopyPhysicsVelocityJob>::InitializeSingle()", "it does not have the [MonoPInvokeCallback] attribute.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_InitializeParallel_m402B5BEDF0FA448FFE9F31DFED3571F5C184DAE3()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.IntPtr Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Physics.GraphicsIntegration.CopyPhysicsVelocityToSmoothing/CopyPhysicsVelocityJob>::InitializeParallel()", "it does not have the [MonoPInvokeCallback] attribute.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_Execute_m4EE6BB46C013923B5BB001B578E8308CBA9B5016()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Physics.GraphicsIntegration.CopyPhysicsVelocityToSmoothing/CopyPhysicsVelocityJob>::Execute(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ExecuteInternal_m7A4E52A1A12CFCF2E546283546528B61653792CA()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Physics.GraphicsIntegration.CopyPhysicsVelocityToSmoothing/CopyPhysicsVelocityJob>::ExecuteInternal(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerPreScheduleFn_Gen_m84899702A602B942F0B347DB594FCDF8F2FCA755()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Int32 Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Physics.GraphicsIntegration.CopyPhysicsVelocityToSmoothing/CopyPhysicsVelocityJob>::ProducerPreScheduleFn_Gen(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,Unity.Development.JobsDebugger.DependencyValidator&,Unity.Jobs.JobHandle&,System.Void*)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerCleanupFn_Gen_mF3A111C0F5B52257641CA424AD7503D5C7D8C9D0(void* ___jobMetaPtr0)
+{
+	tiny::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	JobEntityBatchProducer_1_ProducerCleanupFn_Gen_mF3A111C0F5B52257641CA424AD7503D5C7D8C9D0(___jobMetaPtr0);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerExecuteFn_Gen_m7201610156A87DD12459BC0C948EC3D408DB21BA(void* ___jobMetaPtr0, int32_t ___jobIndex1)
+{
+	tiny::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	JobEntityBatchProducer_1_ProducerExecuteFn_Gen_m7201610156A87DD12459BC0C948EC3D408DB21BA(___jobMetaPtr0, ___jobIndex1);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_InitializeSingle_mA674856DC93697B46BAE828CEA633D746C1F985D()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.IntPtr Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Physics.Systems.ExportPhysicsWorld/CheckColliderIntegrity>::InitializeSingle()", "it does not have the [MonoPInvokeCallback] attribute.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_InitializeParallel_mDDBDDBB4C77FBB1E8F7E5C6853744FA137B5DC9D()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.IntPtr Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Physics.Systems.ExportPhysicsWorld/CheckColliderIntegrity>::InitializeParallel()", "it does not have the [MonoPInvokeCallback] attribute.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_Execute_mA3A7CC26ECC9D2BF2E16B675E443A05218859932()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Physics.Systems.ExportPhysicsWorld/CheckColliderIntegrity>::Execute(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ExecuteInternal_m62078A62E60C46B3D9329539E79E4172508C503D()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Physics.Systems.ExportPhysicsWorld/CheckColliderIntegrity>::ExecuteInternal(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerPreScheduleFn_Gen_mF3629FE7613C3F40D7156BAC03B918830963C403()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Int32 Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Physics.Systems.ExportPhysicsWorld/CheckColliderIntegrity>::ProducerPreScheduleFn_Gen(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,Unity.Development.JobsDebugger.DependencyValidator&,Unity.Jobs.JobHandle&,System.Void*)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerCleanupFn_Gen_m4FDDCA7BC6E75383A2B5ACC29E40DEEE5748B032(void* ___jobMetaPtr0)
+{
+	tiny::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	JobEntityBatchProducer_1_ProducerCleanupFn_Gen_m4FDDCA7BC6E75383A2B5ACC29E40DEEE5748B032(___jobMetaPtr0);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerExecuteFn_Gen_mE479DB6607CE1547998ED7EA7AC0670149DFA66A(void* ___jobMetaPtr0, int32_t ___jobIndex1)
+{
+	tiny::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	JobEntityBatchProducer_1_ProducerExecuteFn_Gen_mE479DB6607CE1547998ED7EA7AC0670149DFA66A(___jobMetaPtr0, ___jobIndex1);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_InitializeSingle_mCC7FD8815348AFFC98CCDFFCC92B69E950BAF8E1()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.IntPtr Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Physics.Systems.ExportPhysicsWorld/CheckDynamicBodyIntegrity>::InitializeSingle()", "it does not have the [MonoPInvokeCallback] attribute.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_InitializeParallel_m4751A3B713537DEAF717FB2F1BBC4B7E0DFBDA50()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.IntPtr Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Physics.Systems.ExportPhysicsWorld/CheckDynamicBodyIntegrity>::InitializeParallel()", "it does not have the [MonoPInvokeCallback] attribute.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_Execute_m1749965A45B3FE2FD1D90A43BBCAD2DCA5AD04BA()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Physics.Systems.ExportPhysicsWorld/CheckDynamicBodyIntegrity>::Execute(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ExecuteInternal_mFA9F8B277A61FBEE712E87DA8983C6A300A515BD()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Physics.Systems.ExportPhysicsWorld/CheckDynamicBodyIntegrity>::ExecuteInternal(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerPreScheduleFn_Gen_m3ABAFEB2125649B9833A109A147A987B8D5B4651()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Int32 Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Physics.Systems.ExportPhysicsWorld/CheckDynamicBodyIntegrity>::ProducerPreScheduleFn_Gen(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,Unity.Development.JobsDebugger.DependencyValidator&,Unity.Jobs.JobHandle&,System.Void*)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerCleanupFn_Gen_m58FD4D5F393E9B1327008FAC83CDDF23AF033731(void* ___jobMetaPtr0)
+{
+	tiny::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	JobEntityBatchProducer_1_ProducerCleanupFn_Gen_m58FD4D5F393E9B1327008FAC83CDDF23AF033731(___jobMetaPtr0);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerExecuteFn_Gen_m19BEE054908D82998BADF4B358323F335D6EF5B2(void* ___jobMetaPtr0, int32_t ___jobIndex1)
+{
+	tiny::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	JobEntityBatchProducer_1_ProducerExecuteFn_Gen_m19BEE054908D82998BADF4B358323F335D6EF5B2(___jobMetaPtr0, ___jobIndex1);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_InitializeSingle_m2818AD4FE714D67AF08B0FF66ED7C52A3B1A4BC8()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.IntPtr Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Physics.Systems.ExportPhysicsWorld/CopyCollisionWorld>::InitializeSingle()", "it does not have the [MonoPInvokeCallback] attribute.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_InitializeParallel_m063567F5FC958302CE5D70EE7552769A41D8B3B5()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.IntPtr Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Physics.Systems.ExportPhysicsWorld/CopyCollisionWorld>::InitializeParallel()", "it does not have the [MonoPInvokeCallback] attribute.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_Execute_mF422F6DF3861C39172246E0B2DB9EDF04EDEBE42()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Physics.Systems.ExportPhysicsWorld/CopyCollisionWorld>::Execute(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ExecuteInternal_m1F8EDB10BC46AC17CD6D1119CE6016600803B9BC()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Physics.Systems.ExportPhysicsWorld/CopyCollisionWorld>::ExecuteInternal(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerPreScheduleFn_Gen_m5EAFEDDB664269D78D1360B34865E381033EA15A()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Int32 Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Physics.Systems.ExportPhysicsWorld/CopyCollisionWorld>::ProducerPreScheduleFn_Gen(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,Unity.Development.JobsDebugger.DependencyValidator&,Unity.Jobs.JobHandle&,System.Void*)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerCleanupFn_Gen_mFA8DB87492CFB458984610547EC5FF261F1FD756(void* ___jobMetaPtr0)
+{
+	tiny::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	JobEntityBatchProducer_1_ProducerCleanupFn_Gen_mFA8DB87492CFB458984610547EC5FF261F1FD756(___jobMetaPtr0);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerExecuteFn_Gen_mC21759690577515A1DE016FEDEFE8EB21BBC4377(void* ___jobMetaPtr0, int32_t ___jobIndex1)
+{
+	tiny::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	JobEntityBatchProducer_1_ProducerExecuteFn_Gen_mC21759690577515A1DE016FEDEFE8EB21BBC4377(___jobMetaPtr0, ___jobIndex1);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_InitializeSingle_m7AA779AB754A27F366EC5A4333B65AAF7C14BFD7()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.IntPtr Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.LocalToParentSystem/UpdateHierarchy>::InitializeSingle()", "it does not have the [MonoPInvokeCallback] attribute.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_InitializeParallel_mDBFC5C5A134344FF2610A180C5172701C9B4549B()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.IntPtr Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.LocalToParentSystem/UpdateHierarchy>::InitializeParallel()", "it does not have the [MonoPInvokeCallback] attribute.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_Execute_m67F7A050D83D590D638C3CC45E6AE82DAE3FF742()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.LocalToParentSystem/UpdateHierarchy>::Execute(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ExecuteInternal_mDAC1B70F45752CB6CEEC62E98CA6C12250A4A3AD()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.LocalToParentSystem/UpdateHierarchy>::ExecuteInternal(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerPreScheduleFn_Gen_mFE2DD9D77CA9B03CE0FB1355A430238C0C0690DA()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Int32 Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.LocalToParentSystem/UpdateHierarchy>::ProducerPreScheduleFn_Gen(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,Unity.Development.JobsDebugger.DependencyValidator&,Unity.Jobs.JobHandle&,System.Void*)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerCleanupFn_Gen_m13C2A87B8DE03AA8114D00A0BFD4113B3C6FC7B4(void* ___jobMetaPtr0)
+{
+	tiny::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	JobEntityBatchProducer_1_ProducerCleanupFn_Gen_m13C2A87B8DE03AA8114D00A0BFD4113B3C6FC7B4(___jobMetaPtr0);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerExecuteFn_Gen_m41989002B362A7AADFC14F6879B48187902579DD(void* ___jobMetaPtr0, int32_t ___jobIndex1)
+{
+	tiny::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	JobEntityBatchProducer_1_ProducerExecuteFn_Gen_m41989002B362A7AADFC14F6879B48187902579DD(___jobMetaPtr0, ___jobIndex1);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_InitializeSingle_m5E465BB802664F26BDF321AF0CADC87E020C9EEC()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.IntPtr Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.ParentScaleInverseSystem/ToChildParentScaleInverse>::InitializeSingle()", "it does not have the [MonoPInvokeCallback] attribute.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_InitializeParallel_m72E1850D07E382ED5C6BB735DEA47B3BBF835393()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.IntPtr Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.ParentScaleInverseSystem/ToChildParentScaleInverse>::InitializeParallel()", "it does not have the [MonoPInvokeCallback] attribute.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_Execute_m5684BB7CD8DD79BD788CAADCD3BDA1FF3AAD69C8()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.ParentScaleInverseSystem/ToChildParentScaleInverse>::Execute(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ExecuteInternal_mCD737B8A07C939501749D20D720115204248C495()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.ParentScaleInverseSystem/ToChildParentScaleInverse>::ExecuteInternal(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerPreScheduleFn_Gen_m0C2736DF8BE542C8CCE812CBB8908171B1582BF2()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Int32 Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.ParentScaleInverseSystem/ToChildParentScaleInverse>::ProducerPreScheduleFn_Gen(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,Unity.Development.JobsDebugger.DependencyValidator&,Unity.Jobs.JobHandle&,System.Void*)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerCleanupFn_Gen_m02C8E3BF87F9DC152DC6D560D08CB938F11AF27A(void* ___jobMetaPtr0)
+{
+	tiny::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	JobEntityBatchProducer_1_ProducerCleanupFn_Gen_m02C8E3BF87F9DC152DC6D560D08CB938F11AF27A(___jobMetaPtr0);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerExecuteFn_Gen_m14EE8696661C3191A6BCE5081F9819A492A26BAA(void* ___jobMetaPtr0, int32_t ___jobIndex1)
+{
+	tiny::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	JobEntityBatchProducer_1_ProducerExecuteFn_Gen_m14EE8696661C3191A6BCE5081F9819A492A26BAA(___jobMetaPtr0, ___jobIndex1);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_InitializeSingle_m4959067AA7DAB1292669D79CAC18161372A07FE6()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.IntPtr Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.ParentSystem/GatherChangedParents>::InitializeSingle()", "it does not have the [MonoPInvokeCallback] attribute.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_InitializeParallel_m8DAD40E125120D04B0E0D285054BF7F261E7B0DA()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.IntPtr Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.ParentSystem/GatherChangedParents>::InitializeParallel()", "it does not have the [MonoPInvokeCallback] attribute.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_Execute_m75509EAFF4EC02A5C961F9A90B2EA1C2B949A269()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.ParentSystem/GatherChangedParents>::Execute(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ExecuteInternal_mDD1B69E46D61E567F0BA70578BFA6E26273B55D8()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.ParentSystem/GatherChangedParents>::ExecuteInternal(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerPreScheduleFn_Gen_mB487B8B2C31371C6A76A9881D1B989C1A0836893()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Int32 Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.ParentSystem/GatherChangedParents>::ProducerPreScheduleFn_Gen(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,Unity.Development.JobsDebugger.DependencyValidator&,Unity.Jobs.JobHandle&,System.Void*)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerCleanupFn_Gen_mA367DBED7F9A3E0F00D145EE8267A160F4AA86EB(void* ___jobMetaPtr0)
+{
+	tiny::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	JobEntityBatchProducer_1_ProducerCleanupFn_Gen_mA367DBED7F9A3E0F00D145EE8267A160F4AA86EB(___jobMetaPtr0);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerExecuteFn_Gen_mA374FE5CAA00F9FE58BCB48EB39C332899A46D56(void* ___jobMetaPtr0, int32_t ___jobIndex1)
+{
+	tiny::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	JobEntityBatchProducer_1_ProducerExecuteFn_Gen_mA374FE5CAA00F9FE58BCB48EB39C332899A46D56(___jobMetaPtr0, ___jobIndex1);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_InitializeSingle_mFC2B1DE8AD015D8F7082716FE98E37D7C0FAD868()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.IntPtr Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.PostRotationEulerSystem/PostRotationEulerToPostRotation>::InitializeSingle()", "it does not have the [MonoPInvokeCallback] attribute.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_InitializeParallel_m563DC056B15626CCF0DEBE5D05825275E5645A9E()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.IntPtr Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.PostRotationEulerSystem/PostRotationEulerToPostRotation>::InitializeParallel()", "it does not have the [MonoPInvokeCallback] attribute.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_Execute_m772397AC52CF97C005FC3662A8BBB3AA63664166()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.PostRotationEulerSystem/PostRotationEulerToPostRotation>::Execute(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ExecuteInternal_m954137D8369F7DF89F803FC74D995229117C106D()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.PostRotationEulerSystem/PostRotationEulerToPostRotation>::ExecuteInternal(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerPreScheduleFn_Gen_m19A5F0A93BFD352F45E1999BEF8E4BDD84EA8808()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Int32 Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.PostRotationEulerSystem/PostRotationEulerToPostRotation>::ProducerPreScheduleFn_Gen(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,Unity.Development.JobsDebugger.DependencyValidator&,Unity.Jobs.JobHandle&,System.Void*)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerCleanupFn_Gen_mB99E12C2AC22E02994DC4425C1820D42705FF6CA(void* ___jobMetaPtr0)
+{
+	tiny::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	JobEntityBatchProducer_1_ProducerCleanupFn_Gen_mB99E12C2AC22E02994DC4425C1820D42705FF6CA(___jobMetaPtr0);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerExecuteFn_Gen_mB4C8CA3955B0D35A8DEE19C9242704941E7F0944(void* ___jobMetaPtr0, int32_t ___jobIndex1)
+{
+	tiny::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	JobEntityBatchProducer_1_ProducerExecuteFn_Gen_mB4C8CA3955B0D35A8DEE19C9242704941E7F0944(___jobMetaPtr0, ___jobIndex1);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_InitializeSingle_m028051CAF49BAEEB337CC178AF1E780B110D6562()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.IntPtr Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.RotationEulerSystem/RotationEulerToRotation>::InitializeSingle()", "it does not have the [MonoPInvokeCallback] attribute.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_InitializeParallel_m741D6C76864726D4A5DB37F5E1A9A036CED99F9E()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.IntPtr Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.RotationEulerSystem/RotationEulerToRotation>::InitializeParallel()", "it does not have the [MonoPInvokeCallback] attribute.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_Execute_m629B06D58F8F3501F468721183B07F18C5D8F47C()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.RotationEulerSystem/RotationEulerToRotation>::Execute(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ExecuteInternal_m453A9397FD1464FC06F39B6277F95E9EF9BD0B28()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.RotationEulerSystem/RotationEulerToRotation>::ExecuteInternal(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerPreScheduleFn_Gen_m938F1F0187813E2F7E198A32C737189256E849D4()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Int32 Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.RotationEulerSystem/RotationEulerToRotation>::ProducerPreScheduleFn_Gen(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,Unity.Development.JobsDebugger.DependencyValidator&,Unity.Jobs.JobHandle&,System.Void*)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerCleanupFn_Gen_m91E62128D0D32DB01A00457FBB5E0E8936766084(void* ___jobMetaPtr0)
+{
+	tiny::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	JobEntityBatchProducer_1_ProducerCleanupFn_Gen_m91E62128D0D32DB01A00457FBB5E0E8936766084(___jobMetaPtr0);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerExecuteFn_Gen_m20899117460D86D61F12A5B615701FD5C2D083BF(void* ___jobMetaPtr0, int32_t ___jobIndex1)
+{
+	tiny::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	JobEntityBatchProducer_1_ProducerExecuteFn_Gen_m20899117460D86D61F12A5B615701FD5C2D083BF(___jobMetaPtr0, ___jobIndex1);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_InitializeSingle_m6D9A515B6503AC535094A93E9C62DFB75B5A9953()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.IntPtr Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Physics.GraphicsIntegration.SmoothRigidBodiesGraphicalMotion/SmoothMotionJob>::InitializeSingle()", "it does not have the [MonoPInvokeCallback] attribute.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_InitializeParallel_m2254EC1A2B7A009C54E787E87725023DC11730CA()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.IntPtr Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Physics.GraphicsIntegration.SmoothRigidBodiesGraphicalMotion/SmoothMotionJob>::InitializeParallel()", "it does not have the [MonoPInvokeCallback] attribute.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_Execute_m532ADABEB91F71B96FEFACA2522220148A68CCEF()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Physics.GraphicsIntegration.SmoothRigidBodiesGraphicalMotion/SmoothMotionJob>::Execute(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ExecuteInternal_m9DC256240697C0F813BB7635A336660E310DA6A5()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Physics.GraphicsIntegration.SmoothRigidBodiesGraphicalMotion/SmoothMotionJob>::ExecuteInternal(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerPreScheduleFn_Gen_m027C4F0BE429D746260FBEFC862DC202D8CA0361()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Int32 Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Physics.GraphicsIntegration.SmoothRigidBodiesGraphicalMotion/SmoothMotionJob>::ProducerPreScheduleFn_Gen(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,Unity.Development.JobsDebugger.DependencyValidator&,Unity.Jobs.JobHandle&,System.Void*)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerCleanupFn_Gen_mB74E72E4DF71EA562A2A84F75CE420EB5B42D826(void* ___jobMetaPtr0)
+{
+	tiny::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	JobEntityBatchProducer_1_ProducerCleanupFn_Gen_mB74E72E4DF71EA562A2A84F75CE420EB5B42D826(___jobMetaPtr0);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerExecuteFn_Gen_mA79AF8B51092F0E9342AADB8452501DB12E48F6C(void* ___jobMetaPtr0, int32_t ___jobIndex1)
+{
+	tiny::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	JobEntityBatchProducer_1_ProducerExecuteFn_Gen_mA79AF8B51092F0E9342AADB8452501DB12E48F6C(___jobMetaPtr0, ___jobIndex1);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_InitializeSingle_m5735664247C3C20038BDFFBF928CF8C9D844956D()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.IntPtr Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.TRSToLocalToParentSystem/TRSToLocalToParent>::InitializeSingle()", "it does not have the [MonoPInvokeCallback] attribute.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_InitializeParallel_mDCCCB12D5779DE6CB672DF089A4B16563A5C3871()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.IntPtr Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.TRSToLocalToParentSystem/TRSToLocalToParent>::InitializeParallel()", "it does not have the [MonoPInvokeCallback] attribute.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_Execute_mD51B9FD3E12906DA95D3C120EF237F06E8BE5FEB()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.TRSToLocalToParentSystem/TRSToLocalToParent>::Execute(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ExecuteInternal_m36702452BD642798EB0CF4259809D3E085ED8990()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.TRSToLocalToParentSystem/TRSToLocalToParent>::ExecuteInternal(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerPreScheduleFn_Gen_m4F72D46C37936523B000A9B7958C7A71C5AB0453()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Int32 Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.TRSToLocalToParentSystem/TRSToLocalToParent>::ProducerPreScheduleFn_Gen(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,Unity.Development.JobsDebugger.DependencyValidator&,Unity.Jobs.JobHandle&,System.Void*)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerCleanupFn_Gen_m6B8F6C7F6EFB275EEE5BC54545717E4068F07F6A(void* ___jobMetaPtr0)
+{
+	tiny::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	JobEntityBatchProducer_1_ProducerCleanupFn_Gen_m6B8F6C7F6EFB275EEE5BC54545717E4068F07F6A(___jobMetaPtr0);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerExecuteFn_Gen_m628A7C2B08CBBD3E082F695A6994215039C9169F(void* ___jobMetaPtr0, int32_t ___jobIndex1)
+{
+	tiny::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	JobEntityBatchProducer_1_ProducerExecuteFn_Gen_m628A7C2B08CBBD3E082F695A6994215039C9169F(___jobMetaPtr0, ___jobIndex1);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_InitializeSingle_mF7537424BBEC7101F3D090F21300181DEE4886D1()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.IntPtr Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.TRSToLocalToWorldSystem/TRSToLocalToWorld>::InitializeSingle()", "it does not have the [MonoPInvokeCallback] attribute.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_InitializeParallel_m4F1D9646B690E09F9B2B35F20AA65A99F701978B()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.IntPtr Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.TRSToLocalToWorldSystem/TRSToLocalToWorld>::InitializeParallel()", "it does not have the [MonoPInvokeCallback] attribute.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_Execute_m3134718E8255BEFBD784790B0FF06445B244FC54()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.TRSToLocalToWorldSystem/TRSToLocalToWorld>::Execute(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ExecuteInternal_m5F0547BCEC4C6533BA629E15D2F12C2345DE15FB()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.TRSToLocalToWorldSystem/TRSToLocalToWorld>::ExecuteInternal(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerPreScheduleFn_Gen_m0CE2845F32426CC9BB07E1C4D282AE892B62E9C1()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Int32 Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.TRSToLocalToWorldSystem/TRSToLocalToWorld>::ProducerPreScheduleFn_Gen(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,Unity.Development.JobsDebugger.DependencyValidator&,Unity.Jobs.JobHandle&,System.Void*)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerCleanupFn_Gen_m3597971C27D8CC06CABC9592DFBE7742D462EC3E(void* ___jobMetaPtr0)
+{
+	tiny::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	JobEntityBatchProducer_1_ProducerCleanupFn_Gen_m3597971C27D8CC06CABC9592DFBE7742D462EC3E(___jobMetaPtr0);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerExecuteFn_Gen_m6470C695D77F3E50CF6AECB7E5FCCF0F70E3D9A1(void* ___jobMetaPtr0, int32_t ___jobIndex1)
+{
+	tiny::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	JobEntityBatchProducer_1_ProducerExecuteFn_Gen_m6470C695D77F3E50CF6AECB7E5FCCF0F70E3D9A1(___jobMetaPtr0, ___jobIndex1);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_InitializeSingle_m38347A2425BA4FA22BE9BACAE7965C458BAB988B()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.IntPtr Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.WorldToLocalSystem/ToWorldToLocal>::InitializeSingle()", "it does not have the [MonoPInvokeCallback] attribute.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_InitializeParallel_mB624C0D100A52C7F89D66455941857C9D8AB55AA()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.IntPtr Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.WorldToLocalSystem/ToWorldToLocal>::InitializeParallel()", "it does not have the [MonoPInvokeCallback] attribute.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_Execute_m7E943A020E432C17E0480DA3E116F39CC6609AAF()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.WorldToLocalSystem/ToWorldToLocal>::Execute(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ExecuteInternal_mCAB63289BD358943E07C0C4AFC494FD94BE11B50()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Void Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.WorldToLocalSystem/ToWorldToLocal>::ExecuteInternal(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerPreScheduleFn_Gen_m20BD38C74C205EC5C47140C6322706BC4FAEF698()
+{
+	il2cpp_codegen_no_reverse_pinvoke_wrapper("System.Int32 Unity.Entities.JobEntityBatchExtensions/JobEntityBatchProducer`1<Unity.Transforms.WorldToLocalSystem/ToWorldToLocal>::ProducerPreScheduleFn_Gen(Unity.Entities.JobEntityBatchExtensions/JobEntityBatchWrapper`1<T>&,Unity.Development.JobsDebugger.DependencyValidator&,Unity.Jobs.JobHandle&,System.Void*)", "it has at least one parameter which is a generic instance type.");
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerCleanupFn_Gen_mB96209A7EA1146C17C6B792798695DAAB01B9834(void* ___jobMetaPtr0)
+{
+	tiny::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	JobEntityBatchProducer_1_ProducerCleanupFn_Gen_mB96209A7EA1146C17C6B792798695DAAB01B9834(___jobMetaPtr0);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_JobEntityBatchProducer_1_ProducerExecuteFn_Gen_m3610490FB9F4C457C795A0CA0A219E7FEC1647B9(void* ___jobMetaPtr0, int32_t ___jobIndex1)
+{
+	tiny::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	JobEntityBatchProducer_1_ProducerExecuteFn_Gen_m3610490FB9F4C457C795A0CA0A219E7FEC1647B9(___jobMetaPtr0, ___jobIndex1);
+
+}

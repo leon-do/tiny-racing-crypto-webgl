@@ -1,0 +1,19 @@
+{
+    "name": "Unity.Build.iOS.DotsRuntime",
+    "references": [
+        "Unity.Build",
+        "Unity.Build.Internals",
+        "Unity.Build.iOS",
+        "Unity.Build.DotsRuntime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": []
+}

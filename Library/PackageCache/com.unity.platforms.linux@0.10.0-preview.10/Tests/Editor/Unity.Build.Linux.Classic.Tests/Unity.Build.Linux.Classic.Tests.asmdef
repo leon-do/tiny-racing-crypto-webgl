@@ -1,0 +1,24 @@
+{
+    "name": "Unity.Build.Linux.Classic.Tests",
+    "references": [
+        "Unity.Build",
+		"Unity.Build.Classic",
+		"Unity.Build.Classic.Private",
+		"Unity.Build.Linux",
+		"Unity.Build.Linux.Classic"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

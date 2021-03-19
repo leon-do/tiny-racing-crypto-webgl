@@ -1,0 +1,21 @@
+{
+    "name": "Unity.Build.Android.Classic",
+    "references": [
+        "Unity.Build",
+        "Unity.Build.Internals",
+        "Unity.Build.Android",
+        "Unity.Build.Classic",
+        "Unity.Build.Classic.Private",
+        "Unity.Build.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

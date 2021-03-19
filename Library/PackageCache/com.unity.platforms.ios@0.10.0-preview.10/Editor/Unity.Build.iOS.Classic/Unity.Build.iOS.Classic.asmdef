@@ -1,0 +1,20 @@
+{
+    "name": "Unity.Platforms.iOS.Build",
+    "references": [
+        "Unity.Build",
+        "Unity.Build.Editor",
+        "Unity.Build.Internals",
+        "Unity.Build.Classic",
+        "Unity.Build.iOS"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

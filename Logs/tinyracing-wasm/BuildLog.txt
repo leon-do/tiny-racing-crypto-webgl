@@ -1,0 +1,11 @@
+[             ] Require frontend run.  tundra_tinyracing-wasm_tag.dag no longer valid. FileSignature timestamp changed: TinyRacing/tinyracing-wasm/export.manifest
+*** buildprogram build success (0.01 seconds), 0 items updated, 13 evaluated
+[      15s] Executed build program. Created build graph with 894 nodes.
+[           0s] Freezing tundra_tinyracing-wasm_tag.dag.json into .dag (.dag file didn't exist)
+[           0s] Delete 4 artifact files that are no longer in use. (like ../../Builds/tinyracing-wasm/Data/db3e2d0525ff08001bd1b2e60c09d977)
+[31/43      0s] CopyTool ../../Builds/tinyracing-wasm/Data/SubScenes/ead95ae8a6288294c98220eeaff82fe6.entityheader
+[32/43      0s] CopyTool ../../Builds/tinyracing-wasm/Data/SubScenes/46b433b264c69cbd39f04ad2e5d12be8.entityheader
+[ 33/260    0s] CopyTool ../../Builds/tinyracing-wasm/Data/catalog.bin
+[ 33/260    0s] CopyTool ../../Builds/tinyracing-wasm/Data/SubScenes/ead95ae8a6288294c98220eeaff82fe6.0.entities
+[205/575    0s] CopyTool ../../Builds/tinyracing-wasm/Data/SubScenes/46b433b264c69cbd39f04ad2e5d12be8.0.entities
+*** Bee build success (0.30 seconds), 5 items updated, 766 evaluated

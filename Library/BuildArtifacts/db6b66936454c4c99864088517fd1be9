@@ -1,0 +1,16 @@
+{
+    "Result": {
+        "Succeeded": true,
+        "Message": null,
+        "BuildPipeline": "Unity.Entities.Runtime.Build.DotsRuntimeBuildPipeline, Unity.Entities.Runtime.Build",
+        "BuildConfiguration": "GlobalObjectId_V1-1-30362d54ef7b58b46b1a163640767f10-93214019566545601-0",
+        "StartTime": "2021-01-30T21:37:24.2312210-05:00",
+        "Duration": "00:00:19.6041051"
+    },
+    "Artifacts": [
+        {
+            "$type": "Unity.Entities.Runtime.Build.DotsRuntimeBuildArtifact, Unity.Entities.Runtime.Build",
+            "OutputTargetFile": "Builds/tinyracing-wasm/TinyRacing.html"
+        }
+    ]
+}

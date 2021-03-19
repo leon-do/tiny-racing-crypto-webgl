@@ -1,0 +1,4 @@
+[ 67/576    0s] CopyTool ../../Builds/tinyracing-asmjs/Data/catalog.bin
+[ 68/576    0s] CopyTool ../../Builds/tinyracing-asmjs/Data/SubScenes/46b433b264c69cbd39f04ad2e5d12be8.0.entities
+[ 69/576    0s] CopyTool ../../Builds/tinyracing-asmjs/Data/SubScenes/46b433b264c69cbd39f04ad2e5d12be8.entityheader
+*** Bee build success (0.42 seconds), 3 items updated, 768 evaluated

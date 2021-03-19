@@ -1,0 +1,41 @@
+{
+  "name": "com.unity.tiny.all",
+  "displayName": "Project Tiny Full",
+  "version": "0.32.0-preview.55",
+  "unity": "2020.1",
+  "unityRelease": "0f1",
+  "description": "This package includes all Project tiny packages and their dependencies",
+  "dependencies": {
+    "com.unity.dots.runtime": "0.32.0-preview.54",
+    "com.unity.entities": "0.17.0-preview.41",
+    "com.unity.tiny": "0.32.0-preview.54",
+    "com.unity.tiny.web": "0.32.0-preview.54",
+    "com.unity.tiny.desktop": "0.32.0-preview.54",
+    "com.unity.physics": "0.6.0-preview.3",
+    "com.unity.2d.entities.physics": "0.2.0-preview.5",
+    "com.unity.platforms": "0.10.0-preview.10",
+    "com.unity.platforms.android": "0.10.0-preview.10",
+    "com.unity.platforms.ios": "0.10.0-preview.10",
+    "com.unity.platforms.linux": "0.10.0-preview.10",
+    "com.unity.platforms.macos": "0.10.0-preview.10",
+    "com.unity.platforms.web": "0.10.0-preview.10",
+    "com.unity.platforms.windows": "0.10.0-preview.10",
+    "com.unity.platforms.desktop": "0.10.0-preview.10",
+    "com.unity.render-pipelines.universal": "8.2.0",
+    "com.unity.rendering.hybrid": "0.11.0-preview.42",
+    "com.unity.modules.assetbundle": "1.0.0",
+    "com.unity.modules.animation": "1.0.0",
+    "com.unity.modules.physics": "1.0.0",
+    "com.unity.modules.physics2d": "1.0.0",
+    "com.unity.modules.particlesystem": "1.0.0",
+    "com.unity.modules.uielements": "1.0.0"
+  },
+  "upmCi": {
+    "footprint": "0319786a16829860d92bb3febe96137a03674473"
+  },
+  "repository": {
+    "url": "https://github.com/Unity-Technologies/tiny-all.git",
+    "type": "git",
+    "revision": "df8987bb3b0da61bb2d9581bfe5c5b56ff30f800"
+  }
+}

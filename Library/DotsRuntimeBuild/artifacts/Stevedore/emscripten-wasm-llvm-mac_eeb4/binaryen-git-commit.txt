@@ -1,0 +1,7 @@
+commit 49f2443338c00931d2f30f9d8c1706398bd5cb34
+Author: Sam Clegg <sbc@chromium.org>
+Date:   Thu Jun 11 16:18:54 2020 -0700
+
+    Move optional metadata field so its not last (#2909)
+    
+    To avoid the conditional trailing comma.

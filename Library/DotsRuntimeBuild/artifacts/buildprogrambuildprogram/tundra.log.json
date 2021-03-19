@@ -1,0 +1,8 @@
+{"msg":"init","dagFile":"artifacts/buildprogram/buildprogram_buildprogram.dag","targets":[]}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"all_tundra_nodes","enqueuedNodeIndex":0}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"Download and unpack artifacts/buildprogrambuildprogram/Stevedore/7za-mac-x64_1887/.StevedoreVersion (+1 other)","enqueuedNodeIndex":1,"enqueueingNodeAnnotation":"all_tundra_nodes","enqueueingNodeIndex":0}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"Download and unpack artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/.StevedoreVersion (+1 other)","enqueuedNodeIndex":2,"enqueueingNodeAnnotation":"all_tundra_nodes","enqueueingNodeIndex":0}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"Download and unpack artifacts/buildprogrambuildprogram/Stevedore/roslyn-csc-mac_a197/.StevedoreVersion (+1 other)","enqueuedNodeIndex":3,"enqueueingNodeAnnotation":"all_tundra_nodes","enqueueingNodeIndex":0}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"WriteResponseFile artifacts/rsp/3205345334039319834.rsp","enqueuedNodeIndex":4,"enqueueingNodeAnnotation":"all_tundra_nodes","enqueueingNodeIndex":0}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"Csc artifacts/buildprogram/buildprogram_buildprogram.exe (+2 others)","enqueuedNodeIndex":5,"enqueueingNodeAnnotation":"all_tundra_nodes","enqueueingNodeIndex":0}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"CSProject buildprogram-build.gen.csproj","enqueuedNodeIndex":6,"enqueueingNodeAnnotation":"Csc artifacts/buildprogram/buildprogram_buildprogram.exe (+2 others)","enqueueingNodeIndex":5}

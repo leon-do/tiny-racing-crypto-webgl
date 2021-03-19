@@ -1,0 +1,84 @@
+﻿#include "pch-cpp.hpp"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+
+
+
+
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+
+
+
+// System.Void Unity.Physics.Aabb::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Aabb__cctor_m17A8D430059970722895103F1A505C7EFBE47E32 ();
+// System.Void Unity.Physics.ColliderKey::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColliderKey__cctor_m449086CCCD9DA46147CE3161A0462132092ABB89 ();
+// System.Void Unity.Physics.CollisionFilter::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CollisionFilter__cctor_m06B258FE99ED38B3BB6D88AE1D3F428B408A480D ();
+// System.Void Unity.Physics.ConvexHullBuilder/Edge::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Edge__cctor_m44134BA01E997B153FB65E6D3F28F758AF04BE22 ();
+// System.Void Unity.Physics.RigidBody::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidBody__cctor_mD6FD1EE1F43662B2694759CDD074777A10E3D173 ();
+// System.Void Unity.Physics.BodyFrame::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BodyFrame__cctor_mDDC8502DDD3C81D80AE1C5DE1221E16D5D7795D7 ();
+// System.Void Unity.Physics.Material::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Material__cctor_mB3A689B84AC93907DD1C82B89828060A2A1DE21B ();
+// System.Void Unity.Physics.MassProperties::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MassProperties__cctor_mC4245A8B500DAC7746C8D6E31AC3171F7BDD9E28 ();
+// System.Void Unity.Physics.MotionData::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MotionData__cctor_m7E8BF688CA31A10DF9B53BBC2BC136FEB85BCB37 ();
+// System.Void Unity.Physics.MotionVelocity::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MotionVelocity__cctor_mF60BE1163C44D54EBD4A846BF6A212EEBDEAF7B1 ();
+// System.Void Unity.Physics.MotionExpansion::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MotionExpansion__cctor_m841700E42CE1C45723352CE88284123CC61558D1 ();
+// System.Void Unity.Physics.Velocity::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Velocity__cctor_m70B3954360231BC3F140E2E1B824E3FAA4B9897C ();
+// System.Void Unity.Physics.SimulationCallbacks::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimulationCallbacks__cctor_mCF037BF9CFD752AC04705AEAE018737E852801BD ();
+// System.Void Unity.Physics.DispatchPairSequencer/DispatchPair::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DispatchPair__cctor_mE2878F73F2D7AFD641E6DEED777B86017F15E9E1 ();
+// System.Void Unity.Physics.Solver/StabilizationHeuristicSettings::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StabilizationHeuristicSettings__cctor_mDACE30B501C0CB4A46545EB1FA3AD5A9165B71BA ();
+// System.Void Unity.Physics.Solver/MotionStabilizationInput::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MotionStabilizationInput__cctor_m2C5BA41959C4B7353C59A7943942C573347833AA ();
+// System.Void Unity.Physics.PhysicsStep::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicsStep__cctor_m13B3C421746BCCE3E0B8DD376A58257DD3C23A32 ();
+// System.Void Unity.Physics.Systems.StepPhysicsWorld::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StepPhysicsWorld__cctor_m3DE8525E964F39DFC8A0781CAE18244AF9CB009D ();
+// System.Void Unity.Physics.Systems.StepPhysicsWorld/<>c::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mF93B918B78E6541F8FD80C7926A305FB92F26EF0 ();
+// System.Void Unity.Entities.CodeGeneratedRegistry.AssemblyTypeRegistry::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblyTypeRegistry__cctor_mA23F93E31542A9F32F3E8AB0E0CCF632D68AF5D3 ();
+IL2CPP_EXTERN_C void Il2CppCallStaticConstructors_Unity_Physics()
+{
+	Aabb__cctor_m17A8D430059970722895103F1A505C7EFBE47E32();
+	ColliderKey__cctor_m449086CCCD9DA46147CE3161A0462132092ABB89();
+	CollisionFilter__cctor_m06B258FE99ED38B3BB6D88AE1D3F428B408A480D();
+	Edge__cctor_m44134BA01E997B153FB65E6D3F28F758AF04BE22();
+	RigidBody__cctor_mD6FD1EE1F43662B2694759CDD074777A10E3D173();
+	BodyFrame__cctor_mDDC8502DDD3C81D80AE1C5DE1221E16D5D7795D7();
+	Material__cctor_mB3A689B84AC93907DD1C82B89828060A2A1DE21B();
+	MassProperties__cctor_mC4245A8B500DAC7746C8D6E31AC3171F7BDD9E28();
+	MotionData__cctor_m7E8BF688CA31A10DF9B53BBC2BC136FEB85BCB37();
+	MotionVelocity__cctor_mF60BE1163C44D54EBD4A846BF6A212EEBDEAF7B1();
+	MotionExpansion__cctor_m841700E42CE1C45723352CE88284123CC61558D1();
+	Velocity__cctor_m70B3954360231BC3F140E2E1B824E3FAA4B9897C();
+	SimulationCallbacks__cctor_mCF037BF9CFD752AC04705AEAE018737E852801BD();
+	DispatchPair__cctor_mE2878F73F2D7AFD641E6DEED777B86017F15E9E1();
+	StabilizationHeuristicSettings__cctor_mDACE30B501C0CB4A46545EB1FA3AD5A9165B71BA();
+	MotionStabilizationInput__cctor_m2C5BA41959C4B7353C59A7943942C573347833AA();
+	PhysicsStep__cctor_m13B3C421746BCCE3E0B8DD376A58257DD3C23A32();
+	StepPhysicsWorld__cctor_m3DE8525E964F39DFC8A0781CAE18244AF9CB009D();
+	U3CU3Ec__cctor_mF93B918B78E6541F8FD80C7926A305FB92F26EF0();
+	AssemblyTypeRegistry__cctor_mA23F93E31542A9F32F3E8AB0E0CCF632D68AF5D3();
+}

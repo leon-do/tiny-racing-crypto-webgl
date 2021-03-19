@@ -1,0 +1,17 @@
+{
+    "name": "Unity.Build.Linux.Classic",
+    "references": [
+        "Unity.Build",
+        "Unity.Build.Classic",
+        "Unity.Build.Classic.Private",
+        "Unity.Build.Editor",
+        "Unity.Build.Linux"
+    ],
+    "optionalUnityReferences": [],
+    "overrideReferences": true,
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

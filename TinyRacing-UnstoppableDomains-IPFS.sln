@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyRacing", "TinyRacing.csproj", "{e91611c1-87dd-4d25-2cce-5b208a766099}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyRacing.Authoring", "TinyRacing.Authoring.csproj", "{4e10174a-9cc0-d609-2434-fbf33f952e9f}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{e91611c1-87dd-4d25-2cce-5b208a766099}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{e91611c1-87dd-4d25-2cce-5b208a766099}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4e10174a-9cc0-d609-2434-fbf33f952e9f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4e10174a-9cc0-d609-2434-fbf33f952e9f}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

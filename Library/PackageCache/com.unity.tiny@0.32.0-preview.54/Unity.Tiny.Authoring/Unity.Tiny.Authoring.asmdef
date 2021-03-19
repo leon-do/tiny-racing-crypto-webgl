@@ -1,0 +1,32 @@
+{
+    "name": "Unity.Tiny.Authoring",
+    "references": [
+        "Unity.Entities.Runtime.Build",
+        "Unity.Collections",
+        "Unity.Transforms",
+        "Unity.Entities",
+        "Unity.Entities.Hybrid",
+        "Unity.Entities.Runtime",
+        "Unity.Entities.Runtime.Authoring",
+        "Unity.Mathematics",
+        "Unity.Build.DotsRuntime",
+        "Unity.Properties",
+        "Unity.Scenes.Editor",
+        "Unity.Scenes",
+        "Unity.Serialization",
+        "Unity.Tiny.Audio",
+        "Unity.Tiny.Codec",
+        "Unity.Tiny.Codec.Editor",
+        "Unity.Tiny.Core",
+        "Unity.Tiny.Rendering",
+        "Unity.Tiny.Image2D"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": ["UNITY_EDITOR"],
+    "versionDefines": []
+}

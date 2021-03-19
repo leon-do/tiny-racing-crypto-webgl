@@ -1,0 +1,12 @@
+commit 1e413a8c36bf05fb88c460118042e3be70c38347
+Author: Anna Welker <anna.welker@arm.com>
+Date:   Thu May 7 12:29:15 2020 +0100
+
+    [ARM][MVE] Add support for incrementing gathers
+    
+    Enables the MVEGatherScatterLowering pass to build
+    pre-incrementing gathers. Incrementing writeback gathers
+    are built when it is possible to replace the loop increment
+    instruction.
+    
+    Differential Revision: https://reviews.llvm.org/D76786
