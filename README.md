@@ -1,6 +1,2 @@
-# TinyRacing
-DOTS runtime 3D demo
+[![Foo](https://user-images.githubusercontent.com/19412160/113023539-bd596e80-9153-11eb-8900-00832a556ff3.png)](https://www.youtube.com/watch?v=rq8CuRoVUZQ)
 
-Audio/Soundtracks credits:
-[100% Free Volume 1 pack] (https://assetstore.unity.com/packages/audio/music/100-free-volume-1-154619) from [Frequently Asked Music](www.frequentlyaskedmusic.com)
-[Free Music Tracks For Games] (https://assetstore.unity.com/packages/audio/music/free-music-tracks-for-games-156413) from [Rizwan Ashraf](https://assetstore.unity.com/publishers/30787)
